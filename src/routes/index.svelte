@@ -22,7 +22,7 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 
 <h1>Queen's Vertical Farming Team</h1>
