@@ -1,1 +1,20 @@
-[{"attributes":{"name":"Ross Hill","position":"Head of CDA","yearMajor":"4th Year Computing","image":"rosshill.jpg"},"body":"<p>Short blurb about me</p>\n"}]
+[
+  {
+    "name": "Paddy Singal",
+    "position": "Director",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "image": "paddysingal.jpg"
+  },
+  {
+    "name": "David Altrows",
+    "position": "Director",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "image": "davidaltrows.jpg"
+  },
+  {
+    "name": "Ross Hill",
+    "position": "Head of CDA",
+    "yearMajor": "4th Year Computing",
+    "image": "rosshill.jpg"
+  }
+]

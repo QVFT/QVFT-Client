@@ -19,7 +19,7 @@
 
 <style>
   div.subtitle {
-    margin: 0.6rem 0 1rem;
+    margin: -0.5rem 0 1.2rem;
     color: #222;
   }
 
@@ -29,17 +29,19 @@
   }
 
   div.imageWrapper {
-    height: 10rem;
-    width: 80%;
+    height: 12rem;
+    width: 100%;
     margin-bottom: 1.5rem;
     margin-left: 0.8rem;
   }
 
   div.imageWrapper img {
+    height: 12rem;
     max-height: 100%;
     max-width: 100%;
+    border: 1px solid #ddd;
     display: block;
-    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #eee;
   }
 
   h1 {

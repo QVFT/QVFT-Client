@@ -22,6 +22,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 1rem;
+  }
+  div.name {
+    font-weight: bold;
   }
 </style>
 
@@ -34,7 +38,7 @@
           alt={member.name}
           src={`/team/${member.image}`} />
       </div>
-      <div>{member.name}</div>
+      <div class="name">{member.name}</div>
       <div>{member.position}</div>
     </div>
   {/each}
