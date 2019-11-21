@@ -7,9 +7,12 @@ const posts = timeline.map(post => {
   return {
     title: post.attributes.title,
     slug: slugify(post.attributes.title).toLowerCase(),
-    date: dateformat(post.attributes.date, "mmmm yyyy"),
-    author: post.attributes.author,
-    content: post.body
+    content: post.body,
+    date: dateformat(post.attributes.date, "mmmm dd, yyyy"),
+    image: post.attributes.image,
+    imageAlt: post.attributes.imageAlt,
+    blurb: post.attributes.blurb,
+    author: post.attributes.author
   };
 });
 

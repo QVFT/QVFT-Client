@@ -1,64 +1,69 @@
 <script context="module">
-	export async function preload({ params, query }) {
-		// the `slug` parameter is available because
-		// this file is called [slug].svelte
-		const res = await this.fetch(`blog/${params.slug}.json`);
-		const data = await res.json();
+  export async function preload({ params, query }) {
+    // the `slug` parameter is available because
+    // this file is called [slug].svelte
+    const res = await this.fetch(`blog/${params.slug}.json`);
+    const data = await res.json();
 
-		if (res.status === 200) {
-			return { post: data };
-		} else {
-			this.error(res.status, data.message);
-		}
-	}
+    if (res.status === 200) {
+      return { post: data };
+    } else {
+      this.error(res.status, data.message);
+    }
+  }
 </script>
 
 <script>
-	export let post;
+  export let post;
 </script>
 
 <style>
-	/*
-		By default, CSS is locally scoped to the component,
-		and any unused styles are dead-code-eliminated.
-		In this page, Svelte can't know which elements are
-		going to appear inside the {{{post.html}}} block,
-		so we have to use the :global(...) modifier to target
-		all elements inside .content
-	*/
-	.content :global(h2) {
-		font-size: 1.4em;
-		font-weight: 500;
-	}
+  div.subtitle {
+    margin: 0.6rem 0 1rem;
+    color: #222;
+  }
 
-	.content :global(pre) {
-		background-color: #f9f9f9;
-		box-shadow: inset 1px 1px 5px rgba(0,0,0,0.05);
-		padding: 0.5em;
-		border-radius: 2px;
-		overflow-x: auto;
-	}
+  div.subtitle,
+  div.back {
+    font-size: 0.85rem;
+  }
 
-	.content :global(pre) :global(code) {
-		background-color: transparent;
-		padding: 0;
-	}
+  div.imageWrapper {
+    height: 10rem;
+    width: 80%;
+    margin-bottom: 1.5rem;
+    margin-left: 0.8rem;
+  }
 
-	.content :global(ul) {
-		line-height: 1.5;
-	}
+  div.imageWrapper img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+  }
 
-	.content :global(li) {
-		margin: 0 0 0.5em 0;
-	}
+  h1 {
+    margin-top: 2rem;
+  }
+
+  div.back {
+    margin-top: 2rem;
+  }
 </style>
 
 <svelte:head>
-	<title>{post.title}</title>
+  <title>{post.title}</title>
 </svelte:head>
-
+<div class="back">
+  <a href="/blog">Back to blog</a>
+</div>
 <h1>{post.title}</h1>
-
-<div class='content'>
-	{@html post.html}
+<div class="subtitle">{post.author} &bullet; {post.date}</div>
+{#if post.image}
+  <div class="imageWrapper">
+    <img src={`blog/${post.image}`} alt={post.imageAlt} />
+  </div>
+{/if}
+<div class="content">
+  {@html post.content}
 </div>
