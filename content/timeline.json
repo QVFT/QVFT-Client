@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2019-11-20",
+    "title": "Executive hiring",
+    "complete": true
+  },
+  {
+    "date": "2019-12-01",
+    "title": "Project planning and sponsorship acquisition"
+  },
+  {
+    "date": "2020-01-01",
+    "title": "General hiring"
+  },
+  {
+    "date": "2020-01-01",
+    "title": "Research and design phase"
+  },
+  {
+    "date": "2020-02-01",
+    "title": "Prototyping and plant experimentation phase begins"
+  }
+]

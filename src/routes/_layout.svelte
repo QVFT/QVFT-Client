@@ -4,8 +4,13 @@
   export let segment;
 </script>
 
-<Nav {segment} />
+<style>
+  main {
+    padding-bottom: 3rem;
+  }
+</style>
 
+<Nav {segment} />
 <main class="contentWrapper">
   <slot />
 </main>

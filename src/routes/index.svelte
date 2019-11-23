@@ -1,20 +1,18 @@
 <script context="module">
   export async function preload() {
     const result = await this.fetch("index.json");
-    const { team, blog } = await result.json();
+    const { timeline } = await result.json();
     return {
-      team,
-      blog
+      timeline
     };
   }
 </script>
 
 <script>
-  import TeamImages from "../components/TeamImages.svelte";
-  import BlogPreview from "../components/BlogPreview.svelte";
+  import Timeline from "../components/Timeline.svelte";
+  import InfoColumns from "../components/InfoColumns.svelte";
 
-  export let team = [];
-  export let blog = [];
+  export let timeline = [];
 </script>
 
 <style>
@@ -27,12 +25,10 @@
 
 <h1>Queen's Vertical Farming Team</h1>
 <p>
-  QVFT is a brand new design team which aims to develop a functional,
-  small-scale vertical farm at Queen's University. Lorem ipsum dolor sit amet,
-  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua.
+  The Queen’s Vertical Farming Team’s mission is to develop a functional, small
+  scale vertical farm based on the best current commercial practices, gaining a
+  foothold as an innovator in a rapidly-expanding industry.
 </p>
-<h2>Our Team</h2>
-<TeamImages {team} />
+<InfoColumns />
 <h2>Progress</h2>
-<BlogPreview {blog} />
+<Timeline {timeline} />

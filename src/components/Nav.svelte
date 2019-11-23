@@ -6,6 +6,7 @@
   nav {
     border-bottom: 1px solid #eee;
     font-weight: 300;
+    font-size: 0.9rem;
   }
 
   nav div.contentWrapper {
@@ -27,19 +28,16 @@
   }
 
   li {
-    display: block;
-    float: left;
-  }
-
-  .selected {
-    position: relative;
-    display: inline-flex;
+    display: inline-block;
+    padding: 0;
+    margin: 0 0.8rem;
   }
 
   .selected::after {
     position: absolute;
     content: "";
-    width: calc(100% - 1em);
+    width: 95%;
+    margin-left: 2.5%;
     height: 2px;
     background-color: #a5ce44;
     display: block;
@@ -47,8 +45,8 @@
   }
 
   a {
+    position: relative;
     text-decoration: none;
-    padding: 0 0.5rem;
     height: 3rem;
     display: flex;
     align-items: center;
@@ -71,15 +69,17 @@
       </li>
     </div>
     <ul>
-      <!-- <li>
-        <a class:selected={segment === 'about'} href="about">about</a>
-      </li> -->
-
-      <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
       <li>
-        <a rel="prefetch" class:selected={segment === 'blog'} href="blog">
-          Blog
+        <a class:selected={segment === 'about'} href="about">About</a>
+      </li>
+      <li>
+        <a class:selected={segment === 'team'} href="team">Our Team</a>
+      </li>
+      <li>
+        <a
+          class:selected={segment === 'about-vertical-farming'}
+          href="about-vertical-farming">
+          About Vertical Farming
         </a>
       </li>
     </ul>

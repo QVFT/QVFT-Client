@@ -1,4 +1,3 @@
-import slugify from "slugify";
 import dateformat from "dateformat";
 
 function getData() {
@@ -13,27 +12,23 @@ function getData() {
     };
   });
 
-  const blogFile = require("../../../content/blog.json");
+  const timelineFile = require("../../../content/timeline.json");
 
-  const blog = blogFile
-    .map(post => ({
-      title: post.attributes.title,
-      slug: slugify(post.attributes.title).toLowerCase(),
-      content: post.body,
-      date: dateformat(post.attributes.date, "mmmm dd, yyyy"),
-      blurb: post.attributes.blurb,
-      author: post.attributes.author
+  const timeline = timelineFile
+    .map(item => ({
+      prettyDate: dateformat(item.date, "mmmm yyyy"),
+      ...item
     }))
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
     .slice(0, 5);
 
-  return { team, blog };
+  return { team, timeline };
 }
 
 export function get(req, res) {
   res.writeHead(200, {
     "Content-Type": "application/json"
   });
-  const { team, blog } = getData();
-  res.end(JSON.stringify({ team, blog }));
+  const { team, timeline } = getData();
+  res.end(JSON.stringify({ team, timeline }));
 }
