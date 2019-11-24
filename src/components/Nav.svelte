@@ -39,7 +39,7 @@
     width: 95%;
     margin-left: 2.5%;
     height: 2px;
-    background-color: #a5ce44;
+    background-color: var(--themeColor);
     display: block;
     bottom: -1px;
   }

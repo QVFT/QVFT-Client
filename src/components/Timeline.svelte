@@ -17,8 +17,8 @@
 <style>
   div.monthLabel {
     padding: 0.3rem 0.5rem;
-    border: 1px solid green;
-    border-bottom: 2px solid green;
+    border: 1px solid var(--themeColorDark);
+    border-bottom: 2px solid var(--themeColorDark);
     background-color: #fefefe;
     border-radius: 0.3rem;
     display: inline-block;
@@ -87,11 +87,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: green;
+    color: var(--themeColorDark);
   }
 
   .itemMarker.complete {
-    border: 2px solid green;
+    border: 2px solid var(--themeColorDark);
   }
 </style>
 

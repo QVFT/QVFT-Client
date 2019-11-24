@@ -4,6 +4,11 @@
   padding: 0 8%;
 }
 
+:root {
+  --themeColor: #a5ce44;
+  --themeColorDark: #457b11;
+}
+
 body {
   line-height: 1.5rem;
 }
