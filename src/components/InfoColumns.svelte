@@ -17,16 +17,16 @@
 
 <style>
   div.infoColumns {
+    margin: 2rem 0 4rem;
     display: flex;
     justify-content: center;
-    margin: 3rem 0;
     flex-wrap: wrap;
   }
 
   div.imageWrapper {
-    height: 5rem;
-    width: 5rem;
-    margin-bottom: 1.5rem;
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 1.8rem;
   }
   div.imageWrapper img {
     max-width: 100%;
@@ -44,7 +44,7 @@
 
   div.itemLabel {
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 </style>
 

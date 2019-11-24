@@ -6,11 +6,11 @@
 
 <style>
   main {
-    padding-bottom: 3rem;
+    padding: 3rem 0;
   }
 </style>
 
 <Nav {segment} />
-<main class="contentWrapper">
+<main>
   <slot />
 </main>

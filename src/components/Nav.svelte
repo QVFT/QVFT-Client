@@ -7,6 +7,11 @@
     border-bottom: 1px solid #eee;
     font-weight: 300;
     font-size: 0.9rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
   }
 
   nav div.contentWrapper {

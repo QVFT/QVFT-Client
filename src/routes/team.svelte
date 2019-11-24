@@ -21,6 +21,7 @@
 <svelte:head>
   <title>Our Team | Queen's Vertical Farming Team</title>
 </svelte:head>
-
-<h1>Our Team</h1>
-<TeamImages {team} />
+<div class="contentWrapper">
+  <h1>Our Team</h1>
+  <TeamImages {team} />
+</div>
