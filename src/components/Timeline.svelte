@@ -96,7 +96,6 @@
 </style>
 
 <div class="timelineWrapper">
-
   <div class="timeline">
     {#each timeline.map(timelineMap) as item, i}
       {#if item.showDateLabel}
@@ -110,7 +109,7 @@
             <FaCheck />
           {/if}
         </div>
-        <div>{item.title}</div>
+        <div class="title">{item.title}</div>
       </div>
       {#if i === timeline.length - 1}
         <div aria-hidden="true" class="spacer last" />

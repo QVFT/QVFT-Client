@@ -33,7 +33,6 @@
     padding-top: 5rem;
     height: 100vh;
     background-size: cover !important;
-    margin-bottom: 6rem;
     box-sizing: border-box;
   }
 
@@ -49,6 +48,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  div.infoColumnSection {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+    margin-bottom: 6rem;
   }
 
   div.fullScreen > div.fullScreenContent > div.contentWrapper {
@@ -75,15 +80,20 @@
       </div>
     </div>
   </div>
+  <div class="infoColumnSection">
+    <div class="contentWrapper">
+
+      <h2>Some heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+      <InfoColumns />
+    </div>
+  </div>
   <div class="contentWrapper">
-    <h2>Some heading</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-    </p>
-    <InfoColumns />
     <h2>Progress</h2>
     <Timeline {timeline} />
   </div>

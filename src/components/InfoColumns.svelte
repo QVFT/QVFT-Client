@@ -10,14 +10,14 @@
     },
     {
       label: "23 Dedicated Farmers",
-      img: "ourTeam.jpg"
+      img: "ourTeam.png"
     }
   ];
 </script>
 
 <style>
   div.infoColumns {
-    margin: 2rem 0 4rem;
+    margin: 2rem 0 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
