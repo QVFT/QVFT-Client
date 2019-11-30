@@ -30,7 +30,7 @@
   }
   div.fullScreen {
     width: 100%;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     height: 100vh;
     background-size: cover !important;
     box-sizing: border-box;
@@ -44,7 +44,7 @@
   }
   div.fullScreen > div.fullScreenContent {
     height: 100%;
-    background-color: #ffffff22;
+    background-color: #ffffff70;
     display: flex;
     justify-content: center;
     align-items: center;
