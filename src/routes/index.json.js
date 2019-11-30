@@ -8,7 +8,11 @@ function getData() {
       name: member.name,
       position: member.position,
       yearMajor: member.yearMajor,
-      image: member.image
+      image: member.image,
+      gitHub: member.gitHub,
+      linkedIn: member.linkedIn,
+      email: member.email,
+      blurb: member.blurb
     };
   });
 

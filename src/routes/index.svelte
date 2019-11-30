@@ -72,10 +72,10 @@
       <div class="contentWrapper">
         <h1>Queen's Vertical Farming Team</h1>
         <p>
-          “The Queen’s Vertical Farming Team’s mission is to develop a
-          functional, small scale vertical farm based on the best current
-          commercial practices, gaining a foothold as an innovator in a
-          rapidly-expanding industry.”
+          “The Queen's Vertical Farming Team's mission is to develop a
+          functional, small scale vertical farm. Drawing inspiration from the
+          best current commercial practices, our goal is to gain a foothold as
+          an innovator in a rapidly-expanding industry.”
         </p>
       </div>
     </div>

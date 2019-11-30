@@ -1,45 +1,280 @@
 <script>
+  import { fade } from "svelte/transition";
+  import FaEnvelope from "svelte-icons/fa/FaEnvelope.svelte";
+  import FaLinkedin from "svelte-icons/fa/FaLinkedin.svelte";
+  import FaGithub from "svelte-icons/fa/FaGithub.svelte";
   export let team;
+
+  let selectedMember;
+
+  const showMember = member => {
+    selectedMember = member;
+  };
+
+  const stopPropagation = e => e.stopPropagation();
 </script>
 
 <style>
   .imageWrapper {
-    height: 6rem;
-    width: 6rem;
-    border-radius: 50%;
+    cursor: pointer;
+    height: 12rem;
+    width: 12rem;
     overflow: hidden;
     margin-bottom: 0.7rem;
+    position: relative;
   }
   .imageWrapper img.teamMemberImage {
+    position: absolute;
     height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
+
+  .imageWrapper div.caption {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  .imageWrapper:hover div.caption {
+    display: block !important;
+  }
+
   div.team {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
   div.teamMember {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 0.2rem;
   }
   div.name {
     font-weight: bold;
   }
+
+  div.position {
+    color: #333;
+  }
+  div.position,
+  div.contact {
+    font-size: 0.6rem;
+  }
+  div.contact {
+    margin-top: 0.3rem;
+    height: 0.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  div.contact > div {
+    width: 0.8rem;
+    margin: 0 0.2rem;
+  }
+
+  div.contact,
+  div.contact a {
+    color: rgb(114, 114, 114);
+  }
+
+  div.contact a:hover {
+    color: #444 !important;
+  }
+
+  div.contact > div:first-child {
+    margin-left: 0;
+  }
+
+  div.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.98);
+    z-index: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal div.modalHead {
+    display: flex;
+    align-items: center;
+  }
+
+  .modal div.modalContent {
+    min-width: 60%;
+    min-height: 60%;
+  }
+
+  .modal div.nameAndPosition > * {
+    padding: 0;
+    margin: 0;
+  }
+
+  div.modalHead > div.modalImageWrapper {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1.2rem;
+  }
+
+  .modal div.modalImageWrapper > img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .modal div.modalContact {
+    font-size: 0.9rem;
+    display: flex;
+  }
+
+  .modal div.modalPosition {
+    font-size: 0.9rem;
+  }
+  .modal div.modalContact > a {
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    color: #666;
+    text-decoration: none;
+  }
+
+  .modal div.modalContact > a:hover {
+    color: #444 !important;
+  }
+
+  .modal div.modalContact > a > span {
+    margin-left: 0.4rem;
+  }
+
+  .modal p.blurb {
+    margin: 1.5rem 0;
+    line-height: 2rem;
+  }
+
+  .modal h3 {
+    font-size: 1.5rem;
+  }
 </style>
 
+{#if selectedMember}
+  <div
+    class="modal"
+    in:fade={{ duration: 100 }}
+    on:click={() => showMember(null)}>
+    <div class="modalContent contentWrapper">
+      <div class="modalHead">
+        <div class="modalImageWrapper">
+          <img
+            class="teamMemberImage"
+            alt={selectedMember.name}
+            src={`/team/${selectedMember.image}`} />
+        </div>
+        <div class="nameAndPosition">
+          <h3>{selectedMember.name}</h3>
+          <div class="modalPosition">{selectedMember.position}</div>
+        </div>
+      </div>
+      <p class="blurb">{selectedMember.blurb}</p>
+      <div class="modalContact">
+        {#if selectedMember.email}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            on:click={stopPropagation}
+            href="mailto:{selectedMember.email}">
+            <FaEnvelope />
+            <span>Email</span>
+          </a>
+        {/if}
+        {#if selectedMember.linkedIn}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            on:click={stopPropagation}
+            href="https://www.linkedin.com/in/{selectedMember.linkedIn}/">
+            <FaLinkedin />
+            <span>LinkedIn</span>
+          </a>
+        {/if}
+        {#if selectedMember.gitHub}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            on:click={stopPropagation}
+            href="https://github.com/{selectedMember.gitHub}">
+            <FaGithub />
+            <span>GitHub</span>
+          </a>
+        {/if}
+      </div>
+    </div>
+  </div>
+{/if}
 <div class="team">
   {#each team as member}
-    <div class="teamMember">
+    <div class="teamMember" on:click={() => showMember(member)}>
       <div class="imageWrapper">
         <img
           class="teamMemberImage"
           alt={member.name}
           src={`/team/${member.image}`} />
+        <div class="caption">
+          <div class="name">{member.name}</div>
+          <div class="position">{member.position}</div>
+          <div class="contact">
+            {#if member.email}
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  on:click={stopPropagation}
+                  href="mailto:{member.email}">
+                  <FaEnvelope />
+                </a>
+              </div>
+            {/if}
+            {#if member.linkedIn}
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  on:click={stopPropagation}
+                  href="https://www.linkedin.com/in/{member.linkedIn}">
+                  <FaLinkedin />
+                </a>
+              </div>
+            {/if}
+            {#if member.gitHub}
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  on:click={stopPropagation}
+                  href="https://github.com/{member.gitHub}">
+                  <FaGithub />
+                </a>
+              </div>
+            {/if}
+          </div>
+        </div>
       </div>
-      <div class="name">{member.name}</div>
-      <div>{member.position}</div>
     </div>
   {/each}
 </div>
