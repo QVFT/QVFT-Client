@@ -16,35 +16,27 @@
 </script>
 
 <style>
-  h1 {
-    font-size: 2.5rem;
-    text-shadow: 0px 0px 2px white;
-    line-height: 3rem;
-  }
-  p {
-    text-shadow: 0px 0px 1px white;
-  }
-
   div.root {
     margin-top: -3rem;
   }
   div.fullScreen {
     width: 100%;
-    /* padding-top: 5rem; */
-    height: 100vh;
     background-size: cover !important;
     box-sizing: border-box;
   }
 
   div.fullScreen p {
-    margin-top: 3rem;
+    margin: 3rem 0;
     font-style: italic;
-    font-size: 1.5rem;
-    line-height: 2.2rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    text-align: justify;
+    color: #eee;
+    text-shadow: 0px 0px 1px black;
   }
   div.fullScreen > div.fullScreenContent {
-    height: 100%;
-    background-color: #ffffff70;
+    min-height: calc(100vh - 3rem); /* 3rem is nav height */
+    background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,8 +48,18 @@
     margin-bottom: 6rem;
   }
 
-  div.fullScreen > div.fullScreenContent > div.contentWrapper {
-    margin-top: -10%;
+  div.logoWrapper {
+    max-height: 18rem;
+    max-width: 18rem;
+    margin: 0 auto;
+  }
+  img.logo {
+    height: 100%;
+    width: 100%;
+  }
+  div.headingSpacer {
+    width: 100%;
+    height: 3rem;
   }
 </style>
 
@@ -65,12 +67,18 @@
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 <div class="root">
+  <div class="headingSpacer" />
   <div
     class="fullScreen"
     style="background: url('background.jpg') no-repeat center center fixed;">
     <div class="fullScreenContent">
       <div class="contentWrapper">
-        <h1>Queen's Vertical Farming Team</h1>
+        <div class="logoWrapper">
+          <img
+            class="logo"
+            src="logo-large.png"
+            alt="Queen's Vertical Farming Team" />
+        </div>
         <p>
           “The Queen's Vertical Farming Team's mission is to develop a
           functional, small scale vertical farm. Drawing inspiration from the
@@ -83,12 +91,16 @@
   <div class="infoColumnSection">
     <div class="contentWrapper">
 
-      <h2>Some heading</h2>
+      <h2>Who we are</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        The Queen's Vertical Farming Team is Canada's first post-secondary
+        student-led vertical farming design team. This team allows members of
+        all disciplines to engage in a rapidly-developing industry, increase
+        their awareness of threats to the global food supply, and gain hands-on
+        experience in food cultivation. Program-specific opportunities allow for
+        students to gain experience with biochemistry, plant science,
+        computer-aided design, computer modelling, data analysis, and systems
+        design.
       </p>
       <InfoColumns />
     </div>

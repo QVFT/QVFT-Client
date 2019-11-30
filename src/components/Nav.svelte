@@ -5,6 +5,7 @@
 <style>
   nav {
     border-bottom: 1px solid #eee;
+    border-top: 3px solid var(--themeColor);
     font-weight: 300;
     font-size: 0.9rem;
     position: fixed;
@@ -12,6 +13,8 @@
     left: 0;
     right: 0;
     background-color: white;
+    height: 3rem;
+    box-sizing: content-box;
   }
 
   nav div.contentWrapper {
@@ -41,8 +44,8 @@
   .selected::after {
     position: absolute;
     content: "";
-    width: 95%;
-    margin-left: 2.5%;
+    width: 90%;
+    margin-left: 5%;
     height: 2px;
     background-color: var(--themeColor);
     display: block;
@@ -74,9 +77,6 @@
       </li>
     </div>
     <ul>
-      <li>
-        <a class:selected={segment === 'about'} href="about">About</a>
-      </li>
       <li>
         <a class:selected={segment === 'team'} href="team">Our Team</a>
       </li>

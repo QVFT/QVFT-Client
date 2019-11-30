@@ -14,11 +14,21 @@
   <h1>About Vertical Farming</h1>
   <h2>Background</h2>
   <p>
-    Vertical farming is an emerging method of food production in which plants
-    grow in an urban, climate-controlled facility, made possible through
-    controlled environment agriculture (CEA). CEA uses a software-based
-    monitoring and controls system to artificially optimize environmental inputs
-    such as lighting, temperature, moisture, and nutritional availability.
+    A global trend of increasing concern is the diminishing supply of arable
+    land per capita. The United Nations Food and Agriculture Organization (FAO)
+    projects that by 2050, this supply will fall to one third of the amount
+    available in 1970. This is a combined result of climate change, freshwater
+    depletion, urbanization, soil depletion, soil degradation, and a world
+    population expected to increase from 7.7 billion (2019) to 9.7 billion
+    (2050).
+  </p>
+  <p>
+    An emerging technology which is addressing these concerns is vertical
+    farming, a food cultivation method in which crops grow in an indoor, urban,
+    climate-controlled facility. This approach is associated with dramatically
+    reduced water consumption, slashed transportation costs, massive
+    improvements in per-acre land productivity, increased plant productivity,
+    and the freedom to cultivate crops in any location, year-round.
   </p>
   <h2>System Controls</h2>
   <p>
