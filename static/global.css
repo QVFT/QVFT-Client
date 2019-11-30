@@ -9,6 +9,10 @@
   --themeColorDark: #457b11;
 }
 
+a {
+  color: var(--themeColorDark);
+}
+
 body {
   line-height: 1.5;
 }

@@ -16,12 +16,15 @@
 
 <style>
   .imageWrapper {
-    cursor: pointer;
-    height: 12rem;
-    width: 12rem;
+    height: 16rem;
+    width: 16rem;
     overflow: hidden;
     margin-bottom: 0.7rem;
     position: relative;
+  }
+
+  .teamMember.clickable {
+    cursor: pointer;
   }
   .imageWrapper img.teamMemberImage {
     position: absolute;
@@ -52,6 +55,7 @@
   div.team {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
   }
   div.teamMember {
@@ -98,7 +102,7 @@
   }
 
   div.modal {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -229,7 +233,13 @@
 {/if}
 <div class="team">
   {#each team as member}
-    <div class="teamMember" on:click={() => showMember(member)}>
+    <div
+      class="teamMember {member.blurb ? 'clickable' : ''}"
+      on:click={() => {
+        if (member.blurb) {
+          showMember(member);
+        }
+      }}>
       <div class="imageWrapper">
         <img
           class="teamMemberImage"

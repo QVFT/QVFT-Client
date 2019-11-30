@@ -15,6 +15,7 @@
     background-color: white;
     height: 3rem;
     box-sizing: content-box;
+    z-index: 24;
   }
 
   nav div.contentWrapper {
@@ -85,6 +86,11 @@
           class:selected={segment === 'about-vertical-farming'}
           href="about-vertical-farming">
           About Vertical Farming
+        </a>
+      </li>
+      <li>
+        <a class:selected={segment === 'sponsorship'} href="sponsorship">
+          Sponsorship
         </a>
       </li>
     </ul>

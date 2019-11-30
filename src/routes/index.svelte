@@ -36,7 +36,7 @@
   }
   div.fullScreen > div.fullScreenContent {
     min-height: calc(100vh - 3rem); /* 3rem is nav height */
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
