@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy && cp static/sponsorship.pdf __sapper__/export/sponsorship.pdf",
+    "export": "sapper export --legacy && cp static/QVFT_Sponsorship.pdf __sapper__/export/QVFT_Sponsorship.pdf",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
