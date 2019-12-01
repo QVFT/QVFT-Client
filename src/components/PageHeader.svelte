@@ -4,7 +4,6 @@
     color: white;
     font-size: 1.8rem;
     line-height: 1.2;
-    background-attachment: fixed;
     background-clip: border-box;
     background-origin: padding-box;
     background-position-x: 50%;

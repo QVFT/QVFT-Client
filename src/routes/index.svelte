@@ -18,7 +18,6 @@
 <style>
   div.fullScreen {
     width: 100%;
-    background-attachment: fixed;
     background-clip: border-box;
     background-origin: padding-box;
     background-position-x: 50%;
