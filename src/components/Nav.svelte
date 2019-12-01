@@ -14,6 +14,7 @@
     right: 0;
     background-color: white;
     height: 3rem;
+    /* overflow: hidden; */
     box-sizing: content-box;
     z-index: 24;
   }
@@ -42,12 +43,16 @@
     margin: 0 0.8rem;
   }
 
+  .selected {
+    font-weight: bold;
+  }
+
   .selected::after {
     position: absolute;
     content: "";
-    width: 90%;
-    margin-left: 5%;
-    height: 2px;
+    width: 80%;
+    margin-left: 10%;
+    height: 3px;
     background-color: var(--themeColor);
     display: block;
     bottom: -1px;
@@ -82,15 +87,15 @@
         <a class:selected={segment === 'team'} href="team">Our Team</a>
       </li>
       <li>
+        <a class:selected={segment === 'sponsorship'} href="sponsorship">
+          Sponsorship
+        </a>
+      </li>
+      <li>
         <a
           class:selected={segment === 'about-vertical-farming'}
           href="about-vertical-farming">
           About Vertical Farming
-        </a>
-      </li>
-      <li>
-        <a class:selected={segment === 'sponsorship'} href="sponsorship">
-          Sponsorship
         </a>
       </li>
     </ul>

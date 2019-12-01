@@ -28,7 +28,7 @@
   div.fullScreen p {
     margin: 3rem 0;
     font-style: italic;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     text-align: justify;
     color: #eee;
@@ -36,7 +36,7 @@
   }
   div.fullScreen > div.fullScreenContent {
     min-height: calc(100vh - 3rem); /* 3rem is nav height */
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@
   div.logoWrapper {
     max-height: 18rem;
     max-width: 18rem;
-    margin: 0 auto;
+    margin: 6rem auto 0;
   }
   img.logo {
     height: 100%;

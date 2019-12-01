@@ -10,7 +10,7 @@
 
 <script>
   import TeamImages from "../components/TeamImages.svelte";
-
+  import PageHeader from "../components/PageHeader.svelte";
   export let team = [];
 </script>
 
@@ -21,7 +21,5 @@
 <svelte:head>
   <title>Our Team | Queen's Vertical Farming Team</title>
 </svelte:head>
-<div class="contentWrapper">
-  <h1>Our Team</h1>
-  <TeamImages {team} />
-</div>
+<PageHeader>Our Team</PageHeader>
+<TeamImages {team} />

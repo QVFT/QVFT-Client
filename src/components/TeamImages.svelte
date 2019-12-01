@@ -16,8 +16,8 @@
 
 <style>
   .imageWrapper {
-    height: 16rem;
-    width: 16rem;
+    height: 320px;
+    width: 320px;
     overflow: hidden;
     margin-bottom: 0.7rem;
     position: relative;
@@ -57,6 +57,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 3rem 0 0;
   }
   div.teamMember {
     display: flex;
@@ -151,12 +152,18 @@
     font-size: 0.9rem;
   }
   .modal div.modalContact > a {
-    height: 0.9rem;
+    height: 1rem;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     margin-right: 1.5rem;
     color: #666;
     text-decoration: none;
+  }
+
+  .modal .iconWrapper {
+    width: 0.9rem;
+    height: 0.9rem;
   }
 
   .modal div.modalContact > a:hover {
@@ -165,6 +172,7 @@
 
   .modal div.modalContact > a > span {
     margin-left: 0.4rem;
+    line-height: 1rem;
   }
 
   .modal p.blurb {
@@ -203,7 +211,9 @@
             rel="noopener noreferrer"
             on:click={stopPropagation}
             href="mailto:{selectedMember.email}">
-            <FaEnvelope />
+            <span class="iconWrapper">
+              <FaEnvelope />
+            </span>
             <span>Email</span>
           </a>
         {/if}
@@ -213,7 +223,9 @@
             rel="noopener noreferrer"
             on:click={stopPropagation}
             href="https://www.linkedin.com/in/{selectedMember.linkedIn}/">
-            <FaLinkedin />
+            <span class="iconWrapper">
+              <FaLinkedin />
+            </span>
             <span>LinkedIn</span>
           </a>
         {/if}
@@ -223,7 +235,9 @@
             rel="noopener noreferrer"
             on:click={stopPropagation}
             href="https://github.com/{selectedMember.gitHub}">
-            <FaGithub />
+            <span class="iconWrapper">
+              <FaGithub />
+            </span>
             <span>GitHub</span>
           </a>
         {/if}

@@ -1,17 +1,24 @@
 <script>
-
+  import PageHeader from "../components/PageHeader.svelte";
 </script>
 
 <style>
-
+  img.diagram {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.3);
+  }
 </style>
 
 <svelte:head>
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 
+<PageHeader>About Vertical Farming</PageHeader>
 <div class="contentWrapper">
-  <h1>About Vertical Farming</h1>
   <h2>Background</h2>
   <p>
     A global trend of increasing concern is the diminishing supply of arable
@@ -30,6 +37,10 @@
     improvements in per-acre land productivity, increased plant productivity,
     and the freedom to cultivate crops in any location, year-round.
   </p>
+  <div>
+    <img class="diagram" src="diagram.jpg" alt="Vertical farm diagram" />
+
+  </div>
   <h2>System Controls</h2>
   <p>
     Currently being developed by the Controls, Data, & Automation team, QVFT's
