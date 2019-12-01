@@ -28,6 +28,24 @@
     "blurb": "Ross is a 4th year computing student with a specialization in software design. Ross held a leadership role on the 2018/19 QHacks technology team, developing an online platform that served the hundreds of participants in the event. Ross spent this past summer working at Verafin, a financial technology firm focused on fraud detection and the prevention of money laundering. His role involved the analysis of large pools of customer data to develop new heuristics in pursuit of this goal. Ross has applied this background in software design and data analytics to his role as Controls, Data, & Automation team lead."
   },
   {
+    "name": "Zwetlana Rajesh",
+    "position": "Director of Plant Science",
+    "yearMajor": "2nd Year Health Studies",
+    "image": "Zwetlana.jpeg",
+    "email": "16zr5@queensu.ca",
+    "blurb": "Zwetlana is a 2nd year Health Studies student and a Queen's University Chancellor's Scholar. Zwetlana's involvement in QVFT stems from her interest in sustainable farming. She is the founder of an international initiative P3 - Plant, Prepare, and Plate it, which is focused on encouraging all, despite busy schedules, to grow food creatively in available spaces, prepare it though nutritious recipes and have a healthy meal in every plate.  At Queen's University, Zwetlana is a director for International Development Week 2020, a member of the Model United Nations Team, a Residence Don, and a research assistant. Zwetlana is also involved in volunteering and extracurricular projects in the areas of mental health, youth advocacy, public policy, and healthcare. In her spare time, she enjoys archery, poetry, and listening to the stories of those she comes across."
+  },
+  {
+    "name": "Abdul Elah (Abu) Rizan",
+    "position": "Automation Specialist",
+    "yearMajor": "5th Year Mechanical Engineering",
+    "email": "15aeam@queensu.ca",
+    "linkedIn": "abdulelahr",
+    "image": "Abu.jpeg",
+    "gitHub": "abdulelahrizan",
+    "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as an Automation Specialist on QVFT’s Controls, Data, & Automation team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
+  },
+  {
     "name": "Michael Mills",
     "position": "Logistics Director",
     "yearMajor": "4th Year Engineering Physics – Mech Option",
@@ -56,22 +74,5 @@
     "yearMajor": "3rd Year Physics",
     "image": "placeholder.png",
     "email": "landon.smith@queensu.ca"
-  },
-  {
-    "name": "Zwetlana Rajesh",
-    "position": "Director of Plant Science",
-    "yearMajor": "2nd Year Health Studies",
-    "image": "Zwetlana.jpeg",
-    "email": "16zr5@queensu.ca"
-  },
-  {
-    "name": "Abdul Elah (Abu) Rizan",
-    "position": "Automation Specialist",
-    "yearMajor": "5th Year Mechanical Engineering",
-    "email": "15aeam@queensu.ca",
-    "linkedIn": "abdulelahr",
-    "image": "Abu.jpeg",
-    "gitHub": "abdulelahrizan",
-    "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as an Automation Specialist on QVFT’s Controls, Data, & Automation team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
   }
 ]

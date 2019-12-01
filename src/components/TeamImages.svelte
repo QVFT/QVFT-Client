@@ -37,19 +37,24 @@
   }
 
   .imageWrapper div.caption {
-    display: none;
+    /* display: none; */
     position: absolute;
     left: 0;
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
     padding: 0.3rem 0.5rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    height: 4rem;
+    bottom: -4rem;
+    transition: bottom 0.3s ease;
   }
 
   .imageWrapper:hover div.caption {
-    display: block !important;
+    bottom: 0;
   }
 
   div.team {
@@ -57,7 +62,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 3rem 0 0;
+    margin: 3rem auto 0;
+    max-width: calc(330px * 3);
   }
   div.teamMember {
     display: flex;
@@ -74,11 +80,11 @@
   }
   div.position,
   div.contact {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   div.contact {
     margin-top: 0.3rem;
-    height: 0.8rem;
+    height: 0.9rem;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -105,14 +111,13 @@
   div.modal {
     position: fixed;
     top: 0;
-    right: 0;
     bottom: 0;
-    left: 0;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
-    z-index: 12;
+    z-index: 48;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .modal div.modalHead {
@@ -123,6 +128,8 @@
   .modal div.modalContent {
     min-width: 60%;
     min-height: 60%;
+    margin: auto;
+    padding: 1rem;
   }
 
   .modal div.nameAndPosition > * {
@@ -146,6 +153,7 @@
   .modal div.modalContact {
     font-size: 0.9rem;
     display: flex;
+    margin-bottom: 1rem;
   }
 
   .modal div.modalPosition {
@@ -177,7 +185,7 @@
 
   .modal p.blurb {
     margin: 1.5rem 0;
-    line-height: 2rem;
+    line-height: 1.8rem;
   }
 
   .modal h3 {
@@ -245,7 +253,7 @@
     </div>
   </div>
 {/if}
-<div class="team">
+<div class="team {selectedMember ? 'noScroll' : ''}">
   {#each team as member}
     <div
       class="teamMember {member.blurb ? 'clickable' : ''}"

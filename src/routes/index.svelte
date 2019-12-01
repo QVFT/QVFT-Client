@@ -51,8 +51,8 @@
   }
 
   div.logoWrapper {
-    max-height: 18rem;
-    max-width: 18rem;
+    max-height: 16rem;
+    max-width: 16rem;
     margin: 0 auto;
   }
   img.logo {
