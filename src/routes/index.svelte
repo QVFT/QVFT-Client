@@ -16,9 +16,6 @@
 </script>
 
 <style>
-  div.root {
-    margin-top: -3rem;
-  }
   div.fullScreen {
     width: 100%;
     background-size: cover !important;
@@ -26,11 +23,10 @@
   }
 
   div.fullScreen p {
-    margin: 3rem 0;
     font-style: italic;
     font-size: 1.5rem;
     line-height: 3rem;
-    text-align: justify;
+    /* text-align: justify; */
     color: #eee;
     text-shadow: 0px 0px 1px black;
   }
@@ -40,6 +36,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
+    box-sizing: border-box;
   }
 
   div.infoColumnSection {
@@ -51,15 +49,11 @@
   div.logoWrapper {
     max-height: 18rem;
     max-width: 18rem;
-    margin: 6rem auto 0;
+    margin: 0 auto;
   }
   img.logo {
     height: 100%;
     width: 100%;
-  }
-  div.headingSpacer {
-    width: 100%;
-    height: 3rem;
   }
 </style>
 
@@ -67,7 +61,6 @@
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 <div class="root">
-  <div class="headingSpacer" />
   <div
     class="fullScreen"
     style="background: url('background.jpg') no-repeat center center fixed;">

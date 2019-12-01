@@ -6,7 +6,7 @@
     "image": "Patrick.jpeg",
     "email": "p.singal@queensu.ca",
     "linkedIn": "patricksingal",
-    "blurb": "Patrick is a 3rd year biomechanical engineering student with a passion for sustainable technology and environmental issues. Patrick’s lifelong interest in agriculture stems from the many summers spent growing up in rural PEI, the island where his relatives have farmed for generations. This background has also made him aware of the emerging threats faced by agriculture as a whole, from environmental degradation to world population growth. Patrick believes that a business-as-usual approach to agriculture will be impossible to sustain in the coming decades, and that a dramatic, rapid industry overhaul is necessary. Given this, Patrick founded the Queen’s Vertical Farming Team in Summer 2019, while working as a mechanical engineering intern at MCW Custom Energy Solutions (MCW CES). MCW CES is a division of the MCW engineering consulting firm, dedicated to improving the energy efficiency of public buildings through software analysis and HVAC retrofits. This role sharpened Patrick’s expertise in CAD (SolidWorks, Solid Edge), data analysis (Microsoft Excel), material analysis (HAP), and schematic development (Microsoft Visio). Meanwhile, Patrick spent his spare time drafting a business plan for QVFT, which explored the vertical farming concept, depicted a preliminary system architecture, and outlined the team’s purpose, goals, and organizational structure. Once back at school, Patrick and David joined forces and have been working tirelessly ever since to put QVFT’s plans in motion."
+    "blurb": "Patrick is a 3rd year biomechanical engineering student with a passion for sustainable technology and environmental issues. Patrick’s interest in agriculture stems from the many summers spent growing up in rural PEI, home to generations of farmers in his extended family. This background has made him keenly aware of the emerging threats faced by agriculture as a whole, from environmental degradation to world population growth. Awareness of these threats motivated him to found QVFT in Summer 2019, while working as a mechanical engineering intern at MCW Custom Energy Solutions (MCW CES).\nMCW CES is a division of the MCW engineering consulting firm, dedicated to improving the energy efficiency of public buildings through software analysis and HVAC retrofits. This role sharpened Patrick’s expertise in CAD (SolidWorks, Solid Edge), data analysis (Microsoft Excel), material analysis (HAP), and schematic development (Microsoft Visio). Meanwhile, Patrick spent his spare time drafting a business plan for QVFT, which explored the vertical farming concept, depicted a preliminary system architecture, and outlined the team’s purpose, goals, and organizational structure. Once back at school, Patrick and David joined forces and have been working tirelessly ever since to put QVFT’s plans in motion.\nIn his spare time, Patrick likes fishing, chess, live music, and watching the Toronto Maple Leafs."
   },
   {
     "name": "David Altrows",
@@ -65,12 +65,13 @@
     "email": "16zr5@queensu.ca"
   },
   {
-    "name": "Abdul (Abu) Elah Rizan",
+    "name": "Abdul Elah (Abu) Rizan",
     "position": "Automation Specialist",
     "yearMajor": "5th Year Mechanical Engineering",
     "email": "15aeam@queensu.ca",
     "linkedIn": "abdulelahr",
     "image": "Abu.jpeg",
+    "gitHub": "abdulelahrizan",
     "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as an Automation Specialist on QVFT’s Controls, Data, & Automation team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
   }
 ]

@@ -8,12 +8,12 @@
     border-top: 3px solid var(--themeColor);
     font-weight: 300;
     font-size: 0.9rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     background-color: white;
-    height: 3rem;
+    min-height: 3rem;
     /* overflow: hidden; */
     box-sizing: content-box;
     z-index: 24;

@@ -5,7 +5,9 @@
 </script>
 
 <style>
-
+  main {
+    margin-bottom: 3rem;
+  }
 </style>
 
 <Nav {segment} />
