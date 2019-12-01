@@ -4,7 +4,13 @@
     color: white;
     font-size: 1.8rem;
     line-height: 1.2;
-    background-size: cover !important;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    box-sizing: border-box;
   }
 
   .tint {
@@ -26,9 +32,7 @@
   }
 </style>
 
-<div
-  class="pageHeader"
-  style="background: url('background.jpg') no-repeat center center fixed;">
+<div class="pageHeader" style="background-image: url('background.jpg');">
   <div class="tint">
     <div class="contentWrapper">
       <h1>

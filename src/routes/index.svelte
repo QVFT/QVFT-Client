@@ -18,7 +18,12 @@
 <style>
   div.fullScreen {
     width: 100%;
-    background-size: cover !important;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
     box-sizing: border-box;
   }
 
@@ -61,9 +66,7 @@
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 <div class="root">
-  <div
-    class="fullScreen"
-    style="background: url('background.jpg') no-repeat center center fixed;">
+  <div class="fullScreen" style="background-image: url('background.jpg')">
     <div class="fullScreenContent">
       <div class="contentWrapper">
         <div class="logoWrapper">
