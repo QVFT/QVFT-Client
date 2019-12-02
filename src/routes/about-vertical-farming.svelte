@@ -3,6 +3,9 @@
 </script>
 
 <style>
+  div.imageWrapper {
+    margin: 2rem 0;
+  }
   picture.diagram > * {
     display: block;
     width: 100%;
@@ -10,7 +13,6 @@
     width: 95%;
     max-width: 500px;
     margin: 0 auto;
-    margin-top: 2rem;
     box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.3);
   }
 </style>
@@ -39,7 +41,7 @@
     improvements in per-acre land productivity, increased plant productivity,
     and the freedom to cultivate crops in any location, year-round.
   </p>
-  <div>
+  <div class="imageWrapper">
     <picture class="diagram">
       <source srcset="diagram.webp" type="image/webp" />
       <source srcset="diagram.jpg" type="image/jpg" />
