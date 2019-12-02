@@ -57,6 +57,12 @@
     bottom: 0;
   }
 
+  @media (hover: none) {
+    .imageWrapper div.caption {
+      bottom: 0 !important;
+    }
+  }
+
   div.team {
     display: flex;
     align-items: center;
