@@ -71,7 +71,7 @@
         <div class="logoWrapper">
           <img
             class="logo"
-            src="logo-large.png"
+            src="logo-outline.png"
             alt="Queen's Vertical Farming Team" />
         </div>
         <p>
