@@ -9,8 +9,37 @@
     height: 95vh;
   }
 
+  a.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: white;
+    text-decoration: none;
+    background-color: var(--themeColorDark);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 2px 2px #dedededd;
+  }
+
   .contentWrapper {
     margin-top: 2rem;
+  }
+
+  .mobile {
+    display: none;
+    justify-content: center;
+  }
+
+  @media (max-width: 700px) {
+    .mobile {
+      display: flex !important;
+    }
+    .desktop {
+      display: none;
+    }
   }
 </style>
 
@@ -18,7 +47,7 @@
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 <PageHeader>Sponsorship</PageHeader>
-<div class="contentWrapper">
+<div class="contentWrapper desktop">
   <p>
     <a href="QVFT_Sponsorship.pdf" download>
       Download our sponsorship package here
@@ -38,4 +67,7 @@
         type="application/pdf" />
     </object>
   </div>
+</div>
+<div class="contentWrapper mobile">
+  <a class="button" href="QVFT_Sponsorship.pdf">View Sponsorship Package</a>
 </div>
