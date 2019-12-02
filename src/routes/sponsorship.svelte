@@ -3,8 +3,10 @@
 </script>
 
 <style>
-  iframe {
+  object {
     margin-top: 2rem;
+    width: 100%;
+    height: 95vh;
   }
 
   .contentWrapper {
@@ -22,9 +24,15 @@
       Download our sponsorship package here
     </a>
   </p>
-  <iframe
+  <object
+    width="100%"
     title="Sponsorship"
-    src="QVFT_Sponsorship.pdf"
-    style="height: 100vh"
-    width="100%" />
+    data="QVFT_Sponsorship.pdf"
+    type="application/pdf">
+    <embed
+      title="Sponsorship"
+      width="100%"
+      src="QVFT_Sponsorship.pdf"
+      type="application/pdf" />
+  </object>
 </div>
