@@ -55,7 +55,7 @@
     max-width: 16rem;
     margin: 0 auto;
   }
-  img.logo {
+  .logo > * {
     height: 100%;
     width: 100%;
   }
@@ -69,10 +69,11 @@
     <div class="fullScreenContent">
       <div class="contentWrapper">
         <div class="logoWrapper">
-          <img
-            class="logo"
-            src="logo-outline.png"
-            alt="Queen's Vertical Farming Team" />
+          <picture class="logo">
+            <source srcset="logo-outline.webp" type="image/webp" />
+            <source srcset="logo-outline.png" type="image/png" />
+            <img src="logo-outline.png" alt="Queen's Vertical Farming Team" />
+          </picture>
         </div>
         <p>
           “The Queen's Vertical Farming Team's mission is to develop a

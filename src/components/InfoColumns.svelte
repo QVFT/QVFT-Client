@@ -2,15 +2,15 @@
   const info = [
     {
       label: "Fully Automated Aeroponic Vertical Farm",
-      img: "fullyAutomated.png"
+      img: "fullyAutomated"
     },
     {
       label: "Premium Produce",
-      img: "premiumProduce.png"
+      img: "premiumProduce"
     },
     {
       label: "23 Dedicated Farmers",
-      img: "ourTeam.png"
+      img: "ourTeam"
     }
   ];
 </script>
@@ -52,7 +52,11 @@
   {#each info as item}
     <div class="item">
       <div class="imageWrapper">
-        <img alt={item.label} src={item.img} />
+        <picture>
+          <source srcset="{item.img}.webp" type="image/webp" />
+          <source srcset="{item.img}.png" type="image/png" />
+          <img src="{item.img}.png" alt={item.label} />
+        </picture>
       </div>
       <div class="itemLabel">{item.label}</div>
     </div>

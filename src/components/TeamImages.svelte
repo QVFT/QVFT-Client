@@ -26,7 +26,7 @@
   .teamMember.clickable {
     cursor: pointer;
   }
-  .imageWrapper img.teamMemberImage {
+  .imageWrapper .teamMemberImage > * {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -145,7 +145,7 @@
     margin-right: 1.2rem;
   }
 
-  .modal div.modalImageWrapper > img {
+  .modal div.modalImageWrapper picture > * {
     height: 100%;
     width: 100%;
   }
@@ -201,10 +201,17 @@
     <div class="modalContent contentWrapper">
       <div class="modalHead">
         <div class="modalImageWrapper">
-          <img
-            class="teamMemberImage"
-            alt={selectedMember.name}
-            src={`/team/${selectedMember.image}`} />
+          <picture class="teamMemberImage">
+            <source
+              srcset="{`/team/${selectedMember.image}`}.webp"
+              type="image/webp" />
+            <source
+              srcset="{`/team/${selectedMember.image}`}.jpeg"
+              type="image/jpg" />
+            <img
+              src="{`/team/${selectedMember.image}`}.jpeg"
+              alt={selectedMember.name} />
+          </picture>
         </div>
         <div class="nameAndPosition">
           <h3>{selectedMember.name}</h3>
@@ -263,10 +270,11 @@
         }
       }}>
       <div class="imageWrapper">
-        <img
-          class="teamMemberImage"
-          alt={member.name}
-          src={`/team/${member.image}`} />
+        <picture class="teamMemberImage">
+          <source srcset="{`/team/${member.image}`}.webp" type="image/webp" />
+          <source srcset="{`/team/${member.image}`}.jpeg" type="image/jpg" />
+          <img src="{`/team/${member.image}`}.jpeg" alt={member.name} />
+        </picture>
         <div class="caption">
           <div class="name">{member.name}</div>
           <div class="position">{member.position}</div>
