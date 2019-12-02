@@ -1,8 +1,7 @@
 <style>
   .pageHeader {
-    min-height: 18rem;
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.2;
     background-clip: border-box;
     background-origin: padding-box;
@@ -10,12 +9,11 @@
     background-position-y: 50%;
     background-size: cover;
     box-sizing: border-box;
+    box-shadow: 0px 3px 5px 0px rgba(34, 34, 34, 0.2);
+    text-shadow: 0px 0px 1px #222;
   }
 
   .tint {
-    min-height: 18rem;
-    height: 100%;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.45);
   }
   h1 {
@@ -27,7 +25,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    min-height: 18rem;
+    min-height: 16rem;
   }
 </style>
 

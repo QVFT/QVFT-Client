@@ -76,15 +76,13 @@
 <nav>
   <div class="contentWrapper">
     <div class="logo">
-      <li>
-        <a class:selected={!segment} href=".">
-          <picture class="logo">
-            <source srcset="logo.webp" type="image/webp" />
-            <source srcset="logo.png" type="image/png" />
-            <img src="logo.png" alt="Queen's Vertical Farming Team" />
-          </picture>
-        </a>
-      </li>
+      <a class:selected={!segment} href=".">
+        <picture class="logo">
+          <source srcset="logo.webp" type="image/webp" />
+          <source srcset="logo.png" type="image/png" />
+          <img src="logo.png" alt="Queen's Vertical Farming Team" />
+        </picture>
+      </a>
     </div>
     <ul>
       <li>

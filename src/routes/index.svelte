@@ -32,7 +32,7 @@
     line-height: 3rem;
     /* text-align: justify; */
     color: #eee;
-    text-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 1px #222;
   }
   div.fullScreen > div.fullScreenContent {
     min-height: calc(100vh - 3rem); /* 3rem is nav height */
@@ -51,9 +51,9 @@
   }
 
   div.logoWrapper {
-    max-height: 16rem;
-    max-width: 16rem;
-    margin: 0 auto;
+    max-height: 14rem;
+    max-width: 14rem;
+    margin: 0 auto 3rem;
   }
   .logo > * {
     height: 100%;
@@ -70,9 +70,9 @@
       <div class="contentWrapper">
         <div class="logoWrapper">
           <picture class="logo">
-            <source srcset="logo-outline.webp" type="image/webp" />
-            <source srcset="logo-outline.png" type="image/png" />
-            <img src="logo-outline.png" alt="Queen's Vertical Farming Team" />
+            <source srcset="logo-white.webp" type="image/webp" />
+            <source srcset="logo-white.png" type="image/png" />
+            <img src="logo-white.png" alt="Queen's Vertical Farming Team" />
           </picture>
         </div>
         <p>
