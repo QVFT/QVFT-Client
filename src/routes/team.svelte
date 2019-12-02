@@ -14,10 +14,6 @@
   export let team = [];
 </script>
 
-<style>
-
-</style>
-
 <svelte:head>
   <title>Our Team | Queen's Vertical Farming Team</title>
 </svelte:head>

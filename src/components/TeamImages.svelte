@@ -9,6 +9,11 @@
 
   const showMember = member => {
     selectedMember = member;
+    if (selectedMember) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
   };
 
   const stopPropagation = e => e.stopPropagation();
@@ -119,7 +124,7 @@
     top: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: rgba(255, 255, 255, 0.95);
     z-index: 48;
     display: flex;
     overflow-y: auto;
