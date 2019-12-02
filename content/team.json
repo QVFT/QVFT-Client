@@ -50,7 +50,7 @@
     "position": "Logistics Director",
     "yearMajor": "4th Year Engineering Physics – Mech Option",
     "email": "15mm182@queensu.ca",
-    "image": "placeholder.png",
+    "image": "placeholder",
     "linkedIn": "michaelmills15"
   },
   {
@@ -58,21 +58,21 @@
     "position": "Finance Director",
     "yearMajor": "3rd Year Economics",
     "email": "17jle@queensu.ca",
-    "image": "placeholder.png",
+    "image": "placeholder",
     "linkedIn": "luke-emblem-996b24161"
   },
   {
     "name": "Liam Strachan",
     "position": "Sponsorship Co-Director",
     "yearMajor": "4th Year Economics",
-    "image": "placeholder.png",
+    "image": "placeholder",
     "email": "16lks1@queensu.ca"
   },
   {
     "name": "Landon Smith",
     "position": "Sponsorship Co-Director",
     "yearMajor": "3rd Year Physics",
-    "image": "placeholder.png",
+    "image": "placeholder",
     "email": "landon.smith@queensu.ca"
   }
 ]
