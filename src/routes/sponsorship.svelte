@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  object {
+  div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
     height: 95vh;
@@ -24,15 +24,18 @@
       Download our sponsorship package here
     </a>
   </p>
-  <object
-    width="100%"
-    title="Sponsorship"
-    data="QVFT_Sponsorship.pdf"
-    type="application/pdf">
-    <embed
-      title="Sponsorship"
+  <div class="pdfWrapper">
+    <object
       width="100%"
-      src="QVFT_Sponsorship.pdf"
-      type="application/pdf" />
-  </object>
+      height="100%"
+      title="Sponsorship"
+      data="QVFT_Sponsorship.pdf"
+      type="application/pdf">
+      <embed
+        title="Sponsorship"
+        width="100%"
+        src="QVFT_Sponsorship.pdf"
+        type="application/pdf" />
+    </object>
+  </div>
 </div>
