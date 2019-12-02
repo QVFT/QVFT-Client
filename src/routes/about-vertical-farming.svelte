@@ -4,7 +4,7 @@
 
 <style>
   img.diagram {
-    width: 90%;
+    width: 95%;
     max-width: 500px;
     margin: 0 auto;
     display: block;
