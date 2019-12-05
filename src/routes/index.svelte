@@ -9,9 +9,15 @@
 </script>
 
 <script>
+  import { onMount } from "svelte";
+
   import Timeline from "../components/Timeline.svelte";
   import InfoColumns from "../components/InfoColumns.svelte";
 
+  onMount(async () => {
+    ga("set", "page", "/");
+    ga("send", "pageview");
+  });
   export let timeline = [];
 </script>
 

@@ -1,5 +1,11 @@
 <script>
+  import { onMount } from "svelte";
   import PageHeader from "../components/PageHeader.svelte";
+
+  onMount(async () => {
+    ga("set", "page", "/about-vertical-farming");
+    ga("send", "pageview");
+  });
 </script>
 
 <style>

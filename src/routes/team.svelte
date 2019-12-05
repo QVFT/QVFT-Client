@@ -9,8 +9,14 @@
 </script>
 
 <script>
+  import { onMount } from "svelte";
   import TeamImages from "../components/TeamImages.svelte";
   import PageHeader from "../components/PageHeader.svelte";
+
+  onMount(async () => {
+    ga("set", "page", "/team");
+    ga("send", "pageview");
+  });
   export let team = [];
 </script>
 

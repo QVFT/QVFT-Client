@@ -1,5 +1,11 @@
 <script>
+  import { onMount } from "svelte";
   import PageHeader from "../components/PageHeader.svelte";
+
+  onMount(async () => {
+    ga("set", "page", "/sponsorship");
+    ga("send", "pageview");
+  });
 </script>
 
 <style>
