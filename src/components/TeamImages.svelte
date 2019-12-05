@@ -279,6 +279,9 @@
         if (member.blurb) {
           showMember(member);
         }
+        else {
+          gtag('event', 'view team member', {'name': member.name});
+        }
       }}>
       <div class="imageWrapper">
         <picture class="teamMemberImage">

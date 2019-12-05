@@ -54,7 +54,10 @@
 <PageHeader>Sponsorship</PageHeader>
 <div class="contentWrapper desktop">
   <p>
-    <a href="QVFT_Sponsorship.pdf" download>
+    <a
+      href="QVFT_Sponsorship.pdf"
+      download
+      on:click={() => gtag('event', 'download sponsorship package')}>
       Download our sponsorship package here
     </a>
   </p>
