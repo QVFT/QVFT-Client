@@ -11,7 +11,7 @@
     selectedMember = member;
     if (selectedMember) {
       document.body.style.overflow = "hidden";
-      gtag("event", "view team member", { name: selectedMember.name });
+      gtag("event", "view team member", { label: selectedMember.name });
     } else {
       document.body.style.overflow = "visible";
     }
