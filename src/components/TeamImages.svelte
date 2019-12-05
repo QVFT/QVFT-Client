@@ -11,6 +11,7 @@
     selectedMember = member;
     if (selectedMember) {
       document.body.style.overflow = "hidden";
+      gtag("event", "view team member", { name: selectedMember.name });
     } else {
       document.body.style.overflow = "visible";
     }
@@ -278,9 +279,6 @@
       on:click={() => {
         if (member.blurb) {
           showMember(member);
-        }
-        else {
-          gtag('event', 'view team member', {'name': member.name});
         }
       }}>
       <div class="imageWrapper">
