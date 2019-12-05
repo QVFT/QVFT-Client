@@ -3,8 +3,7 @@
   import PageHeader from "../components/PageHeader.svelte";
 
   onMount(async () => {
-    ga("set", "page", "/sponsorship");
-    ga("send", "pageview");
+    gtag("config", "UA-93549235-6", { page_path: "/sponsorship" });
   });
 </script>
 

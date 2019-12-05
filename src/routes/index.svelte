@@ -15,9 +15,9 @@
   import InfoColumns from "../components/InfoColumns.svelte";
 
   onMount(async () => {
-    ga("set", "page", "/");
-    ga("send", "pageview");
+    gtag("config", "UA-93549235-6", { page_path: "/" });
   });
+
   export let timeline = [];
 </script>
 

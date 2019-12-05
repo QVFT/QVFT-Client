@@ -14,8 +14,7 @@
   import PageHeader from "../components/PageHeader.svelte";
 
   onMount(async () => {
-    ga("set", "page", "/team");
-    ga("send", "pageview");
+    gtag("config", "UA-93549235-6", { page_path: "/team" });
   });
   export let team = [];
 </script>

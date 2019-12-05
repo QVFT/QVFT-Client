@@ -1,10 +1,9 @@
 <script>
-  import { onMount } from "svelte";
   import PageHeader from "../components/PageHeader.svelte";
+  import { onMount } from "svelte";
 
   onMount(async () => {
-    ga("set", "page", "/about-vertical-farming");
-    ga("send", "pageview");
+    gtag("config", "UA-93549235-6", { page_path: "/about-vertical-farming" });
   });
 </script>
 
