@@ -4,7 +4,6 @@
 
 <style>
   nav {
-    border-bottom: 1px solid #eee;
     border-top: 3px solid var(--themeColor);
     font-weight: 300;
     font-size: 0.9rem;
@@ -43,19 +42,27 @@
     margin: 0 0.8rem;
   }
 
-  .selected {
-    font-weight: bold;
+  a.selected {
+    color: black;
   }
 
-  .selected::after {
+  a::after {
     position: absolute;
     content: "";
     width: 80%;
     margin-left: 10%;
-    height: 3px;
+    height: 4px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     background-color: var(--themeColor);
     display: block;
-    bottom: -1px;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  a.selected::after {
+    transform: scaleX(1);
   }
 
   a {
@@ -64,7 +71,8 @@
     height: 3rem;
     display: flex;
     align-items: center;
-    color: black;
+    color: #333;
+    transition: color 0.3s ease;
   }
 
   picture.logo > * {
