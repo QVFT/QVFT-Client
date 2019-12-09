@@ -28,12 +28,28 @@
     "blurb": "Ross is a 4th year computing student specializing in software design. Ross held a leadership role on the 2018/19 QHacks team, developing an online platform that served the hundreds of participants in the hackathon. Ross spent this past summer working at Verafin, a financial technology firm focused on fraud detection and the prevention of money laundering. His role involved the analysis of data from hundreds of financial institutions to develop new heuristics for detecting high-risk customers. Ross is applying his background in software design and data analytics to his role as Director of Controls, Data, & Automation."
   },
   {
+    "name": "Michael Mills",
+    "position": "Logistics Director",
+    "yearMajor": "4th Year Engineering Physics – Mech Option",
+    "email": "15mm182@queensu.ca",
+    "image": "Michael",
+    "linkedIn": "michaelmills15"
+  },
+  {
     "name": "Liam Strachan",
     "position": "Sponsorship Co-Director",
     "yearMajor": "4th Year Economics",
     "image": "Liam",
     "email": "16lks1@queensu.ca",
     "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He has spent the last two summers interning at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
+  },
+  {
+    "name": "Landon Smith",
+    "position": "Sponsorship Co-Director",
+    "yearMajor": "3rd Year Physics",
+    "image": "Landon",
+    "email": "landon.smith@queensu.ca",
+    "blurb": "Landon is a third year science student majoring in physics, who plans to become a high school teacher. Growing up on a farm sparked Landon's interest in vertical farming, as he hopes to someday see a more sustainable farming industry. As Sponsorship Director, Landon draws from his Smith School of Business certificate and past leadership experience. In his spare time he enjoys being active and watching sports."
   },
   {
     "name": "Zwetlana Rajesh",
@@ -54,26 +70,11 @@
     "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as an Automation Specialist on QVFT’s Controls, Data, & Automation team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
   },
   {
-    "name": "Michael Mills",
-    "position": "Logistics Director",
-    "yearMajor": "4th Year Engineering Physics – Mech Option",
-    "email": "15mm182@queensu.ca",
-    "image": "placeholder",
-    "linkedIn": "michaelmills15"
-  },
-  {
     "name": "Luke Emblem",
     "position": "Finance Director",
     "yearMajor": "3rd Year Economics",
     "email": "17jle@queensu.ca",
     "image": "placeholder",
     "linkedIn": "luke-emblem-996b24161"
-  },
-  {
-    "name": "Landon Smith",
-    "position": "Sponsorship Co-Director",
-    "yearMajor": "3rd Year Physics",
-    "image": "placeholder",
-    "email": "landon.smith@queensu.ca"
   }
 ]
