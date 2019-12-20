@@ -3,18 +3,20 @@ import dateformat from "dateformat";
 function getData() {
   const teamFile = require("../../../content/team.json");
 
-  const team = teamFile.map(member => {
-    return {
-      name: member.name,
-      position: member.position,
-      yearMajor: member.yearMajor,
-      image: member.image,
-      gitHub: member.gitHub,
-      linkedIn: member.linkedIn,
-      email: member.email,
-      blurb: member.blurb
-    };
-  });
+  const team = teamFile
+    .filter(member => !member.hidden)
+    .map(member => {
+      return {
+        name: member.name,
+        position: member.position,
+        yearMajor: member.yearMajor,
+        image: member.image,
+        gitHub: member.gitHub,
+        linkedIn: member.linkedIn,
+        email: member.email,
+        blurb: member.blurb
+      };
+    });
 
   const timelineFile = require("../../../content/timeline.json");
 

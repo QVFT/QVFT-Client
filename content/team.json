@@ -37,12 +37,21 @@
     "blurb": "Michael is a fourth year Engineering Physics student, who has a passion for sustainable engineering. Previously Michael was a founder of, and Faculty Relations Coordinator for, the Queen's Nuclear Energy and Environmental Design team, which focuses on assessing the feasibility of using nuclear, and other forms of energy, to create a more sustainable future. Michael's passion for sustainability, and ensuring access to healthy food, is what brough him to QVFT. Michael is involved in other extra-curriculars at Queen's such as the Queen's Rocket Engineering Team, and being a tutor. In his spare time he enjoys discovering new music, ultimate frisbee, chess, and being active."
   },
   {
+    "hidden": true,
     "name": "Landon Smith",
-    "position": "Sponsorship Co-Director",
+    "position": "",
     "yearMajor": "3rd Year Physics",
     "image": "Landon",
     "email": "landon.smith@queensu.ca",
     "blurb": "Landon is a third year science student majoring in physics, who plans to become a high school teacher. Growing up on a farm sparked Landon's interest in vertical farming, as he hopes to someday see a more sustainable farming industry. As Sponsorship Director, Landon draws from his Smith School of Business certificate and past leadership experience. In his spare time he enjoys being active and watching sports."
+  },
+  {
+    "name": "Liam Strachan",
+    "position": "Sponsorship Director",
+    "yearMajor": "4th Year Economics",
+    "image": "Liam",
+    "email": "16lks1@queensu.ca",
+    "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He has spent the last two summers interning at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
   },
   {
     "name": "Zwetlana Rajesh",
@@ -61,14 +70,6 @@
     "image": "Abu",
     "gitHub": "abdulelahrizan",
     "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as an Automation Specialist on QVFT’s Controls, Data, & Automation team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
-  },
-  {
-    "name": "Liam Strachan",
-    "position": "Sponsorship Co-Director",
-    "yearMajor": "4th Year Economics",
-    "image": "Liam",
-    "email": "16lks1@queensu.ca",
-    "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He has spent the last two summers interning at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
   },
   {
     "name": "Luke Emblem",
