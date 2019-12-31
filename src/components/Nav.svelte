@@ -17,6 +17,7 @@
     box-sizing: content-box;
     z-index: 24;
     color: var(--themeColorDark);
+    background-color: white;
   }
 
   nav div.contentWrapper {
