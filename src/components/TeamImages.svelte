@@ -43,18 +43,18 @@
   }
 
   .imageWrapper div.caption {
-    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     left: 0;
-    bottom: 0;
     background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
-    padding: 0.3rem 0.5rem;
+    padding: 0.5rem;
     font-size: 0.9rem;
     line-height: 1rem;
     box-sizing: border-box;
-    position: absolute;
-    height: 4rem;
+    height: 4.5rem;
     bottom: -4rem;
     transition: bottom 0.3s ease;
   }
@@ -84,18 +84,22 @@
     padding: 0 0.2rem;
   }
   div.name {
-    font-weight: bold;
+    font-weight: 700;
+    color: var(--darkGrey);
+    font-size: 1.1rem;
   }
 
   div.position {
-    color: #333;
+    color: var(--darkGrey);
+    font-weight: 500;
+    font-style: italic;
   }
   div.position,
   div.contact {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    color: var(--darkGrey);
   }
   div.contact {
-    margin-top: 0.3rem;
     height: 0.9rem;
     width: 100%;
     display: flex;
@@ -109,7 +113,7 @@
 
   div.contact,
   div.contact a {
-    color: rgb(114, 114, 114);
+    color: var(--darkGrey);
   }
 
   div.contact a:hover {
@@ -177,7 +181,7 @@
     align-items: center;
     justify-content: flex-start;
     margin-right: 1.5rem;
-    color: #666;
+    color: var(--darkGrey);
     text-decoration: none;
   }
 

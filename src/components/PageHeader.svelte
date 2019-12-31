@@ -1,6 +1,5 @@
 <style>
   .pageHeader {
-    color: white;
     font-size: 1.6rem;
     line-height: 1.2;
     background-clip: border-box;
@@ -17,9 +16,9 @@
     background-color: rgba(0, 0, 0, 0.45);
   }
   h1 {
-    font-weight: normal !important;
     margin: 0;
     padding: 0;
+    color: white;
   }
   .contentWrapper {
     display: flex;

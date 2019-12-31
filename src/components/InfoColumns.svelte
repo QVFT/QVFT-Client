@@ -43,8 +43,9 @@
   }
 
   div.itemLabel {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.1rem;
+    color: var(--darkGrey);
   }
 </style>
 

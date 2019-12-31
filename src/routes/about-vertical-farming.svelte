@@ -9,14 +9,27 @@
 
 <style>
   div.imageWrapper {
-    margin: 2rem 0;
+    margin: 2rem auto;
+    position: relative;
+    max-width: 500px;
+  }
+
+  div.imageWrapper a.attribution {
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 0.7rem;
+  }
+
+  div.imageWrapper a.attribution:not(:hover) {
+    text-decoration: none;
   }
   picture.diagram > * {
     display: block;
     width: 100%;
     height: 100%;
-    width: 95%;
-    max-width: 500px;
     margin: 0 auto;
     box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.3);
   }
@@ -52,6 +65,13 @@
       <source srcset="diagram.jpg" type="image/jpg" />
       <img src="diagram.jpg" alt="Queen's Vertical Farming Team" />
     </picture>
+    <a
+      class="attribution"
+      rel="noopener noreferrer"
+      href="https://aerofarms.com/"
+      target="_blank">
+      AeroFarms.com
+    </a>
   </div>
   <h2>System Controls</h2>
   <p>

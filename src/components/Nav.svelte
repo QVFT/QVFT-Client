@@ -5,7 +5,8 @@
 <style>
   nav {
     border-top: 3px solid var(--themeColor);
-    font-weight: 300;
+    font-weight: 500;
+    text-transform: uppercase;
     font-size: 0.9rem;
     position: sticky;
     top: 0;
