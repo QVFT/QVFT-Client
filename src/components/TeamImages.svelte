@@ -151,6 +151,8 @@
   .modal div.nameAndPosition > * {
     padding: 0;
     margin: 0;
+    text-transform: unset;
+    font-weight: 500;
   }
 
   div.modalHead > div.modalImageWrapper {

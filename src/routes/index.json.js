@@ -21,13 +21,13 @@ function getData() {
   const timelineFile = require("../../../content/timeline.json");
 
   const timeline = timelineFile
+    .map(item => ({ ...item, date: `${item.date}-02` }))
     .map(item => ({
       prettyDate: dateformat(item.date, "mmmm yyyy"),
       ...item
     }))
-    .sort((a, b) => new Date(a.date) - new Date(b.date))
-    .slice(0, 5);
-
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+  console.log(timeline);
   return { team, timeline };
 }
 
