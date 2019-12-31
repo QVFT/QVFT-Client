@@ -5,18 +5,18 @@
 <style>
   nav {
     border-top: 3px solid var(--themeColor);
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 0.9rem;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
     min-height: 3rem;
     /* overflow: hidden; */
     box-sizing: content-box;
     z-index: 24;
+    color: var(--themeColorDark);
   }
 
   nav div.contentWrapper {
@@ -41,10 +41,6 @@
     display: inline-block;
     padding: 0;
     margin: 0 0.8rem;
-  }
-
-  a.selected {
-    color: black;
   }
 
   a::after {
@@ -72,7 +68,6 @@
     height: 3rem;
     display: flex;
     align-items: center;
-    color: #333;
     transition: color 0.3s ease;
   }
 

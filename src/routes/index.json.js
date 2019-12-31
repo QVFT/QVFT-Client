@@ -27,7 +27,6 @@ function getData() {
       ...item
     }))
     .sort((a, b) => new Date(a.date) - new Date(b.date));
-  console.log(timeline);
   return { team, timeline };
 }
 
