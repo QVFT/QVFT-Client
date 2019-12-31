@@ -75,13 +75,13 @@
   </div>
   <h2>System Controls</h2>
   <p>
-    Currently being developed by the Controls, Data, & Automation team, QVFT's
-    CEA system comprises a network of sensors that track real-time environmental
-    data, including temperature, humidity, water pH, and light levels. These
-    sensors feed into a central interface, which then transmits data to a
-    computer. The program LabVIEW interprets, analyzes, and records this data,
-    which informs its commands to switch equipment (pumps, lights, etc.) ON or
-    OFF.
+    QVFT's controlled-environment agriculture (CEA) system, currently in
+    development, is comprised of a network of sensors controlled and monitored
+    through software. This system intends to maximize the vertical farm’s yield
+    and efficiency by providing accurate "environment readings" which allow for
+    the fine-tuning of the vertical farm’s internal environment. Given
+    "environment targets", the system will automatically adjust hardware
+    components to bring the vertical farm’s environment closer to those values.
   </p>
   <h2>Crop Selection</h2>
   <p>
