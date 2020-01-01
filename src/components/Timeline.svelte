@@ -20,10 +20,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+  }
+  div.line {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    border-right: 2px solid #222;
   }
 </style>
 
 <div class="timelineWrapper">
+  <div class="line" />
   <div class="timeline">
     {#each timeline.map(timelineMap) as item, i}
       <TimelineItem {item} {i} timelineLength={timeline.length} />

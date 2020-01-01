@@ -25,20 +25,20 @@
   }
 
   div.item.right {
-    border-left: 2px solid #222;
+    /* border-left: 2px solid #222; */
     padding: 0.7rem 0.5rem 0.7rem 1.4rem;
     margin-left: 50%;
   }
 
   div.item.left {
-    border-right: 2px solid #222;
+    /* border-right: 2px solid #222; */
     padding: 0.7rem 1.4rem 0.7rem 0.5rem;
-    margin-right: calc(50% - 2px);
+    margin-right: 50%;
   }
 
   div.spacer {
-    height: 3rem;
-    border-right: 2px solid #222;
+    height: 1.5rem;
+    /* border-right: 2px solid #222; */
     width: 50%;
   }
 
@@ -69,16 +69,17 @@
     align-items: center;
     justify-content: center;
     color: var(--themeColorDark);
+    z-index: 12;
   }
 
   div.item.right div.itemMarker {
     left: 0;
-    transform: translate(-52%, -50%);
+    transform: translate(-50%, -50%);
   }
 
   div.item.left div.itemMarker {
     right: 0;
-    transform: translate(52%, -50%);
+    transform: translate(50%, -50%);
   }
 
   div.itemMarker.complete {
@@ -101,7 +102,7 @@
 
   ul.points {
     font-size: 0.9rem;
-    line-height: 1.7rem;
+    line-height: 1.4rem;
     margin: 0.2rem 0;
     padding-left: 1.5rem;
     list-style-type: circle;
@@ -113,7 +114,9 @@
   <div class="monthLabel">{item.prettyDate}</div>
   <div aria-hidden="true" class="spacer top" />
 {/if}
-<div class="item {i % 2 ? 'right' : 'left'}">
+<div
+  class="item {i % 2 ? 'right' : 'left'}"
+  style={item.marginTop ? `margin-top: ${item.marginTop}` : ''}>
   <div class="itemMarker {item.complete ? 'complete' : ''}">
     {#if item.complete}
       <FaCheck />

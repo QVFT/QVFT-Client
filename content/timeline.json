@@ -21,7 +21,8 @@
       "Complete Technical Overview of Controls, Data, and Automation System",
       "Complete Techinical Overview of Mechanical System"
     ],
-    "complete": true
+    "complete": true,
+    "marginTop": "-1rem"
   },
   {
     "date": "2020-01",
@@ -29,7 +30,8 @@
   },
   {
     "date": "2020-01",
-    "title": "Participate in Commerce & Engineering Environment Conference Trade Show"
+    "title": "Participate in Commerce & Engineering Environment Conference Trade Show",
+    "marginTop": "-1.5rem"
   },
   {
     "date": "2020-01",
@@ -38,7 +40,8 @@
       "Initiate CEA Hardware and Software Development",
       "Research Plant Germination Strategies, Nutritional Requirements, Lighting Cycles, and Water Consumption",
       "Develop a Step-by-Step Plant Cultivation Protocol"
-    ]
+    ],
+    "marginTop": "-3rem"
   },
   {
     "date": "2020-02",
@@ -52,7 +55,8 @@
   {
     "date": "2020-02",
     "title": "Prototyping and Experimentation Phase I",
-    "subpoints": ["Manufacture Custom Parts", "Order Non-Custom Parts"]
+    "subpoints": ["Manufacture Custom Parts", "Order Non-Custom Parts"],
+    "marginTop": "-7rem"
   },
   {
     "date": "2020-03",
@@ -61,7 +65,8 @@
   {
     "date": "2020-03",
     "title": "Prototyping and Experimentation Phase II",
-    "subpoints": ["Begin Plant Germination Process"]
+    "subpoints": ["Begin Plant Germination Process"],
+    "marginTop": "-4rem"
   },
   {
     "date": "2020-04",

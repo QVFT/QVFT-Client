@@ -1,5 +1,6 @@
 <script>
   export let left;
+  export let style;
 </script>
 
 <style>
@@ -57,9 +58,9 @@
 </style>
 
 {#if left}
-  <div aria-hidden="true" class="arrowLeft" />
-  <div aria-hidden="true" class="arrowLeftBorder" />
+  <div aria-hidden="true" {style} class="arrowLeft" />
+  <div aria-hidden="true" {style} class="arrowLeftBorder" />
 {:else}
-  <div aria-hidden="true" class="arrowRight" />
-  <div aria-hidden="true" class="arrowRightBorder" />
+  <div aria-hidden="true" {style} class="arrowRight" />
+  <div aria-hidden="true" {style} class="arrowRightBorder" />
 {/if}
