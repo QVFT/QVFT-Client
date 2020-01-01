@@ -10,46 +10,46 @@
 <style>
   div.monthLabel {
     padding: 0.3rem 0.5rem;
-    border: 1px solid var(--themeColorDark);
-    border-bottom: 2px solid var(--themeColorDark);
-    background-color: #fefefe;
+    background-color: var(--themeColorDark);
+    color: white;
+    font-weight: 500;
     border-radius: 0.3rem;
     display: inline-block;
-    margin-left: -1rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
   }
   div.item {
-    padding: 0.7rem 0.5rem 0.7rem 1.4rem;
-    border-left: 2px solid #222;
     position: relative;
+    box-sizing: border-box;
+  }
+
+  div.item.right {
+    border-left: 2px solid #222;
+    padding: 0.7rem 0.5rem 0.7rem 1.4rem;
+    margin-left: 50%;
+  }
+
+  div.item.left {
+    border-right: 2px solid #222;
+    padding: 0.7rem 1.4rem 0.7rem 0.5rem;
+    margin-right: calc(50% - 2px);
   }
 
   div.spacer {
-    height: 2rem;
-    border-left: 2px solid #222;
+    height: 3rem;
+    border-right: 2px solid #222;
+    width: 50%;
   }
 
   div.spacer.top {
-    height: 0.7rem;
+    height: 1.5rem;
   }
 
   div.spacer.last {
     height: 1.5rem;
     position: relative;
   }
-
-  div.spacer.last::after {
-    width: 0.6rem;
-    height: 2px;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: block;
-    background-color: #222;
-    margin-left: calc(-0.3rem - 1px);
-    /* transform: translate(-50%, 50%); */
-  }
-
   div.spacer:first-of-type {
     display: none;
   }
@@ -63,8 +63,6 @@
     box-sizing: border-box;
     position: absolute;
     top: 50%;
-    left: 0;
-    transform: translate(-50%, -50%);
     background-color: white;
     overflow: hidden;
     display: flex;
@@ -73,17 +71,27 @@
     color: var(--themeColorDark);
   }
 
+  div.item.right div.itemMarker {
+    left: 0;
+    transform: translate(-52%, -50%);
+  }
+
+  div.item.left div.itemMarker {
+    right: 0;
+    transform: translate(52%, -50%);
+  }
+
   div.itemMarker.complete {
     border: 2px solid var(--themeColorDark);
   }
 
   div.itemContent {
     z-index: 4;
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: white;
     border: 1px solid #cdcdcd;
     border-radius: 5px;
-    margin: 0.75rem 0.2rem;
+    margin: -1rem 0.2rem;
     position: relative;
   }
   div.title {
@@ -105,13 +113,13 @@
   <div class="monthLabel">{item.prettyDate}</div>
   <div aria-hidden="true" class="spacer top" />
 {/if}
-<div class="item">
+<div class="item {i % 2 ? 'right' : 'left'}">
   <div class="itemMarker {item.complete ? 'complete' : ''}">
     {#if item.complete}
       <FaCheck />
     {/if}
   </div>
-  <PostArrow />
+  <PostArrow left={i % 2} />
   <div class="itemContent">
     <div class="title">{item.title}</div>
     {#if item.subpoints}
