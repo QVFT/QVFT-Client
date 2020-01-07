@@ -16,7 +16,6 @@
     /* overflow: hidden; */
     box-sizing: content-box;
     z-index: 24;
-    color: var(--darkGrey);
     background-color: white;
   }
 
@@ -70,6 +69,7 @@
     display: flex;
     align-items: center;
     transition: color 0.3s ease;
+    color: var(--darkGrey) !important;
   }
 
   picture.logo > * {
