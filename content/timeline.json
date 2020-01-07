@@ -1,7 +1,7 @@
 [
   {
     "date": "2019-11",
-    "title": "Hire 2019-20 Executive members",
+    "title": "Hire 2019-20 Executive Members",
     "complete": true
   },
   {
@@ -18,8 +18,8 @@
     "date": "2019-12",
     "title": "Research and Design Phase I",
     "subpoints": [
-      "Complete Technical Overview of Controls, Data, and Automation System",
-      "Complete Techinical Overview of Mechanical System"
+      "Complete technical overview of Controlled-Environment Agriculture (CEA) system",
+      "Complete technical overview of mechanical system"
     ],
     "complete": true,
     "marginTop": "-1rem"
@@ -30,16 +30,16 @@
   },
   {
     "date": "2020-01",
-    "title": "Participate in Commerce & Engineering Environment Conference Trade Show",
+    "title": "Participate in Commerce & Engineering Environmental Conference Trade Show",
     "marginTop": "-1.5rem"
   },
   {
     "date": "2020-01",
     "title": "Research and Design Phase II",
     "subpoints": [
-      "Initiate CEA Hardware and Software Development",
-      "Research Plant Germination Strategies, Nutritional Requirements, Lighting Cycles, and Water Consumption",
-      "Develop a Step-by-Step Plant Cultivation Protocol"
+      "Initiate CEA hardware and software development",
+      "Research plant germination strategies, nutritional requirements, lighting cycles, and water consumption",
+      "Develop a step-by-step plant cultivation protocol"
     ],
     "marginTop": "-1rem"
   },
@@ -47,15 +47,15 @@
     "date": "2020-02",
     "title": "Research and Design Phase III",
     "subpoints": [
-      "CEA System is in Beta",
-      "Finalize all CAD Drawings for Custom Parts",
-      "Finalize Plant Cultivation Protocol and Complete Research Report"
+      "CEA system is in beta",
+      "Finalize all CAD drawings for custom parts",
+      "Finalize plant cultivation protocol and complete research report"
     ]
   },
   {
     "date": "2020-02",
     "title": "Prototyping and Experimentation Phase I",
-    "subpoints": ["Manufacture Custom Parts", "Order Non-Custom Parts"],
+    "subpoints": ["Manufacture custom parts", "Order non-custom parts"],
     "marginTop": "-5rem"
   },
   {
@@ -65,11 +65,11 @@
   {
     "date": "2020-03",
     "title": "Prototyping and Experimentation Phase II",
-    "subpoints": ["Begin Plant Germination Process"],
+    "subpoints": ["Begin plant germination process"],
     "marginTop": "-1rem"
   },
   {
     "date": "2020-04",
-    "title": "Wrap Up Efforts and Prepare to Resume in September 2020"
+    "title": "Wrap up efforts and prepare to resume in September 2020"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "Patrick Singal",
-    "position": "Founder / President",
+    "position": "President",
     "yearMajor": "3rd Year Biomechanical Engineering",
     "image": "Patrick",
     "email": "p.singal@queensu.ca",
@@ -63,13 +63,13 @@
   },
   {
     "name": "Abdul Elah (Abu) Rizan",
-    "position": "Automation Specialist",
+    "position": "Software Engineer",
     "yearMajor": "5th Year Mechanical Engineering",
     "email": "15aeam@queensu.ca",
     "linkedIn": "abdulelahr",
     "image": "Abu",
     "gitHub": "abdulelahrizan",
-    "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as an Automation Specialist on QVFT’s Systems Automation Team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
+    "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as a Software Engineer on QVFT’s Systems Automation Team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
   },
   {
     "name": "Luke Emblem",

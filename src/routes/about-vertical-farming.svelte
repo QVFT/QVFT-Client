@@ -75,7 +75,7 @@
   </div>
   <h2>System Controls</h2>
   <p>
-    QVFT's controlled-environment agriculture (CEA) system, currently in
+    QVFT’s controlled-environment agriculture (CEA) system, currently in
     development, is comprised of a network of sensors controlled and monitored
     through software. This system intends to maximize the vertical farm’s yield
     and efficiency by providing accurate "environment readings" which allow for
@@ -83,6 +83,13 @@
     "environment targets", the system will automatically adjust hardware
     components to bring the vertical farm’s environment closer to those values.
   </p>
+  <div class="imageWrapper">
+    <picture class="diagram">
+      <source srcset="CEA-diagram.webp" type="image/webp" />
+      <source srcset="CEA-diagram.png" type="image/png" />
+      <img src="CEA-diagram.png" alt="CEA system digram" />
+    </picture>
+  </div>
   <h2>Crop Selection</h2>
   <p>
     In theory, any crop can be cultivated through vertical farming. However,

@@ -5,7 +5,7 @@
 <style>
   nav {
     border-top: 3px solid var(--themeColor);
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 0.9rem;
     position: sticky;
@@ -16,7 +16,7 @@
     /* overflow: hidden; */
     box-sizing: content-box;
     z-index: 24;
-    color: var(--themeColorDark);
+    color: var(--darkGrey);
     background-color: white;
   }
 
