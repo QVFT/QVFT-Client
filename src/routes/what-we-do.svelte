@@ -37,6 +37,20 @@
   div.imageWrapper a.attribution:not(:hover) {
     text-decoration: none;
   }
+  
+  div.imageWrapper a.dark_attribution {
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    color: black;
+    font-weight: 300;
+    font-size: 0.7rem;
+  }
+
+  div.imageWrapper a.dark_attribution:not(:hover) {
+    text-decoration: none;
+  }
+  
   picture.diagram > * {
     display: block;
     width: 100%;
@@ -107,7 +121,7 @@
       <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
     </picture>
     <a
-      class="attribution"
+      class="dark_attribution"
       rel="noopener noreferrer"
       href="https://www.qvft.ca/"
       target="_blank">
@@ -131,7 +145,7 @@
       <img src="CEA-diagram.png" alt="CEA system digram" />
     </picture>
     <a
-      class="attribution"
+      class="dark_attribution"
       rel="noopener noreferrer"
       href="https://www.qvft.ca/"
       target="_blank">
