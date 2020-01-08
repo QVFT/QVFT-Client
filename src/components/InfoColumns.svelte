@@ -9,7 +9,7 @@
       img: "premiumProduce"
     },
     {
-      label: "23 Dedicated Farmers",
+      label: "24 Dedicated Farmers",
       img: "ourTeam"
     }
   ];
