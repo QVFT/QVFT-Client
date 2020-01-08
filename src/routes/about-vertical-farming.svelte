@@ -77,13 +77,6 @@
   <p>
     QVFT employs an aeroponic cultivation method, in which nutrients are dissolved in water (fertigation) and misted diectly onto roots via spray nozzles (irrigation). Crops rest on a thin, porous substrate, through which their roots dangle in a basin below. Requiring no soil, this approach allows the grower near-complete control over the specific nutrient mix a plant receives. Aeroponics are a key component of controlled-environment agriculture.
   </p>
-  <div class="imageWrapper">
-    <picture class="AeroponicSys">
-      <source srcset="AeroponicSys.webp" type="image/webp" />
-      <source srcset="AeroponicSys.jpg" type="image/jpg" />
-      <img src="AeroponicSys.jpg" alt="Aeroponic system digram" style="max-width: 600px; min-width: 330px;" />
-    </picture>
-  </div>
   <h2>Controlled-Environment Agriculture (CEA)</h2>
   <p>
     CEA is a method of optimizing plant growth conditions by means of an integrated, software-controlled sensory network. Our proposed system (see below) aims to control, monitor, and maximize farming yield by comparing realtime environmental data to pre-set environmental targets, and adjusting the internal growing environment accordingly. The CEA system will serve as the central control hub for the lighting, irrigation, fertigation, ventilation, and climate control systems.
