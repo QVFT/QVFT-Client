@@ -78,9 +78,9 @@
   </p>
   <div class="imageWrapper">
     <picture class="diagram">
-      <source srcset="diagram.webp" type="image/webp" />
-      <source srcset="diagram.jpg" type="image/jpg" />
-      <img src="diagram.jpg" alt="Queen's Vertical Farming Team" />
+      <source srcset="AeroFarmsTigris.webp" type="image/webp" />
+      <source srcset="AeroFarmsTigris.jpg" type="image/jpg" />
+      <img src="AeroFarmsTigris.jpg" alt="Queen's Vertical Farming Team" />
     </picture>
     <a
       class="attribution"
