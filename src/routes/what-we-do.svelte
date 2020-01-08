@@ -73,7 +73,7 @@
       AeroFarms.com
     </a>
   </div>
-  <h2>Aeroponic System</h2>
+  <h2>Aeroponics</h2>
   <p>
     QVFT employs an aeroponic cultivation method, in which nutrients are dissolved in water (fertigation) and misted diectly onto roots via spray nozzles (irrigation). Crops rest on a thin, porous substrate, through which their roots dangle in a basin below. Requiring no soil, this approach allows the grower near-complete control over the specific nutrient mix a plant receives. Aeroponics are a key component of controlled-environment agriculture.
   </p>
