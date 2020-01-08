@@ -1,21 +1,12 @@
 [
   {
     "name": "Patrick Singal",
-    "position": "President",
+    "position": "Managing Director",
     "yearMajor": "3rd Year Biomechanical Engineering",
     "image": "Patrick",
     "email": "p.singal@queensu.ca",
     "linkedIn": "patricksingal",
     "blurb": "Patrick is a 3rd year biomechanical engineering student with a passion for sustainable technology and environmental issues. Patrick spent this past summer interning at MCW Custom Energy Solutions, a consulting firm dedicated to improving the energy efficiency of large buildings and municipalities by means of software-informed retrofits. Patrick’s role mainly involved schematic development (Microsoft Visio), data analysis (Excel), material analysis (HAP), and report editing. Patrick began QVFT as a side project during this time, creating a detailed business plan that still informs the core of team operations today. Patrick’s motivation for pursuing QVFT stems from a personal familiarity with farming, an interest in systems design, and a desire to develop engineering solutions for environmental issues.\nIn his spare time, Patrick likes fishing, chess, live music, and watching the Toronto Maple Leafs."
-  },
-  {
-    "name": "David Altrows",
-    "position": "Co-President",
-    "yearMajor": "4th Year Biomechanical Engineering",
-    "image": "David",
-    "email": "david.altrows@queensu.ca",
-    "linkedIn": "davidaltrows",
-    "blurb": "David is a 4th year biomechanical engineering student with diverse experience in technical and non-technical roles. This summer, he completed the QICSI entrepreneurship program and led a successful start-up organization. He is currently a member of the Queen’s Formula SAE design team and works as an Englinks workshop instructor and tutor. Given his leadership experience and background in mechatronics and CAD, David brings a well-rounded skillset to his role as co-president of QVFT."
   },
   {
     "name": "Ross Hill",
@@ -26,6 +17,14 @@
     "linkedIn": "rosslh",
     "gitHub": "rosslh",
     "blurb": "Ross is a 4th year computing student specializing in software design. Ross held a leadership role on the 2018/19 QHacks team, developing an online platform that served the hundreds of participants in the hackathon. Ross spent this past summer working at Verafin, a financial technology firm focused on fraud detection and the prevention of money laundering. His role involved the analysis of data from hundreds of financial institutions to develop new heuristics for detecting high-risk customers. Ross is applying his background in software design and data analytics to his role as Director of Systems Automation."
+  },
+  {
+    "name": "Liam Strachan",
+    "position": "Sponsorship Director",
+    "yearMajor": "4th Year Economics",
+    "image": "Liam",
+    "email": "16lks1@queensu.ca",
+    "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He has spent the last two summers interning at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
   },
   {
     "name": "Michael Mills",
@@ -54,12 +53,13 @@
     "blurb": "Zwetlana is a 2nd year Health Studies student and a Queen's University Chancellor's Scholar. Zwetlana's involvement in QVFT stems from her interest in sustainable farming. She is the founder of an international initiative P3 - Plant, Prepare, and Plate it, which is focused on encouraging all, despite busy schedules, to grow food creatively in available spaces, prepare it though nutritious recipes and have a healthy meal in every plate.  At Queen's University, Zwetlana is a director for International Development Week 2020, a member of the Model United Nations Team, a Residence Don, and a research assistant. Zwetlana is also involved in volunteering and extracurricular projects in the areas of mental health, youth advocacy, public policy, and healthcare. In her spare time, she enjoys archery, poetry, and listening to the stories of those she comes across."
   },
   {
-    "name": "Liam Strachan",
-    "position": "Sponsorship Director",
-    "yearMajor": "4th Year Economics",
-    "image": "Liam",
-    "email": "16lks1@queensu.ca",
-    "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He has spent the last two summers interning at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
+    "name": "David Altrows",
+    "position": "Software Engineer",
+    "yearMajor": "4th Year Biomechanical Engineering",
+    "image": "David",
+    "email": "david.altrows@queensu.ca",
+    "linkedIn": "davidaltrows",
+    "blurb": "David is a 4th year biomechanical engineering student with diverse experience in technical and non-technical roles. This summer, he completed the QICSI entrepreneurship program and led a successful start-up organization. He is currently a member of the Queen’s Formula SAE design team and works as an Englinks workshop instructor and tutor. Given his leadership experience and background in mechatronics and CAD, David brings a well-rounded skillset to his role as Software Engineer at QVFT."
   },
   {
     "name": "Abdul Elah (Abu) Rizan",
