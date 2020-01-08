@@ -100,9 +100,9 @@
       </li>
       <li>
         <a
-          class:selected={segment === 'about-vertical-farming'}
-          href="about-vertical-farming">
-          About Vertical Farming
+          class:selected={segment === 'what-we-do'}
+          href="what-we-do">
+          What We Do
         </a>
       </li>
     </ul>
