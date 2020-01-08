@@ -37,8 +37,8 @@
   div.imageWrapper a.attribution:not(:hover) {
     text-decoration: none;
   }
-  
-  div.imageWrapper a.dark_attribution {
+
+  div.imageWrapper div.dark_attribution {
     position: absolute;
     right: 2px;
     bottom: 0;
@@ -47,10 +47,10 @@
     font-size: 0.7rem;
   }
 
-  div.imageWrapper a.dark_attribution:not(:hover) {
+  div.imageWrapper div.dark_attribution:not(:hover) {
     text-decoration: none;
   }
-  
+
   picture.diagram > * {
     display: block;
     width: 100%;
@@ -120,12 +120,9 @@
       <source srcset="AeroponicSys.jpg" type="image/jpg" />
       <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
     </picture>
-    <a
-      class="dark_attribution"
-      rel="noopener noreferrer"
-      target="_blank">
+    <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
       QVFT
-    </a>
+    </div>
   </div>
   <h2>Controlled-Environment Agriculture (CEA)</h2>
   <p>
@@ -143,12 +140,9 @@
       <source srcset="CEA-diagram.png" type="image/png" />
       <img src="CEA-diagram.png" alt="CEA system digram" />
     </picture>
-    <a
-      class="dark_attribution"
-      rel="noopener noreferrer"
-      target="_blank">
+    <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
       QVFT
-    </a>
+    </div>
   </div>
   <h2>Lighting</h2>
   <p>
