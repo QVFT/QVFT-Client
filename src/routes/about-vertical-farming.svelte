@@ -84,7 +84,7 @@
       <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
     </picture>
   </div>
-  <h2>Controlled-Environment Agriculture (CEA) System</h2>
+  <h2>Controlled-Environment Agriculture (CEA)</h2>
   <p>
     CEA is a method of optimizing plant growth conditions by means of an integrated, software-controlled sensory network. Our proposed system (see below) aims to control, monitor, and maximize farming yield by comparing realtime environmental data to pre-set environmental targets, and adjusting the internal growing environment accordingly. The CEA system will serve as the central control hub for the lighting, irrigation, fertigation, ventilation, and climate control systems.
   </p>
