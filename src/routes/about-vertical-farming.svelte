@@ -81,7 +81,7 @@
     <picture class="AeroponicSys">
       <source srcset="AeroponicSys.webp" type="image/webp" />
       <source srcset="AeroponicSys.jpg" type="image/jpg" />
-      <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
+      <img src="AeroponicSys.jpg" alt="Aeroponic system digram" style="max-width: 55vw; min-width: 330px;" />
     </picture>
   </div>
   <h2>Controlled-Environment Agriculture (CEA)</h2>
