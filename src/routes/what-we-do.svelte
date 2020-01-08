@@ -106,6 +106,13 @@
       <source srcset="AeroponicSys.jpg" type="image/jpg" />
       <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
     </picture>
+    <a
+      class="attribution"
+      rel="noopener noreferrer"
+      href="https://www.qvft.ca/"
+      target="_blank">
+      QVFT
+    </a>
   </div>
   <h2>Controlled-Environment Agriculture (CEA)</h2>
   <p>
@@ -123,6 +130,13 @@
       <source srcset="CEA-diagram.png" type="image/png" />
       <img src="CEA-diagram.png" alt="CEA system digram" />
     </picture>
+    <a
+      class="attribution"
+      rel="noopener noreferrer"
+      href="https://www.qvft.ca/"
+      target="_blank">
+      QVFT
+    </a>
   </div>
   <h2>Lighting</h2>
   <p>
