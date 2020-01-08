@@ -73,11 +73,17 @@
       AeroFarms.com
     </a>
   </div>
-  <h2>Crop Selection</h2>
+  <h2>Aeroponic System</h2>
   <p>
-    As vertical farming is a cost-intensive cultivation method, current industry practices focus on small, premium crops that have short growth cycles and high automation potential. Examples include leafy greens such as baby lettuce, spinach, and kale, which have a brief growth cycle of roughly 50–65 days. QVFT will focus exclusively on the cultivation of leafy greens, as the commercial farming systems from which we draw inspiration are designed specifically for such purposes. Starting in February 2020, we will cultivate a small batch of baby lettuce as a litmus test for our prototype. This will provide feedback regarding the efficacy of our system and identify areas of improvement for when we scale our model in the following school year.
+    QVFT employs an aeroponic cultivation method, in which nutrients are dissolved in water (fertigation) and misted diectly onto roots via spray nozzles (irrigation). Crops rest on a thin, porous substrate, through which their roots dangle in a basin below. Requiring no soil, this approach allows the grower near-complete control over the specific nutrient mix a plant receives. Aeroponics are a key component of controlled-environment agriculture.
   </p>
-
+  <div class="imageWrapper">
+    <picture class="AeroponicSys">
+      <source srcset="AeroponicSys.webp" type="image/webp" />
+      <source srcset="AeroponicSys.jpg" type="image/jpg" />
+      <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
+    </picture>
+  </div>
   <h2>Controlled-Environment Agriculture (CEA) System</h2>
   <p>
     CEA is a method of optimizing plant growth conditions by means of an integrated, software-controlled sensory network. Our proposed system (see below) aims to control, monitor, and maximize farming yield by comparing realtime environmental data to pre-set environmental targets, and adjusting the internal growing environment accordingly. The CEA system will serve as the central control hub for the lighting, irrigation, fertigation, ventilation, and climate control systems.
@@ -89,15 +95,15 @@
       <img src="CEA-diagram.png" alt="CEA system digram" />
     </picture>
   </div>
-   <h2>Aeroponic System</h2>
-  <p>
-    QVFT employs an aeroponic cultivation method, in which nutrients are dissolved in water (fertigation) and misted diectly onto roots via spray nozzles (irrigation). Crops rest on a thin, porous substrate, through which their roots dangle in a basin below. Requiring no soil, this approach allows the grower near-complete control over the specific nutrient mix a plant receives. Aeroponics are a key component of controlled-environment agriculture.
-  </p>
   <h2>Lighting</h2>
   <p>
     Studies have found that the growth of indoor plants can be manipulated by
     adjustments to the intensity and wavelength of LED lights. Our plant
     science team is conducting research which aims to optimize these parameters for each given
     crop. Tying into the development of the broader CEA system, the ultimate goal of these efforts is to boost plant productivity.
+  </p>
+  <h2>Crop Selection</h2>
+  <p>
+    As vertical farming is a cost-intensive cultivation method, current industry practices focus on small, premium crops that have short growth cycles and high automation potential. Examples include leafy greens such as baby lettuce, spinach, and kale, which have a brief growth cycle of roughly 50–65 days. QVFT will focus exclusively on the cultivation of leafy greens, as the commercial farming systems from which we draw inspiration are designed specifically for such purposes. Starting in February 2020, we will cultivate a small batch of baby lettuce as a litmus test for our prototype. This will provide feedback regarding the efficacy of our system and identify areas of improvement for when we scale our model in the following school year.
   </p>
 </div>
