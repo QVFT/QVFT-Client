@@ -146,6 +146,20 @@
     given crop. Tying into the development of the broader CEA system, the
     ultimate goal of these efforts is to boost plant productivity.
   </p>
+  <div class="imageWrapper large padding">
+    <picture class="AeroFarmLED">
+      <source srcset="AeroFarmLED.webp" type="image/webp" />
+      <source srcset="AeroFarmLED.jpg" type="image/jpg" />
+      <img src="AeroFarmLED.jpg" alt="AeroFarms Lighting System" />
+    </picture>
+    <a
+      class="attribution"
+      rel="noopener noreferrer"
+      href="https://aerofarms.com/"
+      target="_blank">
+      AeroFarms.com
+    </a>
+  </div>
   <h2>Crop Selection</h2>
   <p>
     As vertical farming is a cost-intensive cultivation method, current industry
