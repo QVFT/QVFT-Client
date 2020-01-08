@@ -123,7 +123,6 @@
     <a
       class="dark_attribution"
       rel="noopener noreferrer"
-      href="https://www.qvft.ca/what-we-do"
       target="_blank">
       QVFT
     </a>
@@ -147,7 +146,6 @@
     <a
       class="dark_attribution"
       rel="noopener noreferrer"
-      href="https://www.qvft.ca/what-we-do"
       target="_blank">
       QVFT
     </a>
