@@ -73,15 +73,14 @@
       AeroFarms.com
     </a>
   </div>
-  <h2>System Controls</h2>
+  <h2>Crop Selection</h2>
   <p>
-    QVFT’s controlled-environment agriculture (CEA) system, currently in
-    development, is comprised of a network of sensors controlled and monitored
-    through software. This system intends to maximize the vertical farm’s yield
-    and efficiency by providing accurate "environment readings" which allow for
-    the fine-tuning of the vertical farm’s internal environment. Given
-    "environment targets", the system will automatically adjust hardware
-    components to bring the vertical farm’s environment closer to those values.
+    As vertical farming is a cost-intensive cultivation method, current industry practices focus on small, premium crops that have short growth cycles and high automation potential. Examples include leafy greens such as baby lettuce, spinach, and kale, which have a brief growth cycle of roughly 50–65 days. QVFT will focus exclusively on the cultivation of leafy greens, as the commercial farming systems from which we draw inspiration are designed specifically for such purposes. Starting in February 2020, we will cultivate a small batch of baby lettuce as a litmus test for our prototype. This will provide feedback regarding the efficacy of our system and identify areas of improvement for when we scale our model in the following school year.
+  </p>
+
+  <h2>Controlled-Environment Agriculture (CEA) System</h2>
+  <p>
+    CEA is a method of optimizing plant growth conditions by means of an integrated, software-controlled sensory network. Our proposed system (see below) aims to control, monitor, and maximize farming yield by comparing realtime environmental data to pre-set environmental targets, and adjusting the internal growing environment accordingly. The CEA system will serve as the central control hub for the lighting, irrigation, fertigation, ventilation, and climate control systems.
   </p>
   <div class="imageWrapper">
     <picture class="diagram">
@@ -90,53 +89,15 @@
       <img src="CEA-diagram.png" alt="CEA system digram" />
     </picture>
   </div>
-  <h2>Crop Selection</h2>
+   <h2>Aeroponic System</h2>
   <p>
-    In theory, any crop can be cultivated through vertical farming. However,
-    current operations almost exclusively involve small fruits and vegetables
-    such as lettuce, kale, spinach, strawberries, and tomatoes. Leafy greens are
-    popular choices due to their short growth cycle, high harvestable yield,
-    small stature, and compatibility with automation. QVFT will focus
-    exclusively on the cultivation of leafy greens in the short term, building
-    off of the best current industry practices. In the long term, we plan to
-    innovate and experiment with a variety crops, with the goal of improving
-    yield, profitability, and sustainability.
+    QVFT employs an aeroponic cultivation method, in which nutrients are dissolved in water (fertigation) and misted diectly onto roots via spray nozzles (irrigation). Crops rest on a thin, porous substrate, through which their roots dangle in a basin below. Requiring no soil, this approach allows the grower near-complete control over the specific nutrient mix a plant receives. Aeroponics are a key component of controlled-environment agriculture.
   </p>
   <h2>Lighting</h2>
   <p>
     Studies have found that the growth of indoor plants can be manipulated by
-    adjustments to the intensity and wavelength of LED lights. QVFT's plant
-    science team's research aims to optimize these parameters for each given
-    crop, with the ultimate goal of boosting plant productivity.
-  </p>
-  <h2>Irrigation and Fertigation</h2>
-  <p>
-    Vertical farming systems are broadly classified as either aeroponic or
-    hydroponic, in reference to their mode of nutrient delivery. Aeroponic
-    systems2.25based cloth) which allows their roots to dangle inside a basin
-    below. Nutrients are dissolved in water (fertigation) and delivered to roots
-    via spray nozzles (irrigation). Unused nutrient solution is then collected
-    by the basin and recycled. Hydroponic systems, in contrast, cultivate plants
-    with their roots suspended directly inside the nutrient solution. LED
-    lighting provides energy to facilitate photosynthesis in both types of
-    systems.
-  </p>
-  <p>
-    Of the two, aeroponic systems are considered to be a superior means of water
-    conservation and nutrient delivery, as they allow the grower greater control
-    over the specific plant nutrient mix. For these reasons, aeroponics will be
-    the main focus of QVFT. QVFT's fertigation system will be fully automated
-    and integrated within the larger CEA controls system.
-  </p>
-  <h2>Ventilation</h2>
-  <p>
-    A CO2 air supplementation system, combined with efficient ventilation, can
-    accelerate growth cycles and produce larger, healthier plants and flowers.
-    While atmospheric CO2 concentrations hover around 400 PPM, such a system
-    could raise ambient levels to 1000 PPM, which is considered optimal for the
-    growth of most plants. This system, comprised of CO2 cylinders capped with a
-    regulator, can be integrated into QVFT’s CEA system. A tent-like structure
-    could be used to isolate the farm from its surroundings and minimize
-    unwanted air exchange.
+    adjustments to the intensity and wavelength of LED lights. Our plant
+    science team is conducting research which aims to optimize these parameters for each given
+    crop. Tying into the development of the broader CEA system, the ultimate goal of these efforts is to boost plant productivity.
   </p>
 </div>
