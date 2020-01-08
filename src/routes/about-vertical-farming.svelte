@@ -3,7 +3,7 @@
   import { onMount } from "svelte";
 
   onMount(async () => {
-    gtag("config", "UA-93549235-6", { page_path: "/about-vertical-farming" });
+    gtag("config", "UA-93549235-6", { page_path: "/what-we-do" });
   });
 </script>
 
@@ -39,7 +39,7 @@
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 
-<PageHeader>About Vertical Farming</PageHeader>
+<PageHeader>What We Do</PageHeader>
 <div class="contentWrapper">
   <h2>Background</h2>
   <p>
