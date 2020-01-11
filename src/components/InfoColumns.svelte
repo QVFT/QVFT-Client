@@ -1,7 +1,7 @@
 <script>
   const info = [
     {
-      label: "Fully Automated Aeroponic Vertical Farm",
+      label: "Aeroponic Farming",
       img: "fullyAutomated"
     },
     {
@@ -9,7 +9,7 @@
       img: "premiumProduce"
     },
     {
-      label: "24 Dedicated Farmers",
+      label: "Dedicated Growers",
       img: "ourTeam"
     }
   ];
