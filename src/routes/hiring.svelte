@@ -21,7 +21,7 @@
   div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
-    height: 70vh;
+    height: 67vh;
   }
 
   .contentWrapper {
@@ -97,7 +97,7 @@
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLSd5uvv4FCd4I6nbvfFewKybUq8MBjRVlDWuwkxcO0t1d8tw8w/viewform?embedded=true"
     width="100%"
-    height="485"
+    height="488"
     frameborder="0"
     marginheight="0"
     marginwidth="0"
