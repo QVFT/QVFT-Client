@@ -105,6 +105,13 @@
           What We Do
         </a>
       </li>
+      <li>
+        <a
+          class:selected={segment === 'hiring'}
+          href="hiring">
+          Hiring
+        </a>
+      </li>
     </ul>
   </div>
 
