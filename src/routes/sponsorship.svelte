@@ -11,7 +11,7 @@
   div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
-    height: 95vh;
+    height: 66vh;
   }
 
   a.button {
