@@ -87,8 +87,6 @@
         <div class="itemLabel">{item.label}</div>
       </div>
     {/each}
-  </div>
-  <!div id="hiringPackageSecion">
   <h2>Hiring Package</h2>
   <div class="pdfWrapper">
     <object
@@ -103,7 +101,6 @@
         src="QVFT_Hiring.pdf"
         type="application/pdf" />
     </object>
-  <!/div>
   </div>
   <h2>Apply</h2>
   <iframe
