@@ -69,10 +69,9 @@
 <div class="contentWrapper">
   <h2>Description</h2>
   <p>
-    We are currently seeking four passionate, conscientious, creative thinkers
-    to join our team for Winter 2020. We are hiring two mechanical designers,
-    and two software engineers. Please see the Hiring Package for further
-    details. Applications close Friday, January 17th at 11:59 PM.
+    Founded in Sep. 2019, QVFT is Canada's first student-led university vertical farming design team. Vertical farming is a hyper-efficient, sustainable food cultivation method  which is projected to become a major contributor to global food production in the coming decades.
+    
+    We are currently seeking four passionate, conscientious, creative thinkers to join our team for Winter 2020. We are hiring two mechanical designers, and two software engineers. Please see Section 5 for further details. Applications close Friday, January 17th at 11:59 PM.
   </p>
   <div class="infoColumns">
     {#each info as item}
