@@ -88,24 +88,8 @@
       </div>
     {/each}
   </div>
-  <h3>Apply</h3>
-  <p>
-    Please read the
-    <a href="hiring#hiringPackageSecion">hiring package</a>
-    before applying
-  </p>
-  <iframe
-    src="https://docs.google.com/forms/d/e/1FAIpQLSd5uvv4FCd4I6nbvfFewKybUq8MBjRVlDWuwkxcO0t1d8tw8w/viewform?embedded=true"
-    width="100%"
-    height="488"
-    frameborder="0"
-    marginheight="0"
-    marginwidth="0"
-    title="Hiring form">
-    Loading…
-  </iframe>
   <div id="hiringPackageSecion">
-    <h3>Hiring Package</h3>
+    <h2>Hiring Package</h2>
     <div class="pdfWrapper">
       <object
         width="100%"
@@ -121,4 +105,19 @@
       </object>
     </div>
   </div>
+  <p>
+    Please read the
+    <a href="hiring#hiringPackageSecion">hiring package</a>
+    before applying
+  </p>
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSd5uvv4FCd4I6nbvfFewKybUq8MBjRVlDWuwkxcO0t1d8tw8w/viewform?embedded=true"
+    width="100%"
+    height="488"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    title="Hiring form">
+    Loading…
+  </iframe>
 </div>
