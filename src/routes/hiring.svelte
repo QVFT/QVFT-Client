@@ -24,7 +24,7 @@
     height: 66vh;
   }
 
-  .contentWrapper {
+  div.contentWrapper {
     margin-top: 2rem;
   }
   div.infoColumns {
@@ -88,28 +88,24 @@
       </div>
     {/each}
   </div>
-  <div id="hiringPackageSecion">
-    <h2>Hiring Package</h2>
-    <div class="pdfWrapper">
-      <object
-        width="100%"
-        height="100%"
+  <!div id="hiringPackageSecion">
+  <h2>Hiring Package</h2>
+  <div class="pdfWrapper">
+    <object
+      width="100%"
+      height="100%"
+      title="Hiring"
+      data="QVFT_Hiring.pdf"
+      type="application/pdf">
+      <embed
         title="Hiring"
-        data="QVFT_Hiring.pdf"
-        type="application/pdf">
-        <embed
-          title="Hiring"
-          width="100%"
-          src="QVFT_Hiring.pdf"
-          type="application/pdf" />
-      </object>
-    </div>
+        width="100%"
+        src="QVFT_Hiring.pdf"
+        type="application/pdf" />
+    </object>
+  <!/div>
   </div>
-  <p>
-    Please read the
-    <a href="hiring#hiringPackageSecion">hiring package</a>
-    before applying
-  </p>
+  <h2>Apply</h2>
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLSd5uvv4FCd4I6nbvfFewKybUq8MBjRVlDWuwkxcO0t1d8tw8w/viewform?embedded=true"
     width="100%"
