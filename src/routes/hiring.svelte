@@ -21,7 +21,7 @@
   div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
-    height: 66vh;
+    height: 70vh;
   }
 
   .contentWrapper {
@@ -69,7 +69,16 @@
 <div class="contentWrapper">
   <h2>Description</h2>
   <p>
-    Founded in September 2019, QVFT is Canada's first student-led university vertical farming design team. Vertical farming is a hyper-efficient, sustainable food cultivation method  which is projected to become a major contributor to global food production in the coming decades. We are currently seeking four passionate, conscientious, creative thinkers to join our team for Winter 2020. Mechanical design and software engineering roles provide opportunities to develop marketable skills including CAD, software development, mechatronics, systems design, and data analysis. Please see our Hiring Package for further details. Applications close Friday, January 17th at 11:59 PM.
+    Founded in September 2019, QVFT is Canada's first student-led university
+    vertical farming design team. Vertical farming is a hyper-efficient,
+    sustainable food cultivation method which is projected to become a major
+    contributor to global food production in the coming decades. We are
+    currently seeking four passionate, conscientious, creative thinkers to join
+    our team for Winter 2020. Mechanical design and software engineering roles
+    provide opportunities to develop marketable skills including CAD, software
+    development, mechatronics, systems design, and data analysis. Please see our
+    Hiring Package for further details. Applications close Friday, January 17th
+    at 11:59 PM.
   </p>
   <div class="infoColumns">
     {#each info as item}
@@ -84,6 +93,7 @@
         <div class="itemLabel">{item.label}</div>
       </div>
     {/each}
+  </div>
   <div id="hiringPackageSecion">
     <h2>Hiring Package</h2>
     <div class="pdfWrapper">
@@ -105,7 +115,7 @@
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLSd5uvv4FCd4I6nbvfFewKybUq8MBjRVlDWuwkxcO0t1d8tw8w/viewform?embedded=true"
     width="100%"
-    height="100%"
+    height="2950"
     frameborder="0"
     marginheight="0"
     marginwidth="0"
