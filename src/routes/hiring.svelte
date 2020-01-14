@@ -21,7 +21,7 @@
   div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
-    height: 67vh;
+    height: 66vh;
   }
 
   .contentWrapper {
