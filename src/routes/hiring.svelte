@@ -69,12 +69,9 @@
 <div class="contentWrapper">
   <h2>Description</h2>
   <p>
-    <p>
-      Founded in September 2019, QVFT is Canada's first student-led university vertical farming design team. Vertical farming is a hyper-efficient, sustainable food cultivation method  which is projected to become a major contributor to global food production in the coming decades.
-    </p>
-    <p>  
+    Founded in September 2019, QVFT is Canada's first student-led university vertical farming design team. Vertical farming is a hyper-efficient, sustainable food cultivation method  which is projected to become a major contributor to global food production in the coming decades.
     We are currently seeking four passionate, conscientious, creative thinkers to join our team for Winter 2020. Mechanical design and software engineering roles provide opportunities to develop marketable skills including CAD, software development, mechatronics, systems design, and data analysis. Please see our Hiring Package for further details. Applications close Friday, January 17th at 11:59 PM.
-    </p>
+  </p>
   </p>
   <div class="infoColumns">
     {#each info as item}
