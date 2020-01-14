@@ -27,14 +27,6 @@
   .contentWrapper {
     margin-top: 2rem;
   }
-  @media (max-width: 700px) {
-    .mobile {
-      display: flex !important;
-    }
-    .desktop {
-      display: none;
-    }
-  }
   div.infoColumns {
     margin: 2rem 0 1rem;
     display: flex;
@@ -74,7 +66,7 @@
 </svelte:head>
 
 <PageHeader>Hiring</PageHeader>
-<div class="contentWrapper desktop">
+<div class="contentWrapper">
   <h2>Description</h2>
   <p>
     We are currently seeking four passionate, conscientious, creative thinkers
@@ -104,7 +96,7 @@
   </p>
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLSd5uvv4FCd4I6nbvfFewKybUq8MBjRVlDWuwkxcO0t1d8tw8w/viewform?embedded=true"
-    width="750"
+    width="100%"
     height="800"
     frameborder="0"
     marginheight="0"
