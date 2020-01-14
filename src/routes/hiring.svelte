@@ -24,7 +24,7 @@
     height: 66vh;
   }
 
-  div.contentWrapper {
+  .contentWrapper {
     margin-top: 2rem;
   }
   div.infoColumns {
@@ -86,20 +86,23 @@
         <div class="itemLabel">{item.label}</div>
       </div>
     {/each}
-  <h2>Hiring Package</h2>
-  <div class="pdfWrapper">
-    <object
-      width="100%"
-      height="100%"
-      title="Hiring"
-      data="QVFT_Hiring.pdf"
-      type="application/pdf">
-      <embed
-        title="Hiring"
+  </div>
+  <div id="hiringPackageSecion">
+    <h2>Hiring Package</h2>
+    <div class="pdfWrapper">
+      <object
         width="100%"
-        src="QVFT_Hiring.pdf"
-        type="application/pdf" />
-    </object>
+        height="100%"
+        title="Hiring"
+        data="QVFT_Hiring.pdf"
+        type="application/pdf">
+        <embed
+          title="Hiring"
+          width="100%"
+          src="QVFT_Hiring.pdf"
+          type="application/pdf" />
+      </object>
+    </div>
   </div>
   <h2>Apply</h2>
   <iframe
