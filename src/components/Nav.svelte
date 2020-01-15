@@ -91,18 +91,11 @@
     </div>
     <ul>
       <li>
-        <a class:selected={segment === 'team'} href="team">Our Team</a>
+        <a class:selected={segment === 'what-we-do'} href="what-we-do">What We Do</a>
       </li>
       <li>
-        <a class:selected={segment === 'sponsorship'} href="sponsorship">
-          Sponsorship
-        </a>
-      </li>
-      <li>
-        <a
-          class:selected={segment === 'what-we-do'}
-          href="what-we-do">
-          What We Do
+        <a class:selected={segment === 'team'} href="team">
+          Our Team
         </a>
       </li>
       <li>
@@ -110,6 +103,13 @@
           class:selected={segment === 'hiring'}
           href="hiring">
           Hiring
+        </a>
+      </li>
+      <li>
+        <a
+          class:selected={segment === 'sponsorship'}
+          href="sponsorship">
+          Sponsorship
         </a>
       </li>
     </ul>
