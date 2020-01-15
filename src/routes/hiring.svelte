@@ -150,7 +150,7 @@
       </object>
     </div>
     <div class="buttonWrapper mobile">
-      <a class="button" href="QVFT_Sponsorship.pdf">View Sponsorship Package</a>
+      <a class="button" href="QVFT_Hiring.pdf">View Hiring Package</a>
     </div>
   </div>
   <h2>Apply</h2>
