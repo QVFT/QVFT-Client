@@ -59,6 +59,42 @@
   iframe {
     margin-bottom: 2rem;
   }
+
+  .mobile {
+    display: none;
+    justify-content: center;
+  }
+
+  div.buttonWrapper {
+    text-align: center;
+  }
+  a.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: white;
+    text-decoration: none;
+    background-color: var(--themeColorDark);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 2px 2px #dedededd;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  @media (max-width: 700px) {
+    .mobile {
+      display: block !important;
+    }
+    .desktop {
+      display: none;
+    }
+  }
 </style>
 
 <svelte:head>
@@ -96,7 +132,7 @@
   </div>
   <div id="hiringPackageSecion">
     <h2>Hiring Package</h2>
-    <div class="pdfWrapper">
+    <div class="pdfWrapper desktop">
       <object
         width="100%"
         height="100%"
@@ -110,12 +146,15 @@
           type="application/pdf" />
       </object>
     </div>
+    <div class="buttonWrapper mobile">
+      <a class="button" href="QVFT_Sponsorship.pdf">View Sponsorship Package</a>
+    </div>
   </div>
   <h2>Apply</h2>
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLSd5uvv4FCd4I6nbvfFewKybUq8MBjRVlDWuwkxcO0t1d8tw8w/viewform?embedded=true"
     width="100%"
-    height="2950"
+    height="3000"
     frameborder="0"
     marginheight="0"
     marginwidth="0"
