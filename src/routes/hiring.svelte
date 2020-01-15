@@ -28,7 +28,6 @@
     margin-top: 2rem;
   }
   div.infoColumns {
-    margin: 2rem 0 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -87,6 +86,10 @@
     display: none;
   }
 
+  div#hiringPackageSection {
+    margin-bottom: 5rem;
+  }
+
   @media (max-width: 700px) {
     .mobile {
       display: block !important;
@@ -130,7 +133,7 @@
       </div>
     {/each}
   </div>
-  <div id="hiringPackageSecion">
+  <div id="hiringPackageSection">
     <h2>Hiring Package</h2>
     <div class="pdfWrapper desktop">
       <object
