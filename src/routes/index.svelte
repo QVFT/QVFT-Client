@@ -108,7 +108,7 @@
     </div>
   </div>
   <div class="contentWrapper">
-    <h2>Progress</h2>
+    <h2>Timeline</h2>
     <Timeline {timeline} />
   </div>
 </div>
