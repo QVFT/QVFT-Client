@@ -19,6 +19,15 @@
     "blurb": "Ross is a 4th year computing student specializing in software design. Ross held a leadership role on the 2018/19 QHacks team, developing an online platform that served the hundreds of participants in the hackathon. Ross spent this past summer working at Verafin, a financial technology firm focused on fraud detection and the prevention of money laundering. His role involved the analysis of data from hundreds of financial institutions to develop new heuristics for detecting high-risk customers. Ross is applying his background in software design and data analytics to his role as Director of Systems Automation."
   },
   {
+    "name": "Luke Emblem",
+    "position": "Finance Director",
+    "yearMajor": "3rd Year Economics",
+    "email": "17jle@queensu.ca",
+    "image": "Luke",
+    "linkedIn": "luke-emblem-996b24161"
+    "blurb": "Luke is a 3rd year economics student interested in sustainability issues related to cities. He spent last year interning at MacKinnon Development, a landlord in Kingston, where he gained an understanding of the legal, financial and human side of real estate. Luke applies these skills to his role as financial director. His interests include reading, playing harmonica and cheering for the Montreal Canadians."
+  }
+  {
     "name": "Liam Strachan",
     "position": "Sponsorship Director",
     "yearMajor": "4th Year Economics",
@@ -71,12 +80,4 @@
     "gitHub": "abdulelahrizan",
     "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as a Software Engineer on QVFT’s Systems Automation Team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
   },
-  {
-    "name": "Luke Emblem",
-    "position": "Finance Director",
-    "yearMajor": "3rd Year Economics",
-    "email": "17jle@queensu.ca",
-    "image": "placeholder",
-    "linkedIn": "luke-emblem-996b24161"
-  }
 ]
