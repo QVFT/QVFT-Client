@@ -22,8 +22,8 @@
 
 <style>
   .imageWrapper {
-    height: 390px;
-    width: 390px;
+    height: 300px;
+    width: 300px;
     overflow: hidden;
     margin-bottom: 0.7rem;
     position: relative;
@@ -75,7 +75,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 3rem auto 0;
-    max-width: calc(410px * 2);
+    max-width: calc(310px * 3);
   }
   div.teamMember {
     display: flex;
