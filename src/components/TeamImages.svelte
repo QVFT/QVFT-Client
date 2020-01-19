@@ -22,8 +22,8 @@
 
 <style>
   .imageWrapper {
-    height: 300px;
-    width: 300px;
+    height: 290px;
+    width: 290px;
     overflow: hidden;
     margin-bottom: 0.7rem;
     position: relative;
