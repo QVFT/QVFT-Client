@@ -75,7 +75,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 3rem auto 0;
-    max-width: calc(350px * 3);
+    max-width: calc(370px * 3);
   }
   div.teamMember {
     display: flex;
