@@ -1,7 +1,7 @@
 [
   {
     "name": "Patrick Singal",
-    "position": "Managing Director | Biomechanical Engineering",
+    "position": "Managing Director",
     "yearMajor": "3rd Year Biomechanical Engineering",
     "image": "Patrick",
     "email": "p.singal@queensu.ca",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Ross Hill",
-    "position": "Systems Automation Director | Computing",
+    "position": "Systems Automation Director",
     "yearMajor": "4th Year Computing",
     "image": "Ross",
     "email": "ross.hill@queensu.ca",
@@ -20,7 +20,7 @@
   },
   {
     "name": "Luke Emblem",
-    "position": "Finance Director | Economics",
+    "position": "Finance Director",
     "yearMajor": "3rd Year Economics",
     "email": "17jle@queensu.ca",
     "image": "Luke",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Liam Strachan",
-    "position": "Sponsorship Director | Economics",
+    "position": "Sponsorship Director",
     "yearMajor": "4th Year Economics",
     "image": "Liam",
     "email": "16lks1@queensu.ca",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Zwetlana Rajesh",
-    "position": "Plant Science Director | Health Studies",
+    "position": "Plant Science Director",
     "yearMajor": "2nd Year Health Studies",
     "image": "Zwetlana",
     "email": "16zr5@queensu.ca",
@@ -45,7 +45,7 @@
   },
   {
     "name": "Michael Mills",
-    "position": "Logistics Director | Engineering Physics",
+    "position": "Logistics Director",
     "yearMajor": "4th Year Engineering Physics – Mech Option",
     "email": "15mm182@queensu.ca",
     "image": "Michael",
@@ -63,7 +63,7 @@
   },
   {
     "name": "David Altrows",
-    "position": "Software Engineer | Biomechanical Engineering",
+    "position": "Software Engineer",
     "yearMajor": "4th Year Biomechanical Engineering",
     "image": "David",
     "email": "david.altrows@queensu.ca",
@@ -72,7 +72,7 @@
   },
   {
     "name": "Abdul Elah (Abu) Rizan",
-    "position": "Software Engineer | Mechanical Engineering",
+    "position": "Software Engineer",
     "yearMajor": "5th Year Mechanical Engineering",
     "email": "15aeam@queensu.ca",
     "linkedIn": "abdulelahr",
