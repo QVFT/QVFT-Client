@@ -5,6 +5,8 @@
 <PageHeader>Dashboard</PageHeader>
 <div class="contentWrapper">
   <h3>Overview</h3>
-  The is the QVFT Dashboard, where you can view environment variables and set
-  environment targets
+  <p>
+    The is the QVFT Dashboard, where you can view environment variables and set
+    environment targets
+  </p>
 </div>
