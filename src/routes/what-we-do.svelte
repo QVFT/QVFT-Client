@@ -92,16 +92,16 @@
   </p>
   <div class="imageWrapper">
     <picture class="diagram">
-      <source srcset="AeroFarmsTigris.webp" type="image/webp" />
-      <source srcset="AeroFarmsTigris.jpg" type="image/jpg" />
-      <img src="AeroFarmsTigris.jpg" alt="Queen's Vertical Farming Team" />
+      <source srcset="ZipGrow.webp" type="image/webp" />
+      <source srcset="ZipGrow.jpg" type="image/jpg" />
+      <img src="ZipGrow.jpg" alt="Queen's Vertical Farming Team" />
     </picture>
     <a
       class="attribution"
       rel="noopener noreferrer"
-      href="https://aerofarms.com/"
+      href="https://zipgrow.com/"
       target="_blank">
-      AeroFarms.com
+      ZipGrow.com
     </a>
   </div>
   <h2>Aeroponics</h2>
