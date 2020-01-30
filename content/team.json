@@ -72,6 +72,13 @@
     "blurb": "David is a 4th year biomechanical engineering student with diverse experience in technical and non-technical roles. This summer, he completed the QICSI entrepreneurship program and led a successful start-up organization. He is currently a member of the Queen’s Formula SAE design team and works as an Englinks workshop instructor and tutor. Given his leadership experience and background in mechatronics and CAD, David brings a well-rounded skillset to his role as Software Engineer at QVFT."
   },
   {
+    "name": "Michael Wrana",
+    "position": "Software Engineer",
+    "yearMajor": "4th Year Computing",
+    "image": "Wrana",
+    "email": "16mmw@queensu.ca"
+  },
+  {
     "name": "Abdul Elah (Abu) Rizan",
     "position": "Software Engineer",
     "yearMajor": "5th Year Mechanical Engineering",
@@ -80,5 +87,32 @@
     "image": "Abu",
     "gitHub": "abdulelahrizan",
     "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as a Software Engineer on QVFT’s Systems Automation Team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
+  },
+  {
+    "name": "Spencer Blahey",
+    "position": "Mechanical Designer",
+    "yearMajor": "3rd Year Mechanical Engineering",
+    "image": "Spencer",
+    "email": "spencer.blahey@queensu.ca",
+    "linkedIn": "spencer-blahey-a9b084160",
+    "blurb": "Spencer is a 3rd year mechanical engineering student with a background in both technical and design roles. Over the past two summers he worked for Newmont Goldcorp in one of their underground goldmines servicing heavy-duty machinery and learning about the operation. In the upcoming year he hopes to take on a surveying position with the engineering department at the same site. At Queen’s he is currently a member of the Baja SAE design team and has developed the first iteration of the 4WD driveshaft system. Spencer saw vertical farming as an intriguing application of his engineering degree and hopes to further his design and modelling experience."
+  },
+  {
+    "name": "Daniel Tameer",
+    "position": "Mechanical Designer",
+    "yearMajor": "3rd Year Mechanical Engineering",
+    "image": "Daniel",
+    "email": "16djt4@queensu.ca",
+    "linkedIn": "daniel-tameer-21694a192",
+    "blurb": "Daniel is a 3rd year mechanical engineering student with an interest in mechanics of materials. He spent this past summer interning at KIRCHHOFF Automotive in the R&D department, where he focused on performing mechanical tests for different parts to ensure they satisfied design requirements, presenting benchmarking studies and test results, and analyzing data using Microsoft Excel, Python, and MATLAB. With Daniel’s background and experience in solid mechanics and mathematical modelling, he brings a strong skillset to his role as Mechanical Designer at QVFT."
+  },
+  {
+    "name": "Kelly Weiling Zou",
+    "position": "Plant Specialist",
+    "yearMajor": "3rd Year Commerce",
+    "image": "Kelly",
+    "email": "kelly.zou@queensu.ca",
+    "linkedIn": "kellywzou",
+    "blurb": "Kelly is a 3rd year Commerce student specializing in environmental sustainability and public policy. As the Divestment Researcher for Queen’s Backing Action on Climate Change (QBACC), she is responsible for examining the feasibility and impact of divestment from fossil fuels for Queen’s University. Currently, she is working with the Divestment team to re-examine Queen’s current investment policies with regard to fiduciary duty and socially responsible investing. To combat ongoing failures to address climate change systemically, Kelly is a strong advocate for community-based organizing. She believes that agroecology is key to dismantling the industrial agricultural complex which contributes immensely to climate change and food shortage. In her spare time, Kelly enjoys listening to R&B, critical discussions on capitalism, and cooking."
   }
 ]
