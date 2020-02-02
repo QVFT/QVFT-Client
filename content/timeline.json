@@ -1,75 +1,54 @@
 [
   {
-    "date": "2019-11",
-    "title": "Hire 2019-20 Executive Members",
-    "complete": true
-  },
-  {
-    "date": "2019-12",
-    "title": "Set Goals and Develop Implementation Strategies",
-    "complete": true
-  },
-  {
-    "date": "2019-12",
-    "title": "Begin Sponsorship Outreach",
-    "complete": true
-  },
-  {
-    "date": "2019-12",
-    "title": "Research and Design Phase I",
+    "date": "Winter 2020",
+    "title": "Acquire Proposal Ratification",
     "subpoints": [
-      "Complete technical overview of controlled-environment agriculture (CEA) system",
-      "Complete technical overview of mechanical system"
+      "Consult with faculty heads and other Queen's administration",
+      "Gain approval for space on campus"
     ],
-    "complete": true,
-    "marginTop": "-1rem"
   },
   {
-    "date": "2020-01",
-    "title": "Hire 2020 General Members"
+    "date": "Winter 2020",
+    "title": "Hire 2020-21 Management Team"
   },
   {
-    "date": "2020-01",
-    "title": "Participate in Commerce & Engineering Environmental Conference Trade Show",
-    "marginTop": "-1.5rem"
-  },
-  {
-    "date": "2020-01",
-    "title": "Research and Design Phase II",
+    "date": "Summer 2020",
+    "title": "Execute Development Plan",
     "subpoints": [
-      "Initiate CEA hardware and software development",
-      "Research plant germination strategies, nutritional requirements, lighting cycles, and water consumption",
-      "Develop a step-by-step plant cultivation protocol"
+      "Renovate designated space using contractor selected by Queen's; ongoing design input provided by QVFT and ZipGrow",
+      "Complete ZipFarm installation",
+      "QVFT senior management team completes operational training provided by ZipGrow"
     ],
-    "marginTop": "-1rem"
   },
   {
-    "date": "2020-02",
-    "title": "Research and Design Phase III",
+    "date": "Summer 2020",
+    "title": "Supply Chain Management",
     "subpoints": [
-      "CEA system is in beta",
-      "Finalize all CAD drawings for custom parts",
-      "Finalize plant cultivation protocol and complete research report"
-    ]
+      "Pursue arrangement with Queen's Hospitality Services",
+      "Pursue arrangement with on-campus and off-campus businesses",
+      "Finalize planned production and delivery cycles"
+    ],
   },
   {
-    "date": "2020-02",
-    "title": "Prototyping and Experimentation Phase I",
-    "subpoints": ["Manufacture custom parts", "Order non-custom parts"],
-    "marginTop": "-5rem"
+    "date": "Fall 2020",
+    "title": "Hire 2020–21 General Members",
+    "subpoints": [
+      "Organize delivery ",
+      "Pursue arrangements with on-campus and off-campus businesses"
+    ],
   },
   {
-    "date": "2020-03",
-    "title": "Hire 2020-21 Executive Members"
+    "date": "Fall 2020",
+    "title": "Intial Production Trial Runs",
+    "subpoints": [
+      "QVFT general members complete operational training provided by ZipGrow",
+      "Run through several production cycle trial runs, eliminating issues as they arise",
+      "Gradually ease into commercial production, beginning with smallest-scale partner (e.g. the Tea Room)"
+    ],
   },
   {
-    "date": "2020-03",
-    "title": "Prototyping and Experimentation Phase II",
-    "subpoints": ["Begin plant germination process"],
-    "marginTop": "-1rem"
-  },
-  {
-    "date": "2020-04",
-    "title": "Wrap Up Efforts and Prepare to Resume in September 2020"
+    "date": "Fall 2020",
+    "title": "Commence Full-Scale Commercial Production"
+    ],
   }
 ]
