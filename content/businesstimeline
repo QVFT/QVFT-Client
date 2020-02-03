@@ -1,6 +1,6 @@
 [
   {
-    "date": "2020-02",
+    "date": "2020-02",    // Should say "Winter 2020"
     "title": "Acquire Proposal Ratification",
     "subpoints": [
       "Consult with faculty heads and other Queen's administration",
@@ -8,11 +8,11 @@
     ],
   },
   {
-    "date": "2020-02",
+    "date": "2020-02",    // Should say "Winter 2020"
     "title": "Hire 2020-21 Management Team"
   },
   {
-    "date": "2020-05",
+    "date": "2020-05",    // Should say "Summer 2020"
     "title": "Execute Development Plan",
     "subpoints": [
       "Renovate designated space using contractor selected by Queen's; ongoing design input provided by QVFT and ZipGrow",
@@ -21,7 +21,7 @@
     ],
   },
   {
-    "date": "2020-05",
+    "date": "2020-05",    // Should say "Summer 2020"
     "title": "Supply Chain Management",
     "subpoints": [
       "Pursue arrangement with Queen's Hospitality Services",
@@ -30,7 +30,7 @@
     ],
   },
   {
-    "date": "2020-09",
+    "date": "2020-09",    // Should say "Fall 2020"
     "title": "Hire 2020–21 General Members",
     "subpoints": [
       "Organize delivery ",
@@ -38,7 +38,7 @@
     ],
   },
   {
-    "date": "2020-09",
+    "date": "2020-09",    // Should say "Fall 2020"
     "title": "Intial Production Trial Runs",
     "subpoints": [
       "QVFT general members complete operational training provided by ZipGrow",
@@ -47,7 +47,7 @@
     ],
   },
   {
-    "date": "2020-09",
+    "date": "2020-09",    // Should say "Fall 2020"
     "title": "Commence Full-Scale Commercial Production"
   }
 ]
