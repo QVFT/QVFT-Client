@@ -4,6 +4,9 @@
   onMount(async () => {
     gtag("config", "UA-93549235-6", { page_path: "/CEEC" });
   });
+  
+  const info = [
+  ];
 </script>
 
 <style>
@@ -14,20 +17,6 @@
   }
   .contentWrapper {
     margin-top: 2rem;
-  }
-  div.infoColumns {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  div.imageWrapper {
-    height: 6rem;
-    width: 6rem;
-    margin-bottom: 1.8rem;
-  }
-  div.imageWrapper img {
-    max-width: 100%;
-    max-height: 100%;
   }
   div.item {
     display: flex;
@@ -119,7 +108,7 @@
   <iframe 
     src="https://docs.google.com/forms/d/e/1FAIpQLScNUqCycnsKIWjNFad4DiHPWmsiJ-eqbMDS3HqOxbTdMmAfeQ/viewform?embedded=true" 
     width="100%" 
-    height="3000" 
+    height="100%" 
     frameborder="0" 
     marginheight="0" 
     marginwidth="0"
