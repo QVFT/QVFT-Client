@@ -1,0 +1,129 @@
+<script>
+  import { onMount } from "svelte";
+  import PageHeader from "../components/PageHeader.svelte";
+  onMount(async () => {
+    gtag("config", "UA-93549235-6", { page_path: "/CEEC" });
+  });
+</script>
+
+<style>
+  div.pdfWrapper {
+    margin-top: 2rem;
+    width: 100%;
+    height: 70vh;
+  }
+  .contentWrapper {
+    margin-top: 2rem;
+  }
+  div.infoColumns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  div.imageWrapper {
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 1.8rem;
+  }
+  div.imageWrapper img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  div.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    text-align: center;
+    padding: 2rem;
+  }
+  div.itemLabel {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--darkGrey);
+  }
+  iframe {
+    margin-bottom: 2rem;
+  }
+  .mobile {
+    display: none;
+    justify-content: center;
+  }
+  div.buttonWrapper {
+    text-align: center;
+  }
+  a.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: white;
+    text-decoration: none;
+    background-color: var(--themeColorDark);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 2px 2px #dedededd;
+  }
+  .mobile {
+    display: none;
+  }
+  div#hiringPackageSection {
+    margin-bottom: 5rem;
+  }
+  @media (max-width: 700px) {
+    .mobile {
+      display: block !important;
+    }
+    .desktop {
+      display: none;
+    }
+  }
+</style>
+
+<svelte:head>
+  <title>Queen's Vertical Farming Team</title>
+</svelte:head>
+
+<PageHeader>CEEC Questionnaire</PageHeader>
+<div class="contentWrapper">
+  <h2>Description</h2>
+  <p>
+    Founded in September 2019, QVFT is Canada's first student-led university
+    vertical farming design team. Vertical farming is a hyper-efficient,
+    sustainable food cultivation method which is projected to become a major
+    contributor to global food production in the coming decades. Our mission is to develop a functional, small-scale vertical farm. Drawing inspiration from the best current commercial practices, our goal is to gain a foothold as an innovator in a rapidly expanding industry.
+  </p>
+  <div id="hiringPackageSection">
+    <h2>Information Package</h2>
+    <div class="pdfWrapper desktop">
+      <object
+        width="100%"
+        height="100%"
+        title="Information"
+        data="QVFT_Information.pdf"
+        type="application/pdf">
+        <embed
+          title="Information"
+          width="100%"
+          src="QVFT_Information.pdf"
+          type="application/pdf" />
+      </object>
+    </div>
+    <div class="buttonWrapper mobile">
+      <a class="button" href="QVFT_Information.pdf">View Information Package</a>
+    </div>
+  </div>
+  //<h2>Questionnaire</h2>
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLScNUqCycnsKIWjNFad4DiHPWmsiJ-eqbMDS3HqOxbTdMmAfeQ/viewform?embedded=true" 
+    width="100%" 
+    height="3000" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0"
+    title="Questionnaire">
+    Loading…
+  </iframe>
+</div>
