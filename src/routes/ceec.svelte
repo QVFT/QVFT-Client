@@ -9,8 +9,8 @@
 <style>
   div.pdfWrapper {
     margin-top: 2rem;
-    width: 100%;
-    height: 90vh;
+    width: 60%;
+    height: 60vh;
   }
   .contentWrapper {
     margin-top: 2rem;
@@ -92,7 +92,7 @@
   <iframe 
     src="https://docs.google.com/forms/d/e/1FAIpQLScNUqCycnsKIWjNFad4DiHPWmsiJ-eqbMDS3HqOxbTdMmAfeQ/viewform?embedded=true" 
     width="100%" 
-    height="3000" 
+    height="2000" 
     frameborder="0" 
     marginheight="0" 
     marginwidth="0"
