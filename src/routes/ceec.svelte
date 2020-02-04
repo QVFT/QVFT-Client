@@ -4,55 +4,16 @@
   onMount(async () => {
     gtag("config", "UA-93549235-6", { page_path: "/ceec" });
   });
-  
-  const info = [
-    {
-      label: "2 Mechanical Designers",
-      img: "Gears_Icon"
-    },
-    {
-      label: "2 Software Engineers",
-      img: "Laptop_Icon"
-    }
-  ];
 </script>
 
 <style>
   div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
-    height: 70vh;
+    height: 90vh;
   }
   .contentWrapper {
     margin-top: 2rem;
-  }
-  
-  div.infoColumns {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  div.imageWrapper {
-    height: 6rem;
-    width: 6rem;
-    margin-bottom: 1.8rem;
-  }
-  div.imageWrapper img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  div.item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 12rem;
-    text-align: center;
-    padding: 2rem;
-  }
-  div.itemLabel {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--darkGrey);
   }
   
   iframe {
@@ -131,7 +92,7 @@
   <iframe 
     src="https://docs.google.com/forms/d/e/1FAIpQLScNUqCycnsKIWjNFad4DiHPWmsiJ-eqbMDS3HqOxbTdMmAfeQ/viewform?embedded=true" 
     width="100%" 
-    height="100%" 
+    height="3000" 
     frameborder="0" 
     marginheight="0" 
     marginwidth="0"
