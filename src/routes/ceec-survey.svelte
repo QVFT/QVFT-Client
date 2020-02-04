@@ -43,7 +43,6 @@
 <PageHeader>CEEC Survey</PageHeader>
 <div class="contentWrapper">
   <div id="infoPackageSection">
-    <h2>Information Package</h2>
     <div class="buttonWrapper">
       <a class="button" href="QVFT_Information.pdf">View Information Package</a>
     </div>
