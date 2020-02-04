@@ -98,13 +98,13 @@
           Our Team
         </a>
       </li>
-      <li>
-        <a
-          class:selected={segment === 'hiring'}
-          href="hiring">
-          Hiring
-        </a>
-      </li>
+      //<li>
+        //<a
+          //class:selected={segment === 'hiring'}
+          //href="hiring">
+          //Hiring
+        //</a>
+      //</li>
       <li>
         <a
           class:selected={segment === 'sponsorship'}
