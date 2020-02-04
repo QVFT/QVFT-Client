@@ -4,9 +4,6 @@
   onMount(async () => {
     gtag("config", "UA-93549235-6", { page_path: "/CEEC" });
   });
-  
-  const info = [
-  ];
 </script>
 
 <style>
@@ -17,19 +14,6 @@
   }
   .contentWrapper {
     margin-top: 2rem;
-  }
-  div.item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 12rem;
-    text-align: center;
-    padding: 2rem;
-  }
-  div.itemLabel {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--darkGrey);
   }
   iframe {
     margin-bottom: 2rem;
@@ -58,7 +42,7 @@
   .mobile {
     display: none;
   }
-  div#hiringPackageSection {
+  div#infoPackageSection {
     margin-bottom: 5rem;
   }
   @media (max-width: 700px) {
@@ -84,7 +68,7 @@
     sustainable food cultivation method which is projected to become a major
     contributor to global food production in the coming decades. Our mission is to develop a functional, small-scale vertical farm. Drawing inspiration from the best current commercial practices, our goal is to gain a foothold as an innovator in a rapidly expanding industry.
   </p>
-  <div id="hiringPackageSection">
+  <div id="infoPackageSection">
     <h2>Information Package</h2>
     <div class="pdfWrapper desktop">
       <object
