@@ -100,21 +100,9 @@
       </li>
       <li>
         <a
-          class:selected={segment === 'hiring'}
-          href="hiring">
-          
-        </a>
-      </li>
-      <li>
-        <a
           class:selected={segment === 'sponsorship'}
           href="sponsorship">
           Sponsorship
-        </a>
-      </li>
-      <li>
-        <a class:selected={segment === 'ceec'} href="ceec">
-          
         </a>
       </li>
     </ul>
