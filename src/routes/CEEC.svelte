@@ -104,7 +104,6 @@
       <a class="button" href="QVFT_Information.pdf">View Information Package</a>
     </div>
   </div>
-  //<h2>Questionnaire</h2>
   <iframe 
     src="https://docs.google.com/forms/d/e/1FAIpQLScNUqCycnsKIWjNFad4DiHPWmsiJ-eqbMDS3HqOxbTdMmAfeQ/viewform?embedded=true" 
     width="100%" 
