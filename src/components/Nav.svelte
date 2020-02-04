@@ -102,7 +102,7 @@
         <a
           class:selected={segment === 'hiring'}
           href="hiring">
-          Hiring
+          
         </a>
       </li>
       <li>
@@ -114,7 +114,7 @@
       </li>
       <li>
         <a class:selected={segment === 'ceec'} href="ceec">
-          CEEC
+          
         </a>
       </li>
     </ul>
