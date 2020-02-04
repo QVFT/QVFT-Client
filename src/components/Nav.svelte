@@ -107,9 +107,8 @@
       </li>
       <li>
         <a 
-          class:selected={segment === 'ceec'} 
-          display: none;
-          href="ceec">
+          class:selected={segment === 'ceec-survey'} 
+          href="ceec-survey">
           
         </a>
       </li>
