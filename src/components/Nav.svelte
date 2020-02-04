@@ -112,6 +112,11 @@
           Sponsorship
         </a>
       </li>
+      <li>
+        <a class:selected={segment === 'ceec'} href="ceec">
+          CEEC
+        </a>
+      </li>
     </ul>
   </div>
 
