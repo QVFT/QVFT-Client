@@ -42,6 +42,12 @@
 
 <PageHeader>CEEC Survey</PageHeader>
 <div class="contentWrapper">
+  <h2></h2>	
+  <div id="infoPackageSection">	
+    <div class="buttonWrapper">	
+      <a class="button" href="QVFT_Information.pdf">View Information Package</a>	
+    </div>	
+  </div>
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLScNUqCycnsKIWjNFad4DiHPWmsiJ-eqbMDS3HqOxbTdMmAfeQ/viewform?embedded=true"
     width="100%"
