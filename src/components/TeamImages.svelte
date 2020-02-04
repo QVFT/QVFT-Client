@@ -224,10 +224,10 @@
               srcset="{`/team/${selectedMember.image}`}.webp"
               type="image/webp" />
             <source
-              srcset="{`/team/${selectedMember.image}`}.jpeg"
-              type="image/jpg" />
+              srcset="{`/team/${selectedMember.image}`}.jpg"
+              type="image/jpeg" />
             <img
-              src="{`/team/${selectedMember.image}`}.jpeg"
+              src="{`/team/${selectedMember.image}`}.jpg"
               alt={selectedMember.name} />
           </picture>
         </div>
@@ -290,8 +290,8 @@
       <div class="imageWrapper">
         <picture class="teamMemberImage">
           <source srcset="{`/team/${member.image}`}.webp" type="image/webp" />
-          <source srcset="{`/team/${member.image}`}.jpeg" type="image/jpg" />
-          <img src="{`/team/${member.image}`}.jpeg" alt={member.name} />
+          <source srcset="{`/team/${member.image}`}.jpg" type="image/jpeg" />
+          <img src="{`/team/${member.image}`}.jpg" alt={member.name} />
         </picture>
         <div class="caption">
           <div class="name">{member.name}</div>

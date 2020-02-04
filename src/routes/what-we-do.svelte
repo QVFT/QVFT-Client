@@ -93,7 +93,7 @@
   <div class="imageWrapper">
     <picture class="diagram">
       <source srcset="ZipGrow.webp" type="image/webp" />
-      <source srcset="ZipGrow.jpg" type="image/jpg" />
+      <source srcset="ZipGrow.jpg" type="image/jpeg" />
       <img src="ZipGrow.jpg" alt="Queen's Vertical Farming Team" />
     </picture>
     <a
@@ -117,7 +117,7 @@
   <div class="imageWrapper large padding">
     <picture class="AeroponicSys">
       <source srcset="AeroponicSys.webp" type="image/webp" />
-      <source srcset="AeroponicSys.jpg" type="image/jpg" />
+      <source srcset="AeroponicSys.jpg" type="image/jpeg" />
       <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
     </picture>
     <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
