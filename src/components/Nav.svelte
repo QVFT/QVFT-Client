@@ -105,6 +105,22 @@
           Sponsorship
         </a>
       </li>
+      <li>
+        <a
+          class:selected={segment === 'hiring'}
+          display: none;
+          href="hiring">
+          Hiring
+        </a>
+      </li>
+      <li>
+        <a 
+          class:selected={segment === 'ceec'} 
+          display: none;
+          href="ceec">
+          CEEC
+        </a>
+      </li>
     </ul>
   </div>
 
