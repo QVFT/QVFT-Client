@@ -60,7 +60,7 @@
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 
-<PageHeader>CEEC</PageHeader>
+<PageHeader>CEEC Survey</PageHeader>
 <div class="contentWrapper">
   <div id="infoPackageSection">
     <h2>Information Package</h2>
