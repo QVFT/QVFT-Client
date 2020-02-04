@@ -62,13 +62,6 @@
 
 <PageHeader>CEEC</PageHeader>
 <div class="contentWrapper">
-  <h2>Description</h2>
-  <p>
-    Founded in September 2019, QVFT is Canada's first student-led university
-    vertical farming design team. Vertical farming is a hyper-efficient,
-    sustainable food cultivation method which is projected to become a major
-    contributor to global food production in the coming decades. Our mission is to develop a functional, small-scale vertical farm. Drawing inspiration from the best current commercial practices, our goal is to gain a foothold as an innovator in a rapidly expanding industry.
-  </p>
   <div id="infoPackageSection">
     <h2>Information Package</h2>
     <div class="pdfWrapper desktop">
