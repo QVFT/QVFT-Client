@@ -15,6 +15,24 @@
   ];
 </script>
 
+<script>
+  <h2>Our Partners</h2>
+  const info = [
+    {
+      label: "Aeroponic Farming",
+      img: "ZipGrow Logo"
+    },
+    {
+      label: "Premium Produce",
+      img: "SIMBL Logo"
+    },
+    {
+      label: "Dedicated Growers",
+      img: "Artsci Logo"
+    }
+  ];
+</script>
+
 <style>
   div.infoColumns {
     margin: 2rem 0 1rem;
