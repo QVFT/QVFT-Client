@@ -19,15 +19,15 @@
   <h2>Our Partners</h2>
   const info = [
     {
-      label: "Aeroponic Farming",
+      label: "",
       img: "ZipGrow Logo"
     },
     {
-      label: "Premium Produce",
+      label: "",
       img: "SIMBL Logo"
     },
     {
-      label: "Dedicated Growers",
+      label: "",
       img: "Artsci Logo"
     }
   ];
