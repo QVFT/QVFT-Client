@@ -15,24 +15,6 @@
   ];
 </script>
 
-<script>
-  <h2>Our Partners</h2>
-  const info = [
-    {
-      label: "",
-      img: "ZipGrow Logo"
-    },
-    {
-      label: "",
-      img: "SIMBL Logo"
-    },
-    {
-      label: "",
-      img: "Artsci Logo"
-    }
-  ];
-</script>
-
 <style>
   div.infoColumns {
     margin: 2rem 0 1rem;
