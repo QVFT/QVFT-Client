@@ -13,6 +13,7 @@
 
   import Timeline from "../components/Timeline.svelte";
   import InfoColumns from "../components/InfoColumns.svelte";
+  import SponsorImages from "../components/SponsorImages.svelte";
 
   onMount(async () => {
     gtag("config", "UA-93549235-6", { page_path: "/" });
@@ -50,10 +51,15 @@
     box-sizing: border-box;
   }
 
-  div.infoColumnSection {
+  div.infoColumnSection,
+  div.timelineSection {
     background-color: #f9f9f9;
     padding: 3rem 0;
+  }
+
+  div.partnersSection {
     margin-bottom: 6rem;
+    padding: 3rem 0;
   }
 
   div.logoWrapper {
@@ -107,8 +113,17 @@
       <InfoColumns />
     </div>
   </div>
-  <div class="contentWrapper">
-    <h2>Timeline</h2>
-    <Timeline {timeline} />
+  <div class="partnersSection">
+    <div class="contentWrapper">
+      <h2>Our partners</h2>
+      <!-- <p>QVFT is made possible by the support of our partners.</p> -->
+      <SponsorImages />
+    </div>
+  </div>
+  <div class="timelineSection">
+    <div class="contentWrapper">
+      <h2>Timeline</h2>
+      <Timeline {timeline} />
+    </div>
   </div>
 </div>
