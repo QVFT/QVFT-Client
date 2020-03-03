@@ -1,8 +1,8 @@
 <script>
   const info = [
     {
-      url: "https://www.queensu.ca/artsci/",
-      img: "Artsci Logo",
+      url: "https://zipgrow.com/",
+      img: "ZipGrow Logo",
       width: "14rem"
     },
     {
@@ -10,8 +10,8 @@
       img: "SIMBL Logo"
     },
     {
-      url: "https://zipgrow.com/",
-      img: "ZipGrow Logo",
+      url: "https://www.queensu.ca/artsci/",
+      img: "Artsci Logo",
       width: "14rem"
     }
   ];
