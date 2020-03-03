@@ -59,7 +59,7 @@
 
   div.partnersSection {
     margin-bottom: 6rem;
-    padding: 3rem 0;
+    padding: 3rem 0 1rem;
   }
 
   div.logoWrapper {
