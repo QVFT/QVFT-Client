@@ -124,11 +124,9 @@
     vertical farming design team. Vertical farming is a hyper-efficient,
     sustainable food cultivation method which is projected to become a major
     contributor to global food production in the coming decades. We are
-    currently seeking four passionate, conscientious, creative thinkers to join
-    our team for Winter 2020. Mechanical design and software engineering roles
-    provide opportunities to develop marketable skills including CAD, software
-    development, mechatronics, systems design, and data analysis. Please see our
-    Hiring Package for further details. Applications close Friday, January 17th
+    currently seeking thirteen passionate, conscientious, creative thinkers to join
+    our team for the 2020-21 school year. Please see our
+    Hiring Package for further details. Applications close Tuesday, March 31st
     at 11:59 PM.
   </p>
   <div class="infoColumns">
