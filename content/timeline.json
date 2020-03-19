@@ -1,75 +1,83 @@
 [
   {
     "date": "2019-11",
-    "title": "Hire 2019-20 Executive Members",
+    "title": "Hired 2019-20 Executive Members",
     "complete": true
   },
   {
     "date": "2019-12",
-    "title": "Set Goals and Develop Implementation Strategies",
+    "title": "Set Goals and Developed Implementation Strategies",
     "complete": true
   },
   {
     "date": "2019-12",
-    "title": "Begin Sponsorship Outreach",
+    "title": "Began Sponsorship Outreach",
     "complete": true
   },
   {
     "date": "2019-12",
     "title": "Research and Design Phase I",
     "subpoints": [
-      "Complete technical overview of controlled-environment agriculture (CEA) system",
-      "Complete technical overview of mechanical system"
+      "Completed technical outline of software-based automation system",
+      "Completed technical outline of mechanical system"
     ],
     "complete": true,
     "marginTop": "-1rem"
   },
   {
     "date": "2020-01",
-    "title": "Hire 2020 General Members"
-  },
-  {
-    "date": "2020-01",
-    "title": "Participate in Commerce & Engineering Environmental Conference Trade Show",
-    "marginTop": "-1.5rem"
+    "title": "Hired Winter 2020 General Members",
+    "complete": true
   },
   {
     "date": "2020-01",
     "title": "Research and Design Phase II",
     "subpoints": [
-      "Initiate CEA hardware and software development",
-      "Research plant germination strategies, nutritional requirements, lighting cycles, and water consumption",
-      "Develop a step-by-step plant cultivation protocol"
+      "Began development of automation system",
+      "Researched plant germination strategies, nutritional requirements, lighting specifications, and water consumption considerations",
+      "Developed an early-stage mechanical schematic of aeroponic nutrition system"
     ],
+    "complete": true,
     "marginTop": "-1rem"
+  },
+  {
+    "date": "2020-01",
+    "title": "Participated in Commerce & Engineering Environmental Conference Trade Show",
+    "complete": true
+  },
+  {
+    "date": "2020-01",
+    "title": "Began Partnership with ZipGrow Inc.",
+    "complete": true
+  },
+  {
+    "date": "2020-02",
+    "title": "Participated in Queen's Water Environment Conference Trade Show",
+    "complete": true
   },
   {
     "date": "2020-02",
     "title": "Research and Design Phase III",
     "subpoints": [
-      "CEA system is in beta",
-      "Finalize all CAD drawings for custom parts",
-      "Finalize plant cultivation protocol and complete research report"
-    ]
-  },
-  {
-    "date": "2020-02",
-    "title": "Prototyping and Experimentation Phase I",
-    "subpoints": ["Manufacture custom parts", "Order non-custom parts"],
-    "marginTop": "-5rem"
-  },
-  {
-    "date": "2020-03",
-    "title": "Hire 2020-21 Executive Members"
-  },
-  {
-    "date": "2020-03",
-    "title": "Prototyping and Experimentation Phase II",
-    "subpoints": ["Begin plant germination process"],
+      "Developed front-end, back-end, data storage, and sensory components for automation system",
+      "Finalized plant cultivation protocols and completed research report",
+      "Finalized mechanical schematic of aeroponic nutrition system and began 3D CAD assembly using NX",
+    ],
+    "complete": true,
     "marginTop": "-1rem"
   },
   {
-    "date": "2020-04",
-    "title": "Wrap Up Efforts and Prepare to Resume in September 2020"
+    "date": "2020-03",
+    "title": "Received Financial Donation from SIMBL Business Enablement",
+    "complete": true
+  },
+  {
+    "date": "2020-03",
+    "title": "Received Research Grant from Queen's Faculty of Arts & Science Student Initiatives Fund",
+    "complete": true
+  },
+  {
+    "date": "2020-03",
+    "title": "Hire 2020-21 Members"
   }
 ]
