@@ -7,12 +7,24 @@
 
   const info = [
     {
-      label: "2 Mechanical Designers",
+      label: "Mechanical Engineers (3)",
       img: "Gears_Icon"
     },
     {
-      label: "2 Software Engineers",
+      label: "Software Engineers (3)",
       img: "Laptop_Icon"
+    },
+    {
+      label: "Plant Specialists (3)",
+      img: "premiumProduce"
+    },
+    {
+      label: "Marketing, Sponsorship, Finance Coordinators (3)",
+      img: "ourTeam"
+    },
+    {
+      label: "Technical Writer (1)",
+      img: "TechnicalReport"
     }
   ];
 </script>
