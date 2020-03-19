@@ -33,7 +33,7 @@
   div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
   }
 
   .contentWrapper {
