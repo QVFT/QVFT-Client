@@ -11,11 +11,11 @@
       img: "Gears_Icon"
     },
     {
-      label: "Software Engineers (3)",
+      label: "Software Engineers   (3)",
       img: "Laptop_Icon"
     },
     {
-      label: "Plant Specialists (3)",
+      label: "Plant Specialists   (3)",
       img: "premiumProduce"
     },
     {
@@ -23,7 +23,7 @@
       img: "ourTeam"
     },
     {
-      label: "Technical Writer (1)",
+      label: "Technical Writer     (1)",
       img: "TechnicalReport"
     }
   ];
