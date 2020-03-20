@@ -7,19 +7,19 @@
 
   const info = [
     {
-      label: "Mechanical Engineers (3)",
+      label: "Mechanical Engineer (3)",
       img: "Gears_Icon"
     },
     {
-      label: "Software Engineers (3)",
+      label: "Software Engineer (3)",
       img: "Laptop_Icon"
     },
     {
-      label: "Plant Specialists (3)",
+      label: "Plant Specialist (3)",
       img: "premiumProduce"
     },
     {
-      label: "Marketing, Sponsorship, Finance Coordinators (3)",
+      label: "Marketing, Sponsorship, Finance Coord. (3)",
       img: "ourTeam"
     },
     {
