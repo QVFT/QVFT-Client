@@ -111,9 +111,9 @@ Sapper is in early development, and may have the odd rough edge here and there. 
 ## Contributors (Alphabetical)
 Ross Hill
 
-Abdul Rizan
-
 Chris Molloy
+
+Abdul Rizan
 
 Patrick Singal
 
