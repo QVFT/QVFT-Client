@@ -18,6 +18,10 @@
       url: "https://engsoc.queensu.ca/index.php/get-involved/clubs/",
       img: "engsoc",
       width: "14rem"
+    },
+    {
+      url: "https://www.igrow.news/",
+      img: "igrow",
     }
   ];
 </script>
