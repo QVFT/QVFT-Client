@@ -13,6 +13,11 @@
       url: "https://www.queensu.ca/artsci/",
       img: "Artsci Logo",
       width: "14rem"
+    },
+    {
+      url: "https://engsoc.queensu.ca/index.php/get-involved/clubs/",
+      img: "engsoc",
+      width: "14rem"
     }
   ];
 </script>
