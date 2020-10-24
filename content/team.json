@@ -2,13 +2,141 @@
   {
     "name": "Patrick Singal",
     "position": "Managing Director",
-    "yearMajor": "3rd Year Biomechanical Engineering",
+    "yearMajor": "4th Year Mechanical Engineering",
     "image": "Patrick",
     "email": "p.singal@queensu.ca",
     "linkedIn": "patricksingal",
-    "blurb": "Patrick is a 3rd year mechanical engineering student with a passion for sustainable technology and environmental issues. Patrick spent this past summer interning at MCW Custom Energy Solutions, a consulting firm dedicated to improving the energy efficiency of large buildings and municipalities by means of software-informed retrofits. Patrick’s role mainly involved schematic development (Microsoft Visio), data analysis (Excel), material analysis (HAP), and report editing. Patrick began QVFT as a side project during this time, creating a detailed business plan that still informs the core of team operations today. Patrick’s motivation for pursuing QVFT stems from a personal familiarity with farming, an interest in systems design, and a desire to develop engineering solutions for environmental issues.\nIn his spare time, Patrick likes fishing, chess, live music, and watching the Toronto Maple Leafs."
+    "blurb": "Patrick is a 4th year mechanical engineering student with a passion for sustainable technology and environmental issues. Patrick previously interned at MCW Custom Energy Solutions, a consulting firm dedicated to improving the energy efficiency of large buildings and municipalities by means of software-informed retrofits. Patrick’s role mainly involved schematic development (Microsoft Visio), data analysis (Excel), material analysis (HAP), and report editing. Patrick began QVFT as a side project during this time, creating a detailed business plan that still informs the core of team operations today. Patrick’s motivation for pursuing QVFT stems from a personal familiarity with farming, an interest in systems design, and a desire to develop engineering solutions for environmental issues.\nIn his spare time, Patrick likes fishing, chess, live music, and watching the Toronto Maple Leafs."
   },
   {
+    "name": "Luke Emblem",
+    "position": "Business Manager",
+    "yearMajor": "4th Year Economics",
+    "email": "17jle@queensu.ca",
+    "image": "Luke",
+    "linkedIn": "luke-emblem-996b24161",
+    "blurb": "Luke is a 4th year economics student interested in sustainability issues related to cities. He spent last year interning at MacKinnon Development, a landlord in Kingston, where he gained an understanding of the legal, financial and human side of real estate. Luke applies these skills to his role as business manager. His interests include reading, playing harmonica and cheering for the Montreal Canadians."
+  },
+  {
+    "name": "Rachel Orr",
+    "position": "Plant Science Manager",
+    "yearMajor": "2nd Year Life Sciences",
+    "image": "Rachel",
+    "email": "18rao1@queensu.ca"
+  },
+  {
+    "name": "Michael Wrana",
+    "position": "Systems Automation Manager",
+    "yearMajor": "Computing Masters Student",
+    "email": "16mmw@queensu.ca",
+    "image": "Wrana",
+    "gitHub": "MichaelWrana",
+    "blurb": "Michael is a computer science graduate student at Queen’s specialising in computing and mathematics. Over the last two summers Michael worked as a research assistant doing computational biology at the University of Toronto. During the summer he worked on the development team of a web app called Pathway Commons, which was built using React. He also worked to develop a transcription factor analysis pipeline. Michael sees QVFT as an exciting opportunity to develop web frameworks, as well as to see some overlap with his interest in computational biology."
+  },
+  {
+    "name": "Liam Strachan",
+    "position": "Sponsorship Coordinator",
+    "yearMajor": "4th Year Economics",
+    "image": "Liam",
+    "email": "16lks1@queensu.ca",
+    "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He previously interned at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
+  },
+  {
+    "name": "Calvin Chen",
+    "position": "Marketing Coordinator",
+    "yearMajor": "4th Year Economics",
+    "image": "Calvin",
+    "email": "18ccc1@queensu.ca",
+  },
+  {
+    "name": "Reed Melenhorst",
+    "position": "Sponsorship Coordinator",
+    "yearMajor": "2nd Year Engineering",
+    "image": "Reed",
+    "email": "18rwm3@queensu.ca",
+  },
+  {
+    "name": "David Altrows",
+    "position": "Mechanical Engineer",
+    "yearMajor": "4th Year Biomechanical Engineering",
+    "image": "David",
+    "email": "david.altrows@queensu.ca",
+    "linkedIn": "davidaltrows",
+    "blurb": "David is a 4th year biomechanical engineering student with diverse experience in technical and non-technical roles. He previously completed the QICSI summer entrepreneurship program and led a successful start-up organization. He is currently a member of the Queen’s Formula SAE design team and works as an Englinks workshop instructor and tutor. Given his leadership experience and background in mechatronics and CAD, David brings a well-rounded skillset to his role as Mechanical Engineer at QVFT."
+  },
+  {
+    "name": "Kendall Glen",
+    "position": "Mechanical Engineer",
+    "yearMajor": "3rd Year Mechanical Engineering",
+    "image": "Kendall",
+    "email": "17kng1@queensu.ca",
+   },
+   {
+    "name": "Elizabeth Reid",
+    "position": "Mechanical Engineer",
+    "yearMajor": "2nd Year Engineering",
+    "image": "Elizabeth",
+    "email": "18edr2@queensu.ca",
+   },
+    {
+    "name": "Sabrina Casanova",
+    "position": "Mechanical Engineer",
+    "yearMajor": "2nd Year Engineering",
+    "image": "Sabrina",
+    "email": "18scc9@queensu.ca",
+   },
+    {
+    "name": "Vanessa Weston",
+    "position": "Plant Specialist",
+    "yearMajor": "3rd Year Chemical Engineering",
+    "image": "Vanessa",
+    "email": "17vpw1@queensu.ca",
+   },
+    {
+    "name": "Larissa Dusang",
+    "position": "Plant Specialist",
+    "yearMajor": "4th Year Biology",
+    "image": "Larissa",
+    "email": "17lkd@queensu.ca",
+   },
+    {
+    "name": "Andrea O'Halloran",
+    "position": "Plant Specialist",
+    "yearMajor": "4th Year Life Sciences",
+    "image": "Andrea",
+    "email": "16atoh@queensu.ca",
+   },
+    {
+    "name": "Noor Yassein",
+    "position": "Technical Writer",
+    "yearMajor": "3rd Year Politics/English",
+    "image": "Noor",
+    "email": "17ncy@queensu.ca",
+   },
+    {
+    "name": "Ryan Power",
+    "position": "Software Engineer",
+    "yearMajor": "4th Year Computer Engineering",
+    "image": "Ryan",
+    "email": "16rcp@queensu.ca",
+   },
+    {
+    "name": "Luke Steenge",
+    "position": "Software Engineer",
+    "yearMajor": "4th Year Applied Math & Eng.",
+    "image": "LukeS",
+    "email": "16lbs@queensu.ca",
+   },
+    {
+    "name": "George Trieu",
+    "position": "Software Engineer",
+    "yearMajor": "2nd Year Computer Engineering",
+    "image": "George",
+    "email": "trieugeorge@gmail.com",
+   },  
+  
+  {
+    "hidden": true,
     "name": "Ross Hill",
     "position": "Systems Automation Director",
     "yearMajor": "4th Year Computing",
@@ -19,23 +147,7 @@
     "blurb": "Ross is a 4th year computing student specializing in software design. Ross held a leadership role on the 2018/19 QHacks team, developing an online platform that served the hundreds of participants in the hackathon. Ross spent this past summer working at Verafin, a financial technology firm focused on fraud detection and the prevention of money laundering. His role involved the analysis of data from hundreds of financial institutions to develop new heuristics for detecting high-risk customers. Ross is applying his background in software design and data analytics to his role as Director of Systems Automation."
   },
   {
-    "name": "Luke Emblem",
-    "position": "Finance Director",
-    "yearMajor": "3rd Year Economics",
-    "email": "17jle@queensu.ca",
-    "image": "Luke",
-    "linkedIn": "luke-emblem-996b24161",
-    "blurb": "Luke is a 3rd year economics student interested in sustainability issues related to cities. He spent last year interning at MacKinnon Development, a landlord in Kingston, where he gained an understanding of the legal, financial and human side of real estate. Luke applies these skills to his role as financial director. His interests include reading, playing harmonica and cheering for the Montreal Canadians."
-  },
-  {
-    "name": "Liam Strachan",
-    "position": "Sponsorship Director",
-    "yearMajor": "4th Year Economics",
-    "image": "Liam",
-    "email": "16lks1@queensu.ca",
-    "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He has spent the last two summers interning at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
-  },
-  {
+    "hidden": true,
     "name": "Zwetlana Rajesh",
     "position": "Plant Science Director",
     "yearMajor": "2nd Year Health Studies",
@@ -44,6 +156,7 @@
     "blurb": "Zwetlana is a 2nd year health studies student and a Queen's University Chancellor's Scholar. Zwetlana's involvement in QVFT stems from her interest in sustainable farming. She is the founder of an international initiative P3 - Plant, Prepare, and Plate it, which is focused on encouraging all, despite busy schedules, to grow food creatively in available spaces, prepare it though nutritious recipes and have a healthy meal in every plate.  At Queen's University, Zwetlana is a director for International Development Week 2020, a member of the Model United Nations Team, a Residence Don, and a research assistant. Zwetlana is also involved in volunteering and extracurricular projects in the areas of mental health, youth advocacy, public policy, and healthcare. In her spare time, she enjoys archery, poetry, and listening to the stories of those she comes across."
   },
   {
+    "hidden": true,
     "name": "Michael Mills",
     "position": "Logistics Director",
     "yearMajor": "4th Year Engineering Physics – Mech Option",
@@ -63,15 +176,6 @@
   },
   {
     "hidden": true,
-    "name": "David Altrows",
-    "position": "Software Engineer",
-    "yearMajor": "4th Year Biomechanical Engineering",
-    "image": "David",
-    "email": "david.altrows@queensu.ca",
-    "linkedIn": "davidaltrows",
-    "blurb": "David is a 4th year biomechanical engineering student with diverse experience in technical and non-technical roles. This summer, he completed the QICSI entrepreneurship program and led a successful start-up organization. He is currently a member of the Queen’s Formula SAE design team and works as an Englinks workshop instructor and tutor. Given his leadership experience and background in mechatronics and CAD, David brings a well-rounded skillset to his role as Software Engineer at QVFT."
-  },
-  {
     "name": "Kelly Weiling Zou",
     "position": "Plant Specialist",
     "yearMajor": "3rd Year Commerce",
@@ -81,13 +185,7 @@
     "blurb": "Kelly is a 3rd year commerce student specializing in environmental sustainability and public policy. As the Divestment Researcher for Queen’s Backing Action on Climate Change (QBACC), she is responsible for examining the feasibility and impact of divestment from fossil fuels for Queen’s University. Currently, she is working with the Divestment team to re-examine Queen’s current investment policies with regard to fiduciary duty and socially responsible investing. To combat ongoing failures to address climate change systemically, Kelly is a strong advocate for community-based organizing. She believes that agroecology is key to dismantling the industrial agricultural complex which contributes immensely to climate change and food shortage. In her spare time, Kelly enjoys listening to R&B, critical discussions on capitalism, and cooking."
   },
   {
-    "name": "Rachel Orr",
-    "position": "Plant Specialist",
-    "yearMajor": "1st Year Life Sciences",
-    "image": "Rachel",
-    "email": "18rao1@queensu.ca"
-  },
-  {
+    "hidden": true,
     "name": "Abdul Elah (Abu) Rizan",
     "position": "Software Engineer",
     "yearMajor": "5th Year Mechanical Engineering",
@@ -98,15 +196,7 @@
     "blurb": "Abu is a 5th year mechanical engineering student specializing in mechatronics systems. This summer, he earned the CompTIA Security+ certification while completing his 16-month internship in Information Security at Queen's ITS. While continuing to work part-time, Abu handles various cybersecurity tasks from updating policies and standards to automating cybersecurity tasks. He enjoys systems design and tinkering with IoT devices, experience which he has applied to his former role at the Queen's Hyperloop Design Team and his current role as a Software Engineer on QVFT’s Systems Automation Team. Outside of Queen’s, Abu volunteers as a mentor for children on the local school board’s First Robotics Team."
   },
   {
-    "name": "Michael Wrana",
-    "position": "Software Engineer",
-    "yearMajor": "4th Year Computing",
-    "email": "16mmw@queensu.ca",
-    "image": "Wrana",
-    "gitHub": "MichaelWrana",
-    "blurb": "Michael is a 4th year computer science student at Queen’s specialising in computing and mathematics. In the upcoming year he hopes to continue his studies as a graduate student in Computing. Over the last two summers Michael worked as a research assistant doing computational biology at the University of Toronto. During the summer he worked on the development team of a web app called Pathway Commons, which was built using React. He also worked to develop a transcription factor analysis pipeline. Michael saw QVFT as an exciting opportunity to develop web frameworks, as well as to see some overlap with his interest in computational biology."
-  },
-  {
+    "hidden": true,
     "name": "Anders Farr",
     "position": "Software Engineer",
     "yearMajor": "3rd Year Mathematics & Engineering",
@@ -116,6 +206,7 @@
     "blurb": "Anders is a 3rd year mathematics & engineering student working with the systems automation team. He has experience in software design and hardware-software interfaces, most notably at his summer job at Reliable Controls corporation in Victoria, BC. At this job, he performed manual and built automated tests for controller configuration and networking products. Furthermore, he has experience working for CEEC, the commerce and engineering environmental conference as the Case Coordinator for CEEC 2020. Anders applies these experiences to his role at QVFT."
   },
   {
+    "hidden": true,
     "name": "Spencer Blahey",
     "position": "Mechanical Engineer",
     "yearMajor": "3rd Year Mechanical Engineering",
@@ -125,6 +216,7 @@
     "blurb": "Spencer is a 3rd year mechanical engineering student with a background in both technical and design roles. Over the past two summers he worked for Newmont Goldcorp in one of their underground goldmines servicing heavy-duty machinery and learning about the operation. In the upcoming year he hopes to take on a surveying position with the engineering department at the same site. At Queen’s he is currently a member of the Baja SAE design team and has developed the first iteration of the 4WD driveshaft system. Spencer saw vertical farming as an intriguing application of his engineering degree and hopes to further his design and modelling experience."
   },
   {
+    "hidden": true,
     "name": "Daniel Tameer",
     "position": "Mechanical Engineer",
     "yearMajor": "3rd Year Mechanical Engineering",
@@ -134,6 +226,7 @@
     "blurb": "Daniel is a 3rd year mechanical engineering student with an interest in mechanics of materials. He spent this past summer interning at KIRCHHOFF Automotive in the R&D department, where he focused on performing mechanical tests for different parts to ensure they satisfied design requirements, presenting benchmarking studies and test results, and analyzing data using Microsoft Excel, Python, and MATLAB. With Daniel’s background and experience in solid mechanics and mathematical modelling, he brings a strong skillset to his role as Mechanical Designer at QVFT."
   },
   {
+    "hidden": true,
     "name": "David Blair",
     "position": "Mechanical Engineer",
     "yearMajor": "3rd Year Mechanical Engineering",
