@@ -27,7 +27,7 @@
   {
     "name": "Michael Wrana",
     "position": "Systems Automation Manager",
-    "yearMajor": "Computing Masters Student",
+    "yearMajor": "Artificial Intelligence Master's Student",
     "email": "16mmw@queensu.ca",
     "image": "Wrana",
     "gitHub": "MichaelWrana",
@@ -114,6 +114,14 @@
     "email": "17ncy@queensu.ca"
    },
    {
+    "name": "Chris Molloy",
+    "position": "Data Scientist",
+    "yearMajor": "Adversarial Artificial Intelligence Master's Student",
+    "image": "Chris",
+    "gitHub": "ChrisJMolloy",
+    "email": "chris.molloyATqueensu.ca"
+   }, 
+   {
     "name": "Ryan Power",
     "position": "Software Engineer",
     "yearMajor": "4th Year Computer Engineering",
@@ -134,6 +142,7 @@
     "image": "George",
     "email": "trieugeorge@gmail.com"
    },  
+
   
   {
     "hidden": true,
