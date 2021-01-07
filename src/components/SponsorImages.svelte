@@ -22,6 +22,10 @@
     {
       url: "https://www.igrow.news/",
       img: "igrow",
+    },
+    {
+      url: "https://www.queensu.ca/innovationcentre/",
+      img: "DDQIC",
     }
   ];
 </script>
