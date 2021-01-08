@@ -26,7 +26,7 @@
     {
       url: "https://www.queensu.ca/innovationcentre/",
       img: "DDQIC",
-      width: "14rem"
+      width: "8rem"
     }
   ];
 </script>
