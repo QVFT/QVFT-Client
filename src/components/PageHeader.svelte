@@ -28,7 +28,7 @@
   }
 </style>
 
-<div class="pageHeader" style="background-image: url('background.png');">
+<div class="pageHeader" style="background-image: url('background-source.png');">
   <div class="tint">
     <div class="contentWrapper">
       <h1>
