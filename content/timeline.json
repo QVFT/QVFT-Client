@@ -75,13 +75,16 @@
   {
     "date": "2020-03",
     "title": "Hired 2020-21 executive and general members"
+    "complete": true
   },
   {
     "date": "2020-12",
-    "title": "Completed 1st iteration of 3D CAD Model (SolidWorks)"
+    "title": "Completed first iteration of 3D CAD Model (SolidWorks)"
+    "complete": true
   },
   {
     "date": "2021-01",
     "title": "Began partnership with Dunin-Deshpande Queen's Innovation Centre"
+    "complete": true
   }
 ]
