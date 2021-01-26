@@ -57,7 +57,7 @@
     "subpoints": [
       "Developed front-end, back-end, data storage, and sensory components for automation system",
       "Finalized plant cultivation protocols and completed research report",
-      "Finalized mechanical schematic of aeroponic nutrition system and began 3D CAD assembly using NX"
+      "Finalized mechanical schematic of aeroponic nutrition system and began 3D CAD model using SolidWorks"
     ],
     "complete": true,
     "marginTop": "-1rem"
@@ -75,6 +75,11 @@
   {
     "date": "2020-03",
     "title": "Hired 2020-21 executive and general members",
+    "complete": true
+  },
+  {
+    "date": "2020-10",
+    "title": "Received official ratification from the Queen's Engineering Society",
     "complete": true
   },
   {
