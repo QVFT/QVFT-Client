@@ -117,8 +117,9 @@
    <div class="imageWrapper large padding">
     <picture class="CAD Model">
       <source srcset="CAD Model.webp" type="image/webp" />
-      <source srcset="CAD Model.png" type="image/png" />
-      <img src="CAD Model.png" alt="CAD Model" />
+      <!-- <source srcset="CAD Model.png" type="image/png" /> -->
+      <!-- <img src="CAD Model.png" alt="CAD Model" />  -->
+      <img src="CAD Model.webp" alt="CAD Model" />
     </picture>
     <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
       QVFT
