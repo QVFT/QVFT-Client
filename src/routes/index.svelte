@@ -77,14 +77,14 @@
   <title>Queen's Vertical Farming Team</title>
 </svelte:head>
 <div class="root">
-  <div class="fullScreen" style="background-image: url('background.jpg')">
+  <div class="fullScreen" style="background-image: url('background.webp')">
     <div class="fullScreenContent">
       <div class="contentWrapper">
         <div class="logoWrapper">
           <picture class="logo">
             <source srcset="logo-white.webp" type="image/webp" />
             <source srcset="logo-white.png" type="image/png" />
-            <img src="logo-white.png" alt="Queen's Vertical Farming Team" />
+            <img src="logo-white.webp" alt="Queen's Vertical Farming Team" />
           </picture>
         </div>
         <p>
