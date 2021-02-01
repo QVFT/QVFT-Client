@@ -76,7 +76,7 @@
         <picture>
           <source srcset="partners/{item.img}.webp" type="image/webp" />
           <source srcset="partners/{item.img}.png" type="image/png" />
-          <img src="partners/{item.img}.png" alt={item.label} />
+          <img src="partners/{item.img}.webp" alt={item.label} />
         </picture>
       </div>
     </a>
