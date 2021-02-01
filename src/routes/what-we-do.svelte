@@ -114,15 +114,16 @@
     receives. Aeroponics are a key component of controlled-environment
     agriculture.
   </p>
-  <div class="imageWrapper large padding">
-    <picture class="AeroponicSys">
-      <source srcset="AeroponicSys.webp" type="image/webp" />
-      <source srcset="AeroponicSys.jpg" type="image/jpeg" />
-      <img src="AeroponicSys.jpg" alt="Aeroponic system digram" />
+   <div class="imageWrapper large padding">
+    <picture class="CAD Model">
+      <source srcset="CAD Model.webp" type="image/webp" />
+      <source srcset="CAD Model.png" type="image/png" />
+      <img src="CAD Model.png" alt="CAD Model" />
     </picture>
     <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
       QVFT
     </div>
+     
   </div>
   <h2>Controlled-Environment Agriculture (CEA)</h2>
   <p>
