@@ -160,7 +160,7 @@
     <picture class="diagram">
       <source srcset="ZipGrow.webp" type="image/webp" />
       <source srcset="ZipGrow.jpg" type="image/jpeg" />
-      <img src="ZipGrow.jpg" alt="Queen's Vertical Farming Team" />
+      <img src="ZipGrow.webp" alt="Queen's Vertical Farming Team" />
     </picture>
     <a
       class="attribution"
