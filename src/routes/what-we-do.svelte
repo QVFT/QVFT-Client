@@ -90,20 +90,7 @@
     improvements in per-acre land productivity, increased plant productivity,
     and the freedom to cultivate crops in any location, year-round.
   </p>
-  <div class="imageWrapper">
-    <picture class="diagram">
-      <source srcset="ZipGrow.webp" type="image/webp" />
-      <source srcset="ZipGrow.jpg" type="image/jpeg" />
-      <img src="ZipGrow.jpg" alt="Queen's Vertical Farming Team" />
-    </picture>
-    <a
-      class="attribution"
-      rel="noopener noreferrer"
-      href="https://zipgrow.com/"
-      target="_blank">
-      ZipGrow.com
-    </a>
-  </div>
+
   <h2>Aeroponics</h2>
   <p>
     QVFT employs an aeroponic cultivation method, in which nutrients are
@@ -168,3 +155,18 @@
     improvement for when we scale our model in the following school year.
   </p>
 </div>
+
+  <div class="imageWrapper">
+    <picture class="diagram">
+      <source srcset="ZipGrow.webp" type="image/webp" />
+      <source srcset="ZipGrow.jpg" type="image/jpeg" />
+      <img src="ZipGrow.jpg" alt="Queen's Vertical Farming Team" />
+    </picture>
+    <a
+      class="attribution"
+      rel="noopener noreferrer"
+      href="https://zipgrow.com/"
+      target="_blank">
+      ZipGrow.com
+    </a>
+  </div>
