@@ -44,11 +44,11 @@
 <div class="contentWrapper">
   <div id="infoPackageSection">	
     <div class="buttonWrapper">	
-      <a class="button" href="QVFT_Information.pdf">View Information Package</a>	
+      <a class="button" href="QVFT_Sponsorship.pdf">View Information Package</a>	
     </div>	
   </div>
   <iframe
-    src="https://docs.google.com/forms/d/e/1FAIpQLScNUqCycnsKIWjNFad4DiHPWmsiJ-eqbMDS3HqOxbTdMmAfeQ/viewform?embedded=true"
+    src="https://docs.google.com/forms/d/e/1FAIpQLSfRDQm0S4XI8kc3F-HMwNX1qINlvhcjig5HNvKsr7qWW0fdtw/viewform?usp=sf_link?embedded=true"
     width="100%"
     height="1875"
     frameborder="0"
