@@ -7,24 +7,20 @@
 
   const info = [
     {
-      label: "Mechanical Engineer (3)",
+      label: "Mechanical Engineer",
       img: "Gears_Icon"
     },
     {
-      label: "Software Engineer (3)",
+      label: "Software Engineer",
       img: "Laptop_Icon"
     },
     {
-      label: "Plant Specialist (3)",
+      label: "Plant Specialist",
       img: "premiumProduce"
     },
     {
-      label: "Marketing, Sponsorship, Finance Coord. (3)",
+      label: "Marketing, Sponsorship, Finance Coord.",
       img: "ourTeam"
-    },
-    {
-      label: "Technical Writer (1)",
-      img: "TechnicalReport"
     }
   ];
 </script>
@@ -125,9 +121,7 @@
     sustainable food cultivation method which is projected to become a major
     contributor to global food production in the coming decades. We are
     currently seeking thirteen passionate, conscientious, creative thinkers to join
-    our team for the 2020-21 school year. Please see our
-    Hiring Package for further details. Applications close Tuesday, March 31st
-    at 11:59 PM.
+    our team for the 2021-22 school year. Please note that the hiring package below is from last winter. Up-to-date information is available in our Sponsorship Package.
   </p>
   <div class="infoColumns">
     {#each info as item}
@@ -165,7 +159,7 @@
   </div>
   <h2>Apply</h2>
   <iframe
-    src="https://docs.google.com/forms/d/e/1FAIpQLSef9TAteHvNx7hfinownb1hRc79Raryq_pwYIGD5yL074q2cQ/viewform?embedded=true"
+    src="https://docs.google.com/forms/d/e/1FAIpQLSfRDQm0S4XI8kc3F-HMwNX1qINlvhcjig5HNvKsr7qWW0fdtw/viewform?embedded=true"
     width="100%"
     height="3000"
     frameborder="0"
