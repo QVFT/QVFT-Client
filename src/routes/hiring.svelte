@@ -7,19 +7,23 @@
 
   const info = [
     {
-      label: "Mechanical Engineer",
+      label: "Mechanical Designer",
       img: "Gears_Icon"
     },
     {
-      label: "Software Engineer",
+      label: "Software Developer (Front-End, Back-End, or Database)",
       img: "Laptop_Icon"
     },
     {
-      label: "Plant Specialist",
+      label: "Electrical Engineer",
+      img: "circuit"
+    },
+    {
+      label: "Plant Science Researcher",
       img: "premiumProduce"
     },
     {
-      label: "Marketing, Sponsorship, Finance Coord.",
+      label: "Business Operations Manager",
       img: "ourTeam"
     }
   ];
@@ -120,8 +124,7 @@
     vertical farming design team. Vertical farming is a hyper-efficient,
     sustainable food cultivation method which is projected to become a major
     contributor to global food production in the coming decades. We are
-    currently seeking thirteen passionate, conscientious, creative thinkers to join
-    our team for the 2021-22 school year. Please note that the hiring package below is from last winter. Up-to-date information is available in our Sponsorship Package.
+    currently hiring passionate, creative, and driven individuals to join our team for the 2021-22 school year. Individual role descriptions are available in the Hiring Package below.
   </p>
   <div class="infoColumns">
     {#each info as item}
