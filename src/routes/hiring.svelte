@@ -11,7 +11,7 @@
       img: "Gears_Icon"
     },
     {
-      label: "Software Developer (Front-End, Back-End, or Database)",
+      label: "Software Developer",
       img: "Laptop_Icon"
     },
     {
