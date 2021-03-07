@@ -133,7 +133,7 @@
           <picture>
             <source srcset="{item.img}.webp" type="image/webp" />
             <source srcset="{item.img}.png" type="image/png" />
-            <img src="{item.img}.png" alt={item.label} />
+            <img src="{item.img}.webp" alt={item.label} />
           </picture>
         </div>
         <div class="itemLabel">{item.label}</div>
