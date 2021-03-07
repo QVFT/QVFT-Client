@@ -94,12 +94,12 @@
   },
   {
     "date": "2021-03",
-    "title": "",
-    "subpoints": [
-      "Participated in Queen's Healthcare & Business Conference trade show",
-      "Participated in Commerce-Engineering Environmental Conference trade show",
-    ],
-    "complete": true,
-    "marginTop": "-1rem"
+    "title": "Participated in Queen's Healthcare & Business Conference trade show",
+    "complete": true
+  },
+  {
+    "date": "2021-03",
+    "title": "Participated in Commerce-Engineering Environmental Conference trade show",
+    "complete": true
   }
 ]
