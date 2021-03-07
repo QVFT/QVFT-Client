@@ -38,7 +38,7 @@
   },
   {
     "date": "2020-01",
-    "title": "Participated in CEEC trade show",
+    "title": "Participated in Commerce-Engineering Environmental Conference trade show",
     "complete": true
   },
   {
@@ -48,7 +48,7 @@
   },
   {
     "date": "2020-02",
-    "title": "Participated in QWEC trade show",
+    "title": "Participated in Queen's Water Environment Conference trade show",
     "complete": true
   },
   {
@@ -91,5 +91,15 @@
     "date": "2021-01",
     "title": "Began partnership with Dunin-Deshpande Queen's Innovation Centre",
     "complete": true
+  },
+  {
+    "date": "2021-03",
+    "title": "",
+    "subpoints": [
+      "Participated in Queen's Healthcare & Business Conference trade show",
+      "Participated in Commerce-Engineering Environmental Conference trade show",
+    ],
+    "complete": true,
+    "marginTop": "-1rem"
   }
 ]
