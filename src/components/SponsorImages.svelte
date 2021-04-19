@@ -8,7 +8,7 @@
     {
       url: "https://www.bmahydroponics.com/",
       img: "BMA",
-      width: "16rem"
+      width: "19rem"
     },
     {
       url: "https://zipgrow.com/",
