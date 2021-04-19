@@ -18,7 +18,7 @@
     {
       url: "https://www.igrow.news/",
       img: "igrow",
-      width: "9rem"
+      width: "10rem"
     },
     {
       url: "https://engsoc.queensu.ca/index.php/get-involved/clubs/",
@@ -28,7 +28,7 @@
     {
       url: "http://simbl.ca/",
       img: "SIMBL Logo",
-      width: "6rem"
+      width: "7rem"
     }
   ];
 </script>
