@@ -3,7 +3,7 @@
     {
       url: "https://www.queensu.ca/innovationcentre/",
       img: "DDQIC",
-      width: "10rem"
+      width: "14rem"
     },
     {
       url: "https://www.bmahydroponics.com/",
@@ -18,6 +18,7 @@
     {
       url: "https://www.igrow.news/",
       img: "igrow",
+      width: "7rem"
     },
     {
       url: "https://engsoc.queensu.ca/index.php/get-involved/clubs/",
@@ -26,7 +27,8 @@
     },
     {
       url: "http://simbl.ca/",
-      img: "SIMBL Logo"
+      img: "SIMBL Logo",
+      width: "7rem"
     }
   ];
 </script>
