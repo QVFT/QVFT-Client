@@ -8,27 +8,27 @@
     {
       url: "https://www.bmahydroponics.com/",
       img: "BMA",
-      width: "14rem"
+      width: "16rem"
     },
     {
       url: "https://zipgrow.com/",
       img: "ZipGrow Logo",
-      width: "14rem"
+      width: "13rem"
     },
     {
       url: "https://www.igrow.news/",
       img: "igrow",
-      width: "7rem"
+      width: "9rem"
     },
     {
       url: "https://engsoc.queensu.ca/index.php/get-involved/clubs/",
       img: "engsoc",
-      width: "14rem"
+      width: "13rem"
     },
     {
       url: "http://simbl.ca/",
       img: "SIMBL Logo",
-      width: "7rem"
+      width: "6rem"
     }
   ];
 </script>
