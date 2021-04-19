@@ -1,22 +1,18 @@
 <script>
   const info = [
     {
+      url: "https://www.queensu.ca/innovationcentre/",
+      img: "DDQIC",
+      width: "10rem"
+    },
+    {
+      url: "https://www.bmahydroponics.com/",
+      img: "BMA",
+      width: "14rem"
+    },
+    {
       url: "https://zipgrow.com/",
       img: "ZipGrow Logo",
-      width: "14rem"
-    },
-    {
-      url: "http://simbl.ca/",
-      img: "SIMBL Logo"
-    },
-    {
-      url: "https://www.queensu.ca/artsci/",
-      img: "Artsci Logo",
-      width: "14rem"
-    },
-    {
-      url: "https://engsoc.queensu.ca/index.php/get-involved/clubs/",
-      img: "engsoc",
       width: "14rem"
     },
     {
@@ -24,9 +20,13 @@
       img: "igrow",
     },
     {
-      url: "https://www.queensu.ca/innovationcentre/",
-      img: "DDQIC",
-      width: "10rem"
+      url: "https://engsoc.queensu.ca/index.php/get-involved/clubs/",
+      img: "engsoc",
+      width: "14rem"
+    },
+    {
+      url: "http://simbl.ca/",
+      img: "SIMBL Logo"
     }
   ];
 </script>
