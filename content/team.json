@@ -1,7 +1,7 @@
 [
   {
     "name": "Patrick Singal",
-    "position": "Managing Director",
+    "position": "Manager",
     "yearMajor": "4th Year Mechanical Engineering",
     "image": "Patrick",
     "email": "p.singalATqueensu.ca",
@@ -31,28 +31,28 @@
     "image": "Julia"
   },
   {
-    "name": "Michael Wrana",
-    "position": "Front-End Developer",
-    "yearMajor": "Artificial Intelligence Master's Student",
-    "email": "16mmw@queensu.ca",
-    "image": "Wrana",
-    "gitHub": "MichaelWrana",
-    "blurb": "Michael is a computer science graduate student at Queen’s specialising in computing and mathematics. Over the last two summers Michael worked as a research assistant doing computational biology at the University of Toronto. During the summer he worked on the development team of a web app called Pathway Commons, which was built using React. He also worked to develop a transcription factor analysis pipeline. Michael sees QVFT as an exciting opportunity to develop web frameworks, as well as to see some overlap with his interest in computational biology."
-  },
-  {
-    "name": "Elissa Wong",
-    "position": "Plant Sci. Researcher",
-    "yearMajor": "3rd Year Chemical Engineering",
-    "email": "elissa.wong@queensu.ca",
-    "image": "Elissa"
-  },
-  {
     "name": "Ryan Power",
     "position": "Hardware Designer",
     "yearMajor": "4th Year Computer Engineering",
     "image": "Ryan",
     "email": "16rcp@queensu.ca"
    },
+  {
+    "name": "Elissa Wong",
+    "position": "Plant Science Researcher",
+    "yearMajor": "3rd Year Chemical Engineering",
+    "email": "elissa.wong@queensu.ca",
+    "image": "Elissa"
+  },
+  {
+    "name": "Michael Wrana",
+    "position": "Front-End Developer (Lead)",
+    "yearMajor": "Artificial Intelligence Master's Student",
+    "email": "16mmw@queensu.ca",
+    "image": "Wrana",
+    "gitHub": "MichaelWrana",
+    "blurb": "Michael is a computer science graduate student at Queen’s specialising in computing and mathematics. Over the last two summers Michael worked as a research assistant doing computational biology at the University of Toronto. During the summer he worked on the development team of a web app called Pathway Commons, which was built using React. He also worked to develop a transcription factor analysis pipeline. Michael sees QVFT as an exciting opportunity to develop web frameworks, as well as to see some overlap with his interest in computational biology."
+  },
   {
     "name": "Donal Lynagh",
     "position": "Business Operations",
@@ -114,7 +114,6 @@
     "image": "Rachel",
     "email": "18rao1@queensu.ca"
   },
-
   {
     "hidden": true,
     "name": "Liam Strachan",
