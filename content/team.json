@@ -4,11 +4,101 @@
     "position": "Managing Director",
     "yearMajor": "4th Year Mechanical Engineering",
     "image": "Patrick",
-    "email": "p.singal@queensu.ca",
+    "email": "p.singalATqueensu.ca",
     "linkedIn": "patricksingal",
     "blurb": "Patrick is a 4th year mechanical engineering student with a passion for sustainable technology and environmental issues. Patrick previously interned at MCW Custom Energy Solutions, a consulting firm dedicated to improving the energy efficiency of large buildings and municipalities by means of software-informed retrofits. Patrick’s role mainly involved schematic development (Microsoft Visio), data analysis (Excel), material analysis (HAP), and report editing. Patrick began QVFT as a side project during this time, creating a detailed business plan that still informs the core of team operations today. Patrick’s motivation for pursuing QVFT stems from a personal familiarity with farming, an interest in systems design, and a desire to develop engineering solutions for environmental issues.\nIn his spare time, Patrick likes fishing, chess, live music, and watching the Toronto Maple Leafs."
   },
   {
+    "name": "Chris Molloy",
+    "position": "Database Developer",
+    "yearMajor": "Adversarial Artificial Intelligence Master's Student",
+    "image": "Chris",
+    "gitHub": "ChrisJMolloy",
+    "email": "chris.molloyATqueensu.ca"
+  }, 
+  {
+    "name": "Iain Headrick",
+    "position": "Mechanical Designer",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "email": "17ich@queensu.ca",
+    "image": "Iain",
+   },
+   {
+    "name": "Julia Mackey",
+    "position": "Business Operations",
+    "yearMajor": "4th Year Chemical Engineering",
+    "email": "16jmm10@queensu.ca",
+    "image": "Julia",
+    "linkedIn": 
+  },
+  {
+    "name": "Michael Wrana",
+    "position": "Front-End Developer",
+    "yearMajor": "Artificial Intelligence Master's Student",
+    "email": "16mmw@queensu.ca",
+    "image": "Wrana",
+    "gitHub": "MichaelWrana",
+    "blurb": "Michael is a computer science graduate student at Queen’s specialising in computing and mathematics. Over the last two summers Michael worked as a research assistant doing computational biology at the University of Toronto. During the summer he worked on the development team of a web app called Pathway Commons, which was built using React. He also worked to develop a transcription factor analysis pipeline. Michael sees QVFT as an exciting opportunity to develop web frameworks, as well as to see some overlap with his interest in computational biology."
+  },
+  {
+    "name": "Elissa Wong",
+    "position": "Plant Sci. Researcher",
+    "yearMajor": "3rd Year Chemical Engineering",
+    "email": "elissa.wong@queensu.ca",
+    "image": "Elissa",
+  },
+  {
+    "name": "Ryan Power",
+    "position": "I/O Developer",
+    "yearMajor": "4th Year Computer Engineering",
+    "image": "Ryan",
+    "email": "16rcp@queensu.ca",
+   },
+  {
+    "name": "Donal Lynagh",
+    "position": "Business Operations",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "email": "18djl3@queensu.ca",
+    "image": "Donal",
+   },
+   {
+    "name": "Justine Kuczera",
+    "position": "Mechanical Designer",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "email": "18jmk12@queensu.ca",
+    "image": "Justine",
+   },
+   {
+    "name": "Quantum Hu",
+    "position": "I/O Developer",
+    "yearMajor": "4th Year Computing",
+    "email": "quantum.hu@queensu.ca",
+    "image": "Quantum",
+   },
+   {
+    "name": "Sebastian Huber-Oikle",
+    "position": "Front-End Developer",
+    "yearMajor": "4th Year Computing & Film",
+    "email": "16skho@queensu.ca",
+    "image": "Sebastian",
+   },
+  {
+    "name": "Carter Conboy",
+    "position": "Front-End Developer",
+    "yearMajor": "3rd Year Computing",
+    "email": "carter.conboy@queensu.ca",
+    "image": "Carter",
+   },
+   {
+    "name": "Joshua Sass-Gregoire",
+    "position": "Mechanical Designer",
+    "yearMajor": "3rd Year Mechanical Engineering",
+    "email": "Josh.gregoire16@gmail.com",
+    "image": "Joshua",
+   },
+  
+  {
+    "hidden": true,
     "name": "Luke Emblem",
     "position": "Business Manager",
     "yearMajor": "4th Year Economics",
@@ -18,22 +108,16 @@
     "blurb": "Luke is a 4th year economics student interested in sustainability issues related to cities. He spent last year interning at MacKinnon Development, a landlord in Kingston, where he gained an understanding of the legal, financial and human side of real estate. Luke applies these skills to his role as business manager. His interests include reading, playing harmonica and cheering for the Montreal Canadians."
   },
   {
+    "hidden": true,
     "name": "Rachel Orr",
     "position": "Plant Science Manager",
     "yearMajor": "2nd Year Life Sciences",
     "image": "Rachel",
     "email": "18rao1@queensu.ca"
   },
+
   {
-    "name": "Michael Wrana",
-    "position": "Systems Automation Manager",
-    "yearMajor": "Artificial Intelligence Master's Student",
-    "email": "16mmw@queensu.ca",
-    "image": "Wrana",
-    "gitHub": "MichaelWrana",
-    "blurb": "Michael is a computer science graduate student at Queen’s specialising in computing and mathematics. Over the last two summers Michael worked as a research assistant doing computational biology at the University of Toronto. During the summer he worked on the development team of a web app called Pathway Commons, which was built using React. He also worked to develop a transcription factor analysis pipeline. Michael sees QVFT as an exciting opportunity to develop web frameworks, as well as to see some overlap with his interest in computational biology."
-  },
-  {
+    "hidden": true,
     "name": "Liam Strachan",
     "position": "Sponsorship Coordinator",
     "yearMajor": "4th Year Economics",
@@ -42,6 +126,7 @@
     "blurb": "Liam is a 4th year economics student with a strong focus on analytical and communication skills. He previously interned at SIMBL, a business enablement firm in Toronto that lends its expertise to companies that want to define and expand their operational model. Liam was involved in the process of supporting small start up companies in aligning themselves to present and receive funding from the investment community. Gaining experience in sales, marketing, and product/business development, he hopes to apply these skills in supporting QVFT as Sponsorship Director. Liam has spent 11 summers in northern Canada working for and participating in a wilderness outfitting camp guiding teens in outdoor survival, and developing themselves as young adults. Given his close connection to the environment Liam hopes to focus his passion in supporting innovative ideas in the future of growth and availability of food in Canada."
   },
   {
+    "hidden": true,
     "name": "Calvin Chen",
     "position": "Marketing Coordinator",
     "yearMajor": "4th Year Economics",
@@ -49,6 +134,7 @@
     "email": "18ccc1@queensu.ca"
   },
   {
+    "hidden": true,
     "name": "Reed Melenhorst",
     "position": "Sponsorship Coordinator",
     "yearMajor": "2nd Year Engineering",
@@ -56,6 +142,7 @@
     "email": "18rwm3@queensu.ca"
   },
   {
+    "hidden": true,
     "name": "David Altrows",
     "position": "Mechanical Engineer",
     "yearMajor": "4th Year Biomechanical Engineering",
@@ -65,6 +152,7 @@
     "blurb": "David is a 4th year biomechanical engineering student with diverse experience in technical and non-technical roles. He previously completed the QICSI summer entrepreneurship program and led a successful start-up organization. He is currently a member of the Queen’s Formula SAE design team and works as an Englinks workshop instructor and tutor. Given his leadership experience and background in mechatronics and CAD, David brings a well-rounded skillset to his role as Mechanical Engineer at QVFT."
   },
   {
+    "hidden": true,
     "name": "Kendall Glen",
     "position": "Mechanical Engineer",
     "yearMajor": "3rd Year Mechanical Engineering",
@@ -72,6 +160,7 @@
     "email": "17kng1@queensu.ca"
    },
    {
+    "hidden": true,
     "name": "Elizabeth Reid",
     "position": "Mechanical Engineer",
     "yearMajor": "2nd Year Engineering",
@@ -79,6 +168,7 @@
     "email": "18edr2@queensu.ca"
    },
    {
+    "hidden": true,
     "name": "Sabrina Casanova",
     "position": "Mechanical Engineer",
     "yearMajor": "2nd Year Engineering",
@@ -86,6 +176,7 @@
     "email": "18scc9@queensu.ca"
    },
    {
+    "hidden": true,
     "name": "Vanessa Weston",
     "position": "Plant Specialist",
     "yearMajor": "3rd Year Chemical Engineering",
@@ -93,6 +184,7 @@
     "email": "17vpw1@queensu.ca"
    },
    {
+    "hidden": true,
     "name": "Larissa Dusang",
     "position": "Plant Specialist",
     "yearMajor": "4th Year Biology",
@@ -101,6 +193,7 @@
     "linkedIn": "larissa-dusang-93b590185"
    },
    {
+    "hidden": true,
     "name": "Andrea O'Halloran",
     "position": "Plant Specialist",
     "yearMajor": "4th Year Life Sciences",
@@ -108,28 +201,16 @@
     "email": "16atoh@queensu.ca"
    },
    {
+    "hidden": true,
     "name": "Noor Yassein",
     "position": "Technical Writer",
     "yearMajor": "3rd Year Politics/English",
     "image": "Noor",
     "email": "17ncy@queensu.ca"
    },
+
    {
-    "name": "Chris Molloy",
-    "position": "Data Scientist",
-    "yearMajor": "Adversarial Artificial Intelligence Master's Student",
-    "image": "Chris",
-    "gitHub": "ChrisJMolloy",
-    "email": "chris.molloyATqueensu.ca"
-   }, 
-   {
-    "name": "Ryan Power",
-    "position": "Software Engineer",
-    "yearMajor": "4th Year Computer Engineering",
-    "image": "Ryan",
-    "email": "16rcp@queensu.ca"
-   },
-   {
+    "hidden": true,
     "name": "Luke Steenge",
     "position": "Software Engineer",
     "yearMajor": "4th Year Applied Math & Eng.",
@@ -137,14 +218,13 @@
     "email": "16lbs@queensu.ca"
    },
    {
+    "hidden": true,
     "name": "George Trieu",
     "position": "Software Engineer",
     "yearMajor": "2nd Year Computer Engineering",
     "image": "George",
     "email": "trieugeorge@gmail.com"
    },  
-
-  
   {
     "hidden": true,
     "name": "Ross Hill",
