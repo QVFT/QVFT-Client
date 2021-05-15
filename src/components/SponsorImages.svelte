@@ -29,6 +29,11 @@
       url: "http://simbl.ca/",
       img: "SIMBL Logo",
       width: "7rem"
+    },
+    {
+      url: "https://aerok.ca/",
+      img: "Aerok",
+      width: "13rem"
     }
   ];
 </script>
