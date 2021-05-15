@@ -33,7 +33,7 @@
     {
       url: "https://aerok.ca/",
       img: "Aerok",
-      width: "13rem"
+      width: "11rem"
     }
   ];
 </script>
