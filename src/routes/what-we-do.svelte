@@ -154,6 +154,28 @@
     provide feedback regarding the efficacy of our system and identify areas of
     improvement for when we scale our model in the following school year.
   </p>
+  <p>
+    <a
+      href="QVFT_System_Guide.pdf"
+      download
+      on:click={() => gtag('event', 'download system guide')}>
+      Download our System Guide here
+    </a>
+  </p>
+  <div class="pdfWrapper">
+    <object
+      width="100%"
+      height="100%"
+      title="Sponsorship"
+      data="QVFT_System_Guide.pdf"
+      type="application/pdf">
+      <embed
+        title="Sponsorship"
+        width="100%"
+        src="QVFT_System_Guide.pdf"
+        type="application/pdf" />
+    </object>
+  </div>
 </div>
 
   <div class="imageWrapper">
