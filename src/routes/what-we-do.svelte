@@ -64,6 +64,11 @@
     width: 100% !important;
     height: 100% !important;
   }
+  div.pdfWrapper {
+    margin-top: 2rem;
+    width: 100%;
+    height: 66vh;
+  }
 </style>
 
 <svelte:head>
@@ -154,24 +159,6 @@
     provide feedback regarding the efficacy of our system and identify areas of
     improvement for when we scale our model in the following school year.
   </p>
-
-
-  <div class="imageWrapper">
-    <picture class="diagram">
-      <source srcset="ZipGrow.webp" type="image/webp" />
-      <source srcset="ZipGrow.jpg" type="image/jpeg" />
-      <img src="ZipGrow.webp" alt="Queen's Vertical Farming Team" />
-    </picture>
-    <a
-      class="attribution"
-      rel="noopener noreferrer"
-      href="https://zipgrow.com/"
-      target="_blank">
-      ZipGrow.com
-    </a>
-  </div>
-
-
   <p>
     <a
       href="QVFT_System_Guide.pdf"
@@ -195,3 +182,18 @@
     </object>
   </div>
 </div>
+
+  <div class="imageWrapper">
+    <picture class="diagram">
+      <source srcset="ZipGrow.webp" type="image/webp" />
+      <source srcset="ZipGrow.jpg" type="image/jpeg" />
+      <img src="ZipGrow.webp" alt="Queen's Vertical Farming Team" />
+    </picture>
+    <a
+      class="attribution"
+      rel="noopener noreferrer"
+      href="https://zipgrow.com/"
+      target="_blank">
+      ZipGrow.com
+    </a>
+  </div>
