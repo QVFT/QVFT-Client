@@ -166,11 +166,11 @@
     <object
       width="100%"
       height="100%"
-      title="Sponsorship"
+      title="System Guide"
       data="QVFT_System_Guide.pdf"
       type="application/pdf">
       <embed
-        title="Sponsorship"
+        title="System Guide"
         width="100%"
         src="QVFT_System_Guide.pdf"
         type="application/pdf" />
