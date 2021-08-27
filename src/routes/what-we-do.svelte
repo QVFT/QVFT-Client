@@ -76,7 +76,30 @@
 </svelte:head>
 
 <PageHeader>What We Do</PageHeader>
+<h2>System Guide</h2>
 <div class="contentWrapper">
+  <p>
+    <a
+      href="QVFT_System_Guide.pdf"
+      download
+      on:click={() => gtag('event', 'download system guide')}>
+      Download our System Guide here
+    </a>
+  </p>
+  <div class="pdfWrapper">
+    <object
+      width="100%"
+      height="100%"
+      title="System Guide"
+      data="QVFT_System_Guide.pdf"
+      type="application/pdf">
+      <embed
+        title="System Guide"
+        width="100%"
+        src="QVFT_System_Guide.pdf"
+        type="application/pdf" />
+    </object>
+  </div>
   <h2>Background</h2>
   <p>
     A global trend of increasing concern is the diminishing supply of arable
@@ -159,28 +182,6 @@
     provide feedback regarding the efficacy of our system and identify areas of
     improvement for when we scale our model in the following school year.
   </p>
-  <p>
-    <a
-      href="QVFT_System_Guide.pdf"
-      download
-      on:click={() => gtag('event', 'download system guide')}>
-      Download our System Guide here
-    </a>
-  </p>
-  <div class="pdfWrapper">
-    <object
-      width="100%"
-      height="100%"
-      title="System Guide"
-      data="QVFT_System_Guide.pdf"
-      type="application/pdf">
-      <embed
-        title="System Guide"
-        width="100%"
-        src="QVFT_System_Guide.pdf"
-        type="application/pdf" />
-    </object>
-  </div>
 </div>
 
   <div class="imageWrapper">
