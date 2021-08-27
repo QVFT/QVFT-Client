@@ -76,8 +76,9 @@
 </svelte:head>
 
 <PageHeader>What We Do</PageHeader>
-<h2>System Guide</h2>
 <div class="contentWrapper">
+  <h2>System Guide</h2>
+
   <p>
     <a
       href="QVFT_System_Guide.pdf"
