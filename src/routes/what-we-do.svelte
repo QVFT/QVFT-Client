@@ -67,7 +67,7 @@
   div.pdfWrapper {
     margin-top: 2rem;
     width: 100%;
-    height: 105vh;
+    height: 115vh;
   }
 </style>
 
@@ -150,7 +150,7 @@
       type="application/pdf">
       <embed
         title="System Guide"
-        width="53%"
+        width="100%"
         src="QVFT_System_Guide.pdf"
         type="application/pdf" />
     </object>
