@@ -76,7 +76,7 @@
 </svelte:head>
 
 <PageHeader>What We Do</PageHeader>
-
+<div class="contentWrapper">
   <h2>Background</h2>
   <p>
     A global trend of increasing concern is the diminishing supply of arable land per capita. Due to trends such as climate change, freshwater depletion, and soil degradation, arable land per capita will fall to one-third of the amount available in 1970 by 2050. The unsustainable practices of conventional agriculture exacerbate these issues. In addition, the world population is expected to increase from 7.7 billion (2019) to 9.7 billion (2050). The intersection of these climate and population challenges means that global food security depends on our ability to adapt to increased demand and develop better farming techniques. 
@@ -88,18 +88,18 @@
   <p>
     QVFT employs an aeroponic cultivation method, in which plants grow without soil and are fed by a nutrient-enriched mist. Crops rest in thin, plastic root cups, through which their roots hang into a basin below. Aeroponic vertical farming lends well to automation and can allow for near- complete control over the plant growth environment. The system is broadly divided into five zones: mixing tank, nutrient zone, supply line, growth zone, and return line.
   </p>
-   <div class="imageWrapper large padding">
-    <picture class="CAD Model">
-      <source srcset="CAD Model.webp" type="image/webp" />
-      <!-- <source srcset="CAD Model.png" type="image/png" /> -->
-      <!-- <img src="CAD Model.png" alt="CAD Model" />  -->
-      <img src="CAD Model.webp" alt="CAD Model" />
-    </picture>
-    <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
-      QVFT
-    </div>
-     
+  <div class="imageWrapper large padding">
+  <picture class="CAD Model">
+    <source srcset="CAD Model.webp" type="image/webp" />
+    <!-- <source srcset="CAD Model.png" type="image/png" /> -->
+    <!-- <img src="CAD Model.png" alt="CAD Model" />  -->
+    <img src="CAD Model.webp" alt="CAD Model" />
+  </picture>
+  <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
+    QVFT
   </div>
+  </div>
+  
   <h2>Automation Subsystem & Software Stack</h2>
   <p>
     The automation subsystem is an electromechanical feedback control system that automatically maintains optimal growth conditions using interconnected sensors (inputs) and actuators (outputs). These components interact through a logical framework programmed into their Arduino microcontrollers. At the same time, sensor readings will be continuously logged by a computer located on-site. The computer will reformat the data to be human-readable and then upload it to a website via Ethernet.
@@ -131,7 +131,7 @@
     </div>
   </div>
 
-<div class="contentWrapper">
+
   <h2>System Guide</h2>
 
   <p>
@@ -156,21 +156,21 @@
         type="application/pdf" />
     </object>
   </div>
-</div>
+  <div class="imageWrapper">
+    <picture class="diagram">
+      <source srcset="ZipGrow.webp" type="image/webp" />
+      <source srcset="ZipGrow.jpg" type="image/jpeg" />
+      <img src="ZipGrow.webp" alt="Queen's Vertical Farming Team" />
+    </picture>
+    <a
+      class="attribution"
+      rel="noopener noreferrer"
+      href="https://zipgrow.com/"
+      target="_blank">
+      ZipGrow.com
+    </a>
+  </div>
 
-<div class="imageWrapper">
-  <picture class="diagram">
-    <source srcset="ZipGrow.webp" type="image/webp" />
-    <source srcset="ZipGrow.jpg" type="image/jpeg" />
-    <img src="ZipGrow.webp" alt="Queen's Vertical Farming Team" />
-  </picture>
-  <a
-    class="attribution"
-    rel="noopener noreferrer"
-    href="https://zipgrow.com/"
-    target="_blank">
-    ZipGrow.com
-  </a>
 </div>
 
 
