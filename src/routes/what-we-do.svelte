@@ -120,8 +120,6 @@
     </div>
   </div>
 
-  </p>
-
   <div class="imageWrapper padding">
     <picture class="Automation_and_Circuits">
       <source srcset="Automation_and_Circuits.webp" type="image/webp" />
