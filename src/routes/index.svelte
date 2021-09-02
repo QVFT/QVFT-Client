@@ -63,8 +63,8 @@
   }
 
   div.logoWrapper {
-    max-height: 14rem;
-    max-width: 14rem;
+    max-height: 24rem;
+    max-width: 24rem;
     margin: 0 auto 3rem;
   }
   .logo > * {
