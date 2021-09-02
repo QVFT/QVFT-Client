@@ -155,6 +155,8 @@
         type="application/pdf" />
     </object>
   </div>
+  
+  <!--
   <div class="imageWrapper">
     <picture class="diagram">
       <source srcset="ZipGrow.webp" type="image/webp" />
@@ -169,6 +171,7 @@
       ZipGrow.com
     </a>
   </div>
+  -->
 
 </div>
 
