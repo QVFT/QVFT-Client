@@ -80,6 +80,7 @@
   <h2>Background</h2>
   <p>
     A global trend of increasing concern is the diminishing supply of arable land per capita. Due to trends such as climate change, freshwater depletion, and soil degradation, arable land per capita will fall to one-third of the amount available in 1970 by 2050. The unsustainable practices of conventional agriculture exacerbate these issues. In addition, the world population is expected to increase from 7.7 billion (2019) to 9.7 billion (2050). The intersection of these climate and population challenges means that global food security depends on our ability to adapt to increased demand and develop better farming techniques. 
+  </p>
   <p>
     Vertical farming is a cultivation practice in which crops are grown in an indoor, climate- controlled facility. This approach is associated with dramatically reduced water consumption (~95%), minimal transportation costs, and massive improvements in per-acre land productivity. Vertical farming can grow nutritious, organic produce in any location, at any time of year. Given these advantages, this technology is projected to become a major contributor to global food production in the coming decades. The vertical farming industry’s global market value is projected to grow from $2.23 billion in 2018 to $12.77 billion by 2026, representing a compounded annual growth rate of 24.6%.
   </p>
@@ -104,6 +105,7 @@
   <p>
     The automation subsystem is an electromechanical feedback control system that automatically maintains optimal growth conditions using interconnected sensors (inputs) and actuators (outputs). These components interact through a logical framework programmed into their Arduino microcontrollers. At the same time, sensor readings will be continuously logged by a computer located on-site. The computer will reformat the data to be human-readable and then upload it to a website via Ethernet.
   </p>
+  <p>
   The software stack entails the database, back-end, and front-end and ultimately aims to provide a publicly accessible repository of real-time vertical farming data. This repository achieves three objectives: (i) Allows technicians to remotely monitor farm equipment, which improves operations and resource allocation efficiency. (ii) Provides a record for future tuning and improvement of the farm by comparing data to commercial vertical farms and conventional producers. (iii) Creates a public knowledge base to assist other groups with vertical farming research. The majority of vertical farming research is currently conducted by private companies and is thus inaccessible to the public. QVFT’s mission is to democratize and advance scientific knowledge in this rapidly developing field.
   </p>
 
