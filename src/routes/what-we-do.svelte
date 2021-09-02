@@ -150,7 +150,7 @@
       type="application/pdf">
       <embed
         title="System Guide"
-        width="100%"
+        width="53%"
         src="QVFT_System_Guide.pdf"
         type="application/pdf" />
     </object>
