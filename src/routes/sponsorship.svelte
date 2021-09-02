@@ -9,9 +9,9 @@
 
 <style>
   div.pdfWrapper {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 100%;
-    height: 66vh;
+    height: 100vh;
   }
 
   a.button {
