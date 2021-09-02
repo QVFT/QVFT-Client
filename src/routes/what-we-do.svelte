@@ -65,7 +65,7 @@
     height: 100% !important;
   }
   div.pdfWrapper {
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 100%;
     height: 105vh;
   }
