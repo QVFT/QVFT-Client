@@ -66,7 +66,7 @@
   }
   div.pdfWrapper {
     margin-top: 2rem;
-    width: 100%;
+    width: 53%;
     height: 66vh;
   }
 </style>
