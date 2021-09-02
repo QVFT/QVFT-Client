@@ -123,8 +123,7 @@
   <div class="imageWrapper padding">
     <picture class="Automation_and_Circuits">
       <source srcset="Automation_and_Circuits.webp" type="image/webp" />
-      <source srcset="Automation_and_Circuits.jpeg" type="image/jpeg" />
-      <img src="Automation_and_Circuits.webp" alt="Automation_and_Circuits" />
+      <img src="Automation_and_Circuits.webp" />
     </picture>
     <div class="dark_attribution" rel="noopener noreferrer" target="_blank">
       QVFT
