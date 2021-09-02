@@ -1,7 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import PageHeader from "../components/PageHeader.svelte";
-
   onMount(async () => {
     gtag("config", "UA-93549235-6", { page_path: "/sponsorship" });
   });
@@ -9,11 +8,10 @@
 
 <style>
   div.pdfWrapper {
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
   }
-
   a.button {
     display: inline-flex;
     align-items: center;
@@ -28,16 +26,13 @@
     border-radius: 0.5rem;
     box-shadow: 1px 1px 2px 2px #dedededd;
   }
-
   .contentWrapper {
     margin-top: 2rem;
   }
-
   .mobile {
     display: none;
     justify-content: center;
   }
-
   @media (max-width: 700px) {
     .mobile {
       display: flex !important;
