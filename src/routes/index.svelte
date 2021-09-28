@@ -105,7 +105,7 @@
 
       <h2>Who we are</h2>
       <p>
-        The Queen's Vertical Farming Team is Canada's first undergraduate student-led design team of its kind. Recognizing this rapidly emerging industry, QVFT is designing and building a functional, software-automated aeroponic vertical farm on Queen's University campus. The majority of existing research in this field is conducted privately and is thus inaccessible to the public. Through its open-source approach, QVFT aims to democratize vertical farming knowledge and research. Our 25 alumni and 13 current members come from diverse academic disciplines and represent all four years of study.    
+        The Queen's Vertical Farming Team is Canada's first undergraduate engineering team of its kind. Recognizing this rapidly emerging industry, QVFT is designing and building a functional, software-automated aeroponic vertical farm on Queen's University campus. The majority of existing research in this field is conducted privately and is thus inaccessible to the public. Through its open-source approach, QVFT aims to democratize vertical farming knowledge and research. Our 25 alumni and 13 current members come from diverse academic disciplines and represent all four years of study.    
       </p>
       <InfoColumns />
     </div>
