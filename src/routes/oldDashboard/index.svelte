@@ -109,14 +109,18 @@
 
 <PageHeader>Dashboard</PageHeader>
 <div class="contentWrapper">
+  <!-- Embedded Dashboard Page-->
+  <!-- <iframe src="https://directorqvft.pythonanywhere.com/" style="position: fixed; top: 0px; bottom: 0px; right: 0px; width: 100%; border: none; margin: 0; padding: 0; overflow: hidden; z-index: 999999; height: 100%;" title="Dashboard"></iframe>-->
+
+  <!-- Not sure if we want to keep this stuff below or -->
   <!-- Embedded youtube stream -->
-  <h1>Our Farm</h1>
-  <iframe title="lofi hip hop radio - beats to relax/study to" width="800" height="400" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>Our Farm</h1> 
+  <iframe title="lofi hip hop radio - beats to relax/study to" width="800" height="400" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
   
-  <h1>View & Set Targets</h1>
+  <h1>View & Set Targets</h1> 
 
   <!-- Dropdown menu for selecting environmental variables -->
-  <Select {items} isClearable={false} bind:selectedValue></Select>
+  <Select {items} isClearable={false} bind:selectedValue></Select> 
 
   <!-- charts containing environmental variable data-->
   <div>
