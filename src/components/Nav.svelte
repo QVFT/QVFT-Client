@@ -108,6 +108,11 @@
           Hiring
         </a>
       </li>
+      <li>
+        <a class:selected={segment === 'dashboard'} href="dashboard">
+          Dashboard
+        </a>
+      </li>
     </ul>
   </div>
 </nav>
