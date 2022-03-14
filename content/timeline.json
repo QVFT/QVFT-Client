@@ -1,10 +1,5 @@
 [
   {
-    "date": "2019-11",
-    "title": "Hired 2019-20 executive members",
-    "complete": true
-  },
-  {
     "date": "2019-12",
     "title": "Set sub-team goals and developed implementation strategies",
     "complete": true
@@ -19,11 +14,6 @@
     ],
     "complete": true,
     "marginTop": "-1rem"
-  },
-  {
-    "date": "2020-01",
-    "title": "Hired Winter 2020 general members",
-    "complete": true
   },
   {
     "date": "2020-01",
@@ -73,11 +63,6 @@
     "complete": true
   },
   {
-    "date": "2020-03",
-    "title": "Hired 2020-21 executive and general members",
-    "complete": true
-  },
-  {
     "date": "2020-10",
     "title": "Received official ratification from the Queen's Engineering Society",
     "complete": true
@@ -101,5 +86,16 @@
     "date": "2021-03",
     "title": "Participated in Commerce-Engineering Environmental Conference trade show",
     "complete": true
+  },
+  {
+    "date": "2021-10",
+    "title": "Research and Design Phase IV",
+    "subpoints": [
+      "Resize vertical farm design in order to fit in smaller location",
+      "Adapted farm model to eliminate components and reduce cost",
+      "Integrated GrabCad Workbench for CAD organization and online design viewing"
+    ],
+    "complete": true,
+    "marginTop": "-1rem"
   }
 ]
