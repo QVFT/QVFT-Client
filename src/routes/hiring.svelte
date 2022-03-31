@@ -124,7 +124,8 @@
     vertical farming design team. Vertical farming is a hyper-efficient,
     sustainable food cultivation method which is projected to become a major
     contributor to global food production in the coming decades. We are now
-    seeking passionate, creative, and driven individuals to join us for the 2022-23 school year. Individual roles are described in the Hiring Package below. Apply before 11:59 PM on Wednesday, March 30th, 2022.
+    seeking passionate, creative, and driven individuals to join us for the 2022-23 school year. 
+    Individual roles are described in the Hiring Package below. Apply before 11:59 PM on Friday, April 8th, 2022.
   </p>
   <div class="infoColumns">
     {#each info as item}
