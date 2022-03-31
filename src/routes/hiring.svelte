@@ -11,11 +11,11 @@
       img: "Gears_Icon"
     },
     {
-      label: "Software Developer",
+      label: "Stack Developer",
       img: "Laptop_Icon"
     },
     {
-      label: "Electrical Engineer",
+      label: "Mechatronics Engineer",
       img: "circuit"
     },
     {
