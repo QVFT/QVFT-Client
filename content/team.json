@@ -1,41 +1,25 @@
 [
   {
-    "name": "Patrick Singal",
+    "name": "Justine Kuczera",
     "position": "Manager",
-    "yearMajor": "4th Year Mechanical Engineering",
-    "image": "Patrick",
-    "email": "p.singal [AT] queensu.ca",
-    "linkedIn": "patricksingal",
-    "blurb": "Patrick is a mechanical engineering student with a passion for business, technology, and environmental issues. He founded QVFT in 2019 and enjoys doing his part to move the project forward. In his spare time, Patrick can be found playing cards, reading the news, and exploring the great outdoors. He likes baseball, fishing, and playing mediocre golf."
-  },
-  {
-    "name": "Chris Molloy",
-    "position": "Database Developer",
-    "yearMajor": "Adversarial Artificial Intelligence Master's Student",
-    "image": "Chris",
-    "gitHub": "ChrisJMolloy",
-    "email": "chris.molloy [AT] queensu.ca"
-  }, 
-  {
-    "name": "Iain Headrick",
-    "position": "Mechanical Designer",
-    "yearMajor": "4th Year Mechanical Engineering",
-    "email": "17ich [AT] queensu.ca",
-    "image": "Iain"
+    "yearMajor": "3rd Year Mechanical Engineering",
+    "email": "18jmk12 [AT] queensu.ca",
+    "linkedIn": "justinekuczera",
+    "image": "Justine"
    },
-   {
-    "name": "Julia Mackey",
-    "position": "Business Operations",
-    "yearMajor": "4th Year Chemical Engineering",
-    "email": "16jmm10 [AT] queensu.ca",
-    "image": "Julia"
-  },
   {
-    "name": "Ryan Power",
-    "position": "Hardware Designer",
-    "yearMajor": "4th Year Computer Engineering",
-    "image": "Ryan",
-    "email": "16rcp [AT] queensu.ca"
+    "name": "Joshua Sass-Gregoire",
+    "position": "Manager",
+    "yearMajor": "3rd Year Mechanical Engineering",
+    "email": "Josh.gregoire16 [AT] gmail.com",
+    "image": "Joshua"
+   },
+  {
+    "name": "Carter Conboy",
+    "position": "Software Developer (Lead)",
+    "yearMajor": "3rd Year Computing",
+    "email": "carter.conboy [AT] queensu.ca",
+    "image": "Carter"
    },
   {
     "name": "Elissa Wong",
@@ -45,6 +29,33 @@
     "image": "Elissa"
   },
   {
+    "hidden": true,
+    "name": "Patrick Singal",
+    "position": "Manager",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "image": "Patrick",
+    "email": "p.singal [AT] queensu.ca",
+    "linkedIn": "patricksingal",
+    "blurb": "Patrick is a mechanical engineering student with a passion for business, technology, and environmental issues. He founded QVFT in 2019 and enjoys doing his part to move the project forward. In his spare time, Patrick can be found playing cards, reading the news, and exploring the great outdoors. He likes baseball, fishing, and playing mediocre golf."
+  },
+  {
+    "hidden": true,
+    "name": "Quantum Hu",
+    "position": "Hardware Designer",
+    "yearMajor": "4th Year Computing",
+    "email": "quantum.hu [AT] queensu.ca",
+    "image": "Quantum"
+   },
+   {
+    "hidden": true,
+    "name": "Sebastian Huber-Oikle",
+    "position": "Front-End Developer",
+    "yearMajor": "4th Year Computing & Film",
+    "email": "16skho [AT] queensu.ca",
+    "image": "Sebastian"
+   },
+  {
+    "hidden": true,
     "name": "Michael Wrana",
     "position": "Front-End Developer (Lead)",
     "yearMajor": "Artificial Intelligence Master's Student",
@@ -54,6 +65,7 @@
     "blurb": "Michael is a computer science graduate student at Queen’s specialising in computing and mathematics. Over the last two summers Michael worked as a research assistant doing computational biology at the University of Toronto. During the summer he worked on the development team of a web app called Pathway Commons, which was built using React. He also worked to develop a transcription factor analysis pipeline. Michael sees QVFT as an exciting opportunity to develop web frameworks, as well as to see some overlap with his interest in computational biology."
   },
   {
+    "hidden": true,
     "name": "Donal Lynagh",
     "position": "Business Operations",
     "yearMajor": "4th Year Mechanical Engineering",
@@ -61,42 +73,39 @@
     "linkedIn": "donal-lynagh-6974431a6",
     "image": "Donal"
    },
-   {
-    "name": "Justine Kuczera",
+  {
+    "hidden": true,
+    "name": "Chris Molloy",
+    "position": "Database Developer",
+    "yearMajor": "Adversarial Artificial Intelligence Master's Student",
+    "image": "Chris",
+    "gitHub": "ChrisJMolloy",
+    "email": "chris.molloy [AT] queensu.ca"
+  }, 
+  {
+    "hidden": true,
+    "name": "Iain Headrick",
     "position": "Mechanical Designer",
     "yearMajor": "4th Year Mechanical Engineering",
-    "email": "18jmk12 [AT] queensu.ca",
-    "image": "Justine"
+    "email": "17ich [AT] queensu.ca",
+    "image": "Iain"
    },
    {
-    "name": "Quantum Hu",
-    "position": "Hardware Designer",
-    "yearMajor": "4th Year Computing",
-    "email": "quantum.hu [AT] queensu.ca",
-    "image": "Quantum"
-   },
-   {
-    "name": "Sebastian Huber-Oikle",
-    "position": "Front-End Developer",
-    "yearMajor": "4th Year Computing & Film",
-    "email": "16skho [AT] queensu.ca",
-    "image": "Sebastian"
-   },
+    "hidden": true,
+    "name": "Julia Mackey",
+    "position": "Business Operations",
+    "yearMajor": "4th Year Chemical Engineering",
+    "email": "16jmm10 [AT] queensu.ca",
+    "image": "Julia"
+  },
   {
-    "name": "Carter Conboy",
-    "position": "Front-End Developer",
-    "yearMajor": "3rd Year Computing",
-    "email": "carter.conboy [AT] queensu.ca",
-    "image": "Carter"
+    "hidden": true,
+    "name": "Ryan Power",
+    "position": "Hardware Designer",
+    "yearMajor": "4th Year Computer Engineering",
+    "image": "Ryan",
+    "email": "16rcp [AT] queensu.ca"
    },
-   {
-    "name": "Joshua Sass-Gregoire",
-    "position": "Mechanical Designer",
-    "yearMajor": "3rd Year Mechanical Engineering",
-    "email": "Josh.gregoire16 [AT] gmail.com",
-    "image": "Joshua"
-   },
-  
   {
     "hidden": true,
     "name": "Luke Emblem",
