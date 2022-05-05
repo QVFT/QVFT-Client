@@ -2,32 +2,63 @@
   {
     "name": "Justine Kuczera",
     "position": "Manager",
-    "yearMajor": "3rd Year Mechanical Engineering",
+    "yearMajor": "4th Year Mechanical Engineering",
     "email": "18jmk12 [AT] queensu.ca",
-    "linkedIn": "justinekuczera",
+    "linkedIn": "JustineKuczera",
     "image": "Justine"
    },
   {
     "name": "Joshua Sass-Gregoire",
     "position": "Manager",
-    "yearMajor": "3rd Year Mechanical Engineering",
+    "yearMajor": "4th Year Mechanical Engineering",
     "email": "Josh.gregoire16 [AT] gmail.com",
     "image": "Joshua"
    },
   {
     "name": "Carter Conboy",
-    "position": "Software Developer (Lead)",
-    "yearMajor": "3rd Year Computing",
+    "position": "Stack Developer (Lead)",
+    "yearMajor": "4th Year Computing",
     "email": "carter.conboy [AT] queensu.ca",
     "image": "Carter"
    },
   {
+    "name": "Mayank Arora",
+    "position": "Mechanical Designer",
+    "yearMajor": "Mechanical Engineering Master's Student",
+    "email": "19mma15 [AT] queensu.ca",
+    "linkedIn": "Mayank",
+    "image": "Mayank"
+   },
+  {
+    "name": "Ian Harvey",
+    "position": "Business Operations",
+    "yearMajor": "4th Year Commerce",
+    "email": "18ish [AT] queensu.ca",
+    "linkedIn": "IanHarvey",
+    "image": "IanHarvey"
+   },
+  {
+    "name": "Ayaz Vural",
+    "position": "Stack Developer",
+    "yearMajor": "4th Year Computer Science",
+    "email": "17av26 [AT] queensu.ca",
+    "linkedIn": "AyazVural",
+    "image": "Ayaz"
+   },
+  {
     "name": "Elissa Wong",
     "position": "Plant Science Researcher",
-    "yearMajor": "3rd Year Chemical Engineering",
+    "yearMajor": "4th Year Chemical Engineering",
     "email": "elissa.wong [AT] queensu.ca",
     "image": "Elissa"
   },
+  {
+    "name": "Mckenzie Macklin",
+    "position": "Plant Science Researcher",
+    "yearMajor": "3rd Year Biology",
+    "email": "18mem20 [AT] queensu.ca",
+    "image": "MckenzieMacklin"
+   },
   {
     "hidden": true,
     "name": "Patrick Singal",
