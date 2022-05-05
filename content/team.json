@@ -61,6 +61,34 @@
     "image": "MckenzieMacklin"
    },
   {
+    "name": "Sarah Askew",
+    "position": "Mechanical Designer",
+    "yearMajor": "2nd Year Biomechanical Engineering",
+    "email": "sarah.e.askew [AT] gmail.com",
+    "image": "SarahAskew"
+   },
+  {
+    "name": "Max Gohren",
+    "position": "Mechatronics Specialist",
+    "yearMajor": "4th Year Electrical Engineering",
+    "email": "18mrg [AT] queensu.ca",
+    "image": "MaxGohren"
+   },
+  {
+    "name": "Anthony Beca",
+    "position": "Mechatronics Specialist",
+    "yearMajor": "2nd Year Mechatronics Engineering",
+    "email": "20ab162 [AT] queensu.ca",
+    "image": "AnthonyBeca"
+   },
+  {
+    "name": "Guo Xiaoyao",
+    "position": "Stack Developper",
+    "yearMajor": "4th Year Computer Science",
+    "email": "19xg1 [AT] queensu.ca",
+    "image": "GuoXiaoyao"
+   },
+  {
     "hidden": true,
     "name": "Patrick Singal",
     "position": "Manager",
