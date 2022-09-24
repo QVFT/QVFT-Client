@@ -1,19 +1,19 @@
 [
   {
-    "name": "Justine Kuczera",
-    "position": "Manager",
-    "yearMajor": "4th Year Mechanical Engineering",
-    "email": "18jmk12 [AT] queensu.ca",
-    "linkedIn": "justine-kuczera-13453221a",
-    "image": "Justine"
-   },
-  {
     "name": "Joshua Sass-Gregoire",
     "position": "Manager",
     "yearMajor": "4th Year Mechanical Engineering",
     "email": "Josh.gregoire16 [AT] gmail.com",
     "linkedIn": "joshua-sass-gregoire",
     "image": "Joshua"
+   },
+  {
+    "name": "Justine Kuczera",
+    "position": "Manager",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "email": "18jmk12 [AT] queensu.ca",
+    "linkedIn": "justine-kuczera-13453221a",
+    "image": "Justine"
    },
   {
     "name": "Mayank Arora",
@@ -81,7 +81,7 @@
     "position": "Mechatronics Specialist",
     "yearMajor": "2nd Year Meachatronics Engineering",
     "email": "yang.tony [AT] queensu.ca",
-    "image": "Carter"
+    "image": "Tony"
    },
   {
     "name": "Guo Xiaoyao",
