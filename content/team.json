@@ -16,13 +16,6 @@
     "image": "Joshua"
    },
   {
-    "name": "Carter Conboy",
-    "position": "Stack Developer (Lead)",
-    "yearMajor": "4th Year Computing",
-    "email": "carter.conboy [AT] queensu.ca",
-    "image": "Carter"
-   },
-  {
     "name": "Mayank Arora",
     "position": "Mechanical Designer",
     "yearMajor": "Mechanical Engineering Master's Student",
@@ -82,6 +75,13 @@
     "email": "20ab162 [AT] queensu.ca",
     "linkedIn": "anthonybeca",
     "image": "AnthonyBeca"
+   },
+  {
+    "name": "Tony Yang",
+    "position": "Mechatronics Specialist",
+    "yearMajor": "2nd Year Meachatronics Engineering",
+    "email": "yang.tony [AT] queensu.ca",
+    "image": "Carter"
    },
   {
     "name": "Guo Xiaoyao",
