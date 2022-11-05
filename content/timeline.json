@@ -97,5 +97,25 @@
     ],
     "complete": true,
     "marginTop": "-1rem"
+  },
+  {
+    "date": "2022-06",
+    "title": "Collaboration with Muise Labs",
+    "subpoints": [
+      "Began collaboration on a technology, research based farm",
+      "Vertical farm proposal key to help computing masters students research effecitve vertical farming methods"
+    ],
+    "complete": true,
+    "marginTop": "-1rem"
+  },
+  {
+    "date": "2022-10",
+    "title": "Submitted NSERC proposal",
+    "subpoints": [
+      "Muise Labs and QVFT submitted NSERC proposal to gain money for new farm",
+      "Completed new render of research-based farm"
+    ],
+    "complete": true,
+    "marginTop": "-1rem"
   }
 ]
