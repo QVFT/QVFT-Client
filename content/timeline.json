@@ -98,4 +98,23 @@
     "complete": true,
     "marginTop": "-1rem"
   }
+  {
+    "date": "2022-06",
+    "title": "Connection with Muise Labs",
+    "subpoints": [
+      "Working with Muise Lab to build a 9ft by 4.5ft farm",
+      "Adapted farm model will be equipped with equipment for research methods in the school of computing",
+    ],
+    "complete": true,
+    "marginTop": "-1rem"
+  }
+ {
+    "date": "2022-10",
+    "title": "Submitted NSERC proposal for Muise Lab farm",
+    "subpoints": [
+      "Proposal submitted with new render of farm to obtain research money for farm construction and research",
+    ],
+    "complete": true,
+    "marginTop": "-1rem"
+  }
 ]
