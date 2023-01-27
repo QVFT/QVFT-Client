@@ -124,7 +124,7 @@
     vertical farming design team. Vertical farming is a hyper-efficient,
     sustainable food cultivation method which is projected to become a major
     contributor to global food production in the coming decades. Hiring for QVFT
-    will open in late February of 2023.
+    will open in February of 2023.
   </p>
   <div class="infoColumns">
     {#each info as item}
