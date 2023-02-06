@@ -147,17 +147,17 @@
         width="100%"
         height="100%"
         title="Hiring"
-        data="QVFT_Hiring.pdf"
+        data="QVFT_Hiring2023.pdf"
         type="application/pdf">
         <embed
           title="Hiring"
           width="100%"
-          src="QVFT_Hiring.pdf"
+          src="QVFT_Hiring2023.pdf"
           type="application/pdf" />
       </object>
     </div>
     <div class="buttonWrapper mobile">
-      <a class="button" href="QVFT_Hiring.pdf">View Hiring Package</a>
+      <a class="button" href="QVFT_Hiring2023.pdf">View Hiring Package</a>
     </div>
   </div>
   <h2>Apply</h2>
