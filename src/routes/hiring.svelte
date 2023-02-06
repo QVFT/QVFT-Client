@@ -141,3 +141,36 @@
     {/each}
   </div>
 
+  <div id="hiringPackageSection">
+    <h2>Hiring Package</h2>
+    <div class="pdfWrapper desktop">
+      <object
+        width="100%"
+        height="100%"
+        title="Hiring"
+        data="QVFT_Hiring2023.pdf"
+        type="application/pdf">
+        <embed
+          title="Hiring"
+          width="100%"
+          src="QVFT_Hiring2023.pdf"
+          type="application/pdf" />
+      </object>
+    </div>
+    <div class="buttonWrapper mobile">
+      <a class="button" href="QVFT_Hiring2023.pdf">View Hiring Package</a>
+    </div>
+  </div>
+  <h2>Apply</h2>
+  <iframe
+    src="https://breezy.engsoc.queensu.ca/"
+    width="100%"
+    height="1000"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    title="Hiring form">
+    Loading…
+  </iframe>
+  
+</div>
