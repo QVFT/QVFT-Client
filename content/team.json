@@ -1,13 +1,5 @@
 [
   {
-    "name": "Joshua Sass-Gregoire",
-    "position": "Manager",
-    "yearMajor": "4th Year Mechanical Engineering",
-    "email": "Josh.gregoire16 [AT] gmail.com",
-    "linkedIn": "joshua-sass-gregoire",
-    "image": "Joshua"
-   },
-  {
     "name": "Justine Kuczera",
     "position": "Manager",
     "yearMajor": "4th Year Mechanical Engineering",
@@ -15,7 +7,136 @@
     "linkedIn": "justine-kuczera-13453221a",
     "image": "Justine"
    },
+   {
+    "name": "Remy Allison",
+    "position": "Business/Operations Manager",
+    "yearMajor": "3rd Year Biomechanical Engineering",
+    "email": "remy.allison [AT] queensu.ca",
+    "linkedIn": "remy-allison-152a65225",
+    "image": "Remy"
+   },   
+   {
+    "name": "Hari Nair",
+    "position": "Full Stack Developer",
+    "yearMajor": "2nd Year Mechatronics Engineering",
+    "email": "21hpn2 [AT] queensu.ca",
+    "linkedIn": "harinairr",
+    "image": "Hari"
+   },
+   {
+    "name": "Amanda Brooks",
+    "position": "Mechanical Lead",
+    "yearMajor": "5th Year Mechanical Engineering",
+    "email": "18amb26 [AT] queensu.ca",
+    "linkedIn": "amanda-brooks0",
+    "image": "AmandaBrooks"
+  },
+
+   {
+    "name": "Zoe Katsiroubas",
+    "position": "Mechanical Specialist",
+    "yearMajor": "2nd Year Mechanical Engineering",
+    "email": "21zek [AT] queensu.ca",
+    "linkedIn": "zoe-katsiroubas",
+    "image": "ZoeKatsiroubas"
+   },
   {
+    "name": "Alex Bédard",
+    "position": "Mechanical Specialist",
+    "yearMajor": "2nd Year Civil Engineering",
+    "email": "21ab202 [AT] queensu.ca",
+    "linkedIn": "alex-bédard-304087265",
+    "image": "AlexBedard"
+  },
+  {
+    "name": "Sarah Askew",
+    "position": "Mechanical Specialist",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "email": "sarah.e.askew [AT] gmail.com",
+    "linkedIn": "sarah-askew",
+    "image": "SarahAskew"
+   },
+   {
+    "name": "James Pankiw",
+    "position": "Mechatronics Lead",
+    "yearMajor": "2nd Year Mechatronics Engineering",
+    "email": "22jap [AT] gmail.com",
+    "image": "placeholder"
+   },
+   {
+    "name": "Jamison McCulloch-Cop",
+    "position": "Mechatronics Specialist",
+    "yearMajor": "2nd Year Mechatronics Engineering",
+    "email": "21jtmc1 [AT] gmail.com",
+    "image": "JamisonMcCullochCop"
+   }, 
+   {
+    "name": "Elissa Wong",
+    "position": "Plant Science Lead",
+    "yearMajor": "5th Year Engineering Chemistry",
+    "email": "elissa.wong [AT] queensu.ca",
+    "linkedIn": "elissa-wong-6a00341b7",
+    "image": "Elissa"
+  },
+   {
+    "name": "Kaida Cheah",
+    "position": "Plant Science Specialist",
+    "yearMajor": "3rd Year Biotechnology",
+    "email": "20kytc [AT] queensu.ca",
+    "linkedIn": "kaidacheah",
+    "image": "Kaida"
+   },
+   {
+   "name": "Mari Hyde",
+   "position": "Plant Science",
+   "yearMajor": "3rd Year Biotechnology",
+   "email": "20mdh6 [AT] queensu.ca",
+   "linkedIn": "mari-hyde",
+   "image": "Mari"
+  },
+  {
+    "name": "Anna Wasylyk",
+    "position": "Full Stack Developer",
+    "yearMajor": "3rd Year Apple Math",
+    "email": "20asw [AT] queensu.ca",
+    "linkedIn": "anna-wasylyk-8b3bb0202",
+    "image": "AnnaWasylyk"
+   },
+   {
+    "name": "Tom Hamilton",
+    "position": "Full Stack Developer",
+    "yearMajor": "5th Year Computer Engineering",
+    "email": "tom.hamilton [AT] queensu.ca",
+    "linkedIn": "thomasjwhamilton",
+    "image": "TomHamilton"
+   },
+   {
+    "name": "Ethan Nguyen",
+    "position": "Full Stack Developer",
+    "yearMajor": "Computer Science",
+    "email": "20hen [AT] queensu.ca",
+    "linkedIn": "ethan-nguyen11",
+    "image": "placeholder"
+   },
+  {
+    "hidden": true,
+    "name": "Joshua Sass-Gregoire",
+    "position": "Manager",
+    "yearMajor": "4th Year Mechanical Engineering",
+    "email": "Josh.gregoire16 [AT] gmail.com",
+    "linkedIn": "joshua-sass-gregoire",
+    "image": "Joshua"
+   },
+   {
+    "hidden": true,
+    "name": "Mckenzie Macklin",
+    "position": "Plant Science Researcher",
+    "yearMajor": "3rd Year Biology",
+    "email": "18mem20 [AT] queensu.ca",
+    "image": "MckenzieMacklin"
+   },
+  {
+    "hidden": true,
     "name": "Mayank Arora",
     "position": "Mechanical Designer",
     "yearMajor": "Mechanical Engineering Master's Student",
@@ -24,6 +145,7 @@
     "image": "Mayank"
    },
   {
+    "hidden": true,
     "name": "Ian Harvey",
     "position": "Business Operations",
     "yearMajor": "4th Year Commerce",
@@ -32,6 +154,7 @@
     "image": "IanHarvey"
    },
   {
+    "hidden": true,
     "name": "Ayaz Vural",
     "position": "Stack Developer",
     "yearMajor": "4th Year Computer Science",
@@ -40,55 +163,38 @@
     "image": "Ayaz"
    },
   {
-    "name": "Elissa Wong",
-    "position": "Plant Science Researcher",
-    "yearMajor": "4th Year Chemical Engineering",
-    "email": "elissa.wong [AT] queensu.ca",
-    "image": "Elissa"
-  },
-  {
-    "name": "Mckenzie Macklin",
-    "position": "Plant Science Researcher",
-    "yearMajor": "3rd Year Biology",
-    "email": "18mem20 [AT] queensu.ca",
-    "image": "MckenzieMacklin"
-   },
-  {
-    "name": "Sarah Askew",
-    "position": "Mechanical Designer",
-    "yearMajor": "2nd Year Biomechanical Engineering",
-    "email": "sarah.e.askew [AT] gmail.com",
-    "image": "SarahAskew"
-   },
-  {
+    "hidden": true,
     "name": "Max Gohren",
     "position": "Mechatronics Specialist",
     "yearMajor": "4th Year Electrical Engineering",
     "email": "18mrg [AT] queensu.ca",
     "linkedIn": "maxgohren",
-    "image": "MaxGohren"
+    "image": "Max"
    },
   {
+    "hidden": true,
     "name": "Anthony Beca",
     "position": "Mechatronics Specialist",
     "yearMajor": "2nd Year Mechatronics Engineering",
     "email": "20ab162 [AT] queensu.ca",
     "linkedIn": "anthonybeca",
-    "image": "AnthonyBeca"
+    "image": "Anthony"
    },
   {
+    "hidden": true,
     "name": "Tony Yang",
     "position": "Mechatronics Specialist",
-    "yearMajor": "2nd Year Meachatronics Engineering",
+    "yearMajor": "2nd Year Mechatronics Engineering",
     "email": "yang.tony [AT] queensu.ca",
     "image": "Tony"
    },
   {
+    "hidden": true,
     "name": "Guo Xiaoyao",
     "position": "Stack Developper",
     "yearMajor": "4th Year Computer Science",
     "email": "19xg1 [AT] queensu.ca",
-    "image": "GuoXiaoyao"
+    "image": "Guo"
    },
   {
     "hidden": true,
