@@ -1,7 +1,7 @@
 [
   {
-    "date": "2020-02",    // Should say "Winter 2020"
-    "title": "Acquire Proposal Ratification",
+    "date": "2020-02",    // Should say "Winter 2020" 
+    "title": "Acquire Proposal Ratification",//test
     "subpoints": [
       "Consult with faculty heads and other Queen's administration",
       "Gain approval for space on campus"
